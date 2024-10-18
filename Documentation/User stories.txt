@@ -1,0 +1,47 @@
+Users/non members: 
+As a user, I would like to create an account on the app in order to have my details saved and be able to use the website efficiently.
+As a user, I would like to login to my account in order to access my personal data so that I can make my account details accurate.
+As a user, I want to be able to purchase a membership in order to access premium website content.
+As a user, I will need a way to express interest in becoming a member, so that I can potentially join the community.
+*As a user, I will need a way to contact the company if I have any questions in case I am unsure about something.*
+*As a user, I want to ability to buy products no need to register*
+*As a user, I will need an information/FAQ page so I can learn more about the company.*
+*As a user, I want to search for and connect with other users so that I can expand my professional and social network.*
+*As a user, I would like to receive notifications so i can stay updated on all interactions*
+*As a user, I would like to comment and interact with events that have been posted so that i can communicate effectively with other users*
+
+Members:
+As a member, I will need a secure way to log into/out of my account, so that I can access member exclusive content without others being able to access my account without my permission.
+As a member, I will need a way to search for my interests so that I can engage with activities/events I am interested in.
+As a member, I will need a way to view information about and book sessions for digital content modules so that I can learn more about and potentially sign up for modules I am interested in.
+As a member, I will need a way to view the benefits I get from my membership, and the benefits of other membership types, so that I can consider whether I am satisfied with my current membership type.
+As a member, I will need a way to express interest to an administrator in changing my membership type, so that I can change my membership type if I become interested in doing so.
+As a member, I will need a way to view the interests I expressed when I first joined the community, so that I can review the goals/ambitions I set myself.
+As a member, I will need a way to view the contributions I have made as a member, so that I can track the progress I have made within the community.
+*As a member, I will need a way to contact the administrators if I have a problem/question, so that they can answer anything not covered elsewhere on the site.*
+*As a member, I want to get a link to my orders so you can quickly access my check
+without having to register.*
+*As a member, I want to have a two-step authentication via social networks such as the telegram bot to further secure the users account.*
+*As a member, I want have an integrated AI chat bot to advise on purchases and help in case of problems.*
+*As a member, I will need a way to view recommendations about activities which I may be interested in, so that I can find activities I may not have previously known about.*
+
+Admins:
+As an administrator, I will need a secure way to log into/out of my account, so that I can securely access an admin account without any risk of non-admins accessing it.
+As an administrator, I will need a way to set up new members with accounts which indicate their key interests, so that I can assist new people in joining us.
+As an administrator, I will need to be able to search for individual users within the database so that I can view information about them.
+As an administrator, I will need to be able to search for different activities/events within the database so that I can view information about them.
+As an administrator, I will need a way to differentiate between different membership types so that I know what level of access each member should have.
+As an administrator, I will need a way to review requests from members to change their membership level, so that I can accept/deny their request.
+As an administrator I would like to view demographics and detailed reports of the users in order to advertise effectively.
+As a database administrator, I want to have ability to delete inactive users to clean up the server.
+As a database administrator, I want to have ability to sort different types of data in detail to optimise the site.
+*As an administrator, I will need a way to issue warnings, bans, etc. to problematic users to ensure that the experience of regular users is not negatively affected by users abusing our platform.*
+*As an administrator I would like to add, edit and remove event listings, in order to control and manage what is posted on the website.*
+*As an administrator I want to edit or delete user profiles so i can maintain appropriate user information.*
+*As an admin, I want to write directly to the database administrator to send problems and discuss them in the chat.*
+
+Other:
+*As an event organiser, I would like to input my social events onto the website so that users can engage and register interest in my events.*
+*As an event organiser, I would like to view all the users who would like to attend the event so that I can prepare accordingly.*
+*As a manager, I want to have indicators to demand for income-enhancing products.*
+*As a manager, I want to create a survey  after purchase survey to understand users how they found us.*
