@@ -1,0 +1,10 @@
+C:\Users\brota\source\repos\Together Culture CRM\Together Culture CRM\bin\Debug\Together Culture CRM.exe.config
+C:\Users\brota\source\repos\Together Culture CRM\Together Culture CRM\bin\Debug\Together Culture CRM.exe
+C:\Users\brota\source\repos\Together Culture CRM\Together Culture CRM\bin\Debug\Together Culture CRM.pdb
+C:\Users\brota\source\repos\Together Culture CRM\Together Culture CRM\obj\Debug\UIDesign_AdministratorView.csproj.AssemblyReference.cache
+C:\Users\brota\source\repos\Together Culture CRM\Together Culture CRM\obj\Debug\Together_Culture_CRM.Form1.resources
+C:\Users\brota\source\repos\Together Culture CRM\Together Culture CRM\obj\Debug\Together_Culture_CRM.Properties.Resources.resources
+C:\Users\brota\source\repos\Together Culture CRM\Together Culture CRM\obj\Debug\UIDesign_AdministratorView.csproj.GenerateResource.cache
+C:\Users\brota\source\repos\Together Culture CRM\Together Culture CRM\obj\Debug\UIDesign_AdministratorView.csproj.CoreCompileInputs.cache
+C:\Users\brota\source\repos\Together Culture CRM\Together Culture CRM\obj\Debug\Together Culture CRM.exe
+C:\Users\brota\source\repos\Together Culture CRM\Together Culture CRM\obj\Debug\Together Culture CRM.pdb
