@@ -1,0 +1,18 @@
+C:\Users\Elliot\OneDrive\Desktop\Software Engineering_2024\bin\Debug\net6.0-windows\Software Engineering_2024.exe
+C:\Users\Elliot\OneDrive\Desktop\Software Engineering_2024\bin\Debug\net6.0-windows\Software Engineering_2024.deps.json
+C:\Users\Elliot\OneDrive\Desktop\Software Engineering_2024\bin\Debug\net6.0-windows\Software Engineering_2024.runtimeconfig.json
+C:\Users\Elliot\OneDrive\Desktop\Software Engineering_2024\bin\Debug\net6.0-windows\Software Engineering_2024.dll
+C:\Users\Elliot\OneDrive\Desktop\Software Engineering_2024\bin\Debug\net6.0-windows\Software Engineering_2024.pdb
+C:\Users\Elliot\OneDrive\Desktop\Software Engineering_2024\obj\Debug\net6.0-windows\Software Engineering_2024.csproj.AssemblyReference.cache
+C:\Users\Elliot\OneDrive\Desktop\Software Engineering_2024\obj\Debug\net6.0-windows\Software_Engineering_2024.Form1.resources
+C:\Users\Elliot\OneDrive\Desktop\Software Engineering_2024\obj\Debug\net6.0-windows\Software_Engineering_2024.Properties.Resources.resources
+C:\Users\Elliot\OneDrive\Desktop\Software Engineering_2024\obj\Debug\net6.0-windows\Software Engineering_2024.csproj.GenerateResource.cache
+C:\Users\Elliot\OneDrive\Desktop\Software Engineering_2024\obj\Debug\net6.0-windows\Software Engineering_2024.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elliot\OneDrive\Desktop\Software Engineering_2024\obj\Debug\net6.0-windows\Software Engineering_2024.AssemblyInfoInputs.cache
+C:\Users\Elliot\OneDrive\Desktop\Software Engineering_2024\obj\Debug\net6.0-windows\Software Engineering_2024.AssemblyInfo.cs
+C:\Users\Elliot\OneDrive\Desktop\Software Engineering_2024\obj\Debug\net6.0-windows\Software Engineering_2024.csproj.CoreCompileInputs.cache
+C:\Users\Elliot\OneDrive\Desktop\Software Engineering_2024\obj\Debug\net6.0-windows\Software Engineering_2024.dll
+C:\Users\Elliot\OneDrive\Desktop\Software Engineering_2024\obj\Debug\net6.0-windows\refint\Software Engineering_2024.dll
+C:\Users\Elliot\OneDrive\Desktop\Software Engineering_2024\obj\Debug\net6.0-windows\Software Engineering_2024.pdb
+C:\Users\Elliot\OneDrive\Desktop\Software Engineering_2024\obj\Debug\net6.0-windows\Software Engineering_2024.genruntimeconfig.cache
+C:\Users\Elliot\OneDrive\Desktop\Software Engineering_2024\obj\Debug\net6.0-windows\ref\Software Engineering_2024.dll
