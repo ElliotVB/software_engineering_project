@@ -66,5 +66,20 @@ namespace Software_Engineering_2024
         {
 
         }
+
+        private void button1_Click_3(object sender, EventArgs e)
+        {
+
+        }
+
+        private void eventsLayout_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void calendar1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

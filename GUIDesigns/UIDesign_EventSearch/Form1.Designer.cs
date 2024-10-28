@@ -32,9 +32,6 @@
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.backgroundGlobal = new System.Windows.Forms.Panel();
             this.backgroundCalendar = new System.Windows.Forms.Panel();
-            this.calendarsContainer = new System.Windows.Forms.TableLayoutPanel();
-            this.calendar2 = new System.Windows.Forms.Panel();
-            this.calendar1 = new System.Windows.Forms.Panel();
             this.backgroundHeader = new System.Windows.Forms.Panel();
             this.buttonProfile = new System.Windows.Forms.Button();
             this.buttonEvents = new System.Windows.Forms.Button();
@@ -42,15 +39,20 @@
             this.buttonUsers = new System.Windows.Forms.Button();
             this.buttonModules = new System.Windows.Forms.Button();
             this.buttonHome = new System.Windows.Forms.Button();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+<<<<<<< HEAD
             this.eventsLayout = new System.Windows.Forms.TableLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.event1 = new System.Windows.Forms.Button();
+=======
+            this.calendarsContainer = new System.Windows.Forms.TableLayoutPanel();
+            this.calendar1 = new System.Windows.Forms.Panel();
+            this.calendar2 = new System.Windows.Forms.Panel();
+>>>>>>> parent of b50eccb (Added container for events)
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.backgroundGlobal.SuspendLayout();
             this.backgroundCalendar.SuspendLayout();
-            this.calendarsContainer.SuspendLayout();
             this.backgroundHeader.SuspendLayout();
-            this.eventsLayout.SuspendLayout();
+            this.calendarsContainer.SuspendLayout();
             this.SuspendLayout();
             // 
             // backgroundGlobal
@@ -61,7 +63,6 @@
             this.backgroundGlobal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.backgroundGlobal.Controls.Add(this.backgroundCalendar);
             this.backgroundGlobal.Controls.Add(this.backgroundHeader);
-            this.backgroundGlobal.Controls.Add(this.eventsLayout);
             this.backgroundGlobal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.backgroundGlobal.Location = new System.Drawing.Point(0, 0);
             this.backgroundGlobal.Name = "backgroundGlobal";
@@ -80,6 +81,7 @@
             this.backgroundCalendar.Size = new System.Drawing.Size(220, 374);
             this.backgroundCalendar.TabIndex = 1;
             // 
+<<<<<<< HEAD
             // calendarsContainer
             // 
             this.calendarsContainer.ColumnCount = 1;
@@ -91,7 +93,7 @@
             this.calendarsContainer.RowCount = 2;
             this.calendarsContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.calendarsContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.calendarsContainer.Size = new System.Drawing.Size(219, 373);
+            this.calendarsContainer.Size = new System.Drawing.Size(222, 373);
             this.calendarsContainer.TabIndex = 0;
             // 
             // calendar2
@@ -111,7 +113,10 @@
             this.calendar1.Name = "calendar1";
             this.calendar1.Size = new System.Drawing.Size(213, 180);
             this.calendar1.TabIndex = 0;
+            this.calendar1.Paint += new System.Windows.Forms.PaintEventHandler(this.calendar1_Paint);
             // 
+=======
+>>>>>>> parent of b50eccb (Added container for events)
             // backgroundHeader
             // 
             this.backgroundHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(16)))));
@@ -229,38 +234,75 @@
             this.buttonHome.UseVisualStyleBackColor = true;
             this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
             // 
-            // eventsLayout
+            // calendarsContainer
             // 
+<<<<<<< HEAD
             this.eventsLayout.BackColor = System.Drawing.Color.DarkGray;
-            this.eventsLayout.ColumnCount = 4;
+            this.eventsLayout.ColumnCount = 3;
             this.eventsLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.eventsLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.eventsLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.eventsLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.eventsLayout.Controls.Add(this.button1, 0, 1);
-            this.eventsLayout.Location = new System.Drawing.Point(209, 74);
+            this.eventsLayout.Controls.Add(this.event1, 0, 0);
+            this.eventsLayout.Location = new System.Drawing.Point(220, 74);
             this.eventsLayout.Name = "eventsLayout";
-            this.eventsLayout.RowCount = 4;
-            this.eventsLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
-            this.eventsLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.eventsLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
-            this.eventsLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.eventsLayout.Size = new System.Drawing.Size(589, 374);
+            this.eventsLayout.RowCount = 2;
+            this.eventsLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.eventsLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.eventsLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.eventsLayout.Size = new System.Drawing.Size(578, 374);
             this.eventsLayout.TabIndex = 0;
+            this.eventsLayout.Paint += new System.Windows.Forms.PaintEventHandler(this.eventsLayout_Paint);
             // 
-            // button1
+            // event1
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(16)))));
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button1.FlatAppearance.BorderSize = 4;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(36, 156);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = false;
+            this.event1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.event1.BackColor = System.Drawing.Color.IndianRed;
+            this.event1.BackgroundImage = global::Software_Engineering_2024.Properties.Resources._event;
+            this.event1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.event1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.event1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.event1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.event1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.event1.Location = new System.Drawing.Point(6, 11);
+            this.event1.Name = "event1";
+            this.event1.Size = new System.Drawing.Size(179, 164);
+            this.event1.TabIndex = 0;
+            this.event1.Text = "Example event";
+            this.event1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.event1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.event1.UseVisualStyleBackColor = false;
+=======
+            this.calendarsContainer.ColumnCount = 1;
+            this.calendarsContainer.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.calendarsContainer.Controls.Add(this.calendar2, 0, 1);
+            this.calendarsContainer.Controls.Add(this.calendar1, 0, 0);
+            this.calendarsContainer.Location = new System.Drawing.Point(0, 0);
+            this.calendarsContainer.Name = "calendarsContainer";
+            this.calendarsContainer.RowCount = 2;
+            this.calendarsContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.calendarsContainer.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.calendarsContainer.Size = new System.Drawing.Size(219, 373);
+            this.calendarsContainer.TabIndex = 0;
+            // 
+            // calendar1
+            // 
+            this.calendar1.BackgroundImage = global::Software_Engineering_2024.Properties.Resources.calendar1;
+            this.calendar1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.calendar1.Location = new System.Drawing.Point(3, 3);
+            this.calendar1.Name = "calendar1";
+            this.calendar1.Size = new System.Drawing.Size(213, 180);
+            this.calendar1.TabIndex = 0;
+            // 
+            // calendar2
+            // 
+            this.calendar2.BackgroundImage = global::Software_Engineering_2024.Properties.Resources.calendar2;
+            this.calendar2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.calendar2.Location = new System.Drawing.Point(3, 189);
+            this.calendar2.Name = "calendar2";
+            this.calendar2.Size = new System.Drawing.Size(213, 181);
+            this.calendar2.TabIndex = 0;
+>>>>>>> parent of b50eccb (Added container for events)
             // 
             // Form1
             // 
@@ -273,9 +315,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             this.backgroundGlobal.ResumeLayout(false);
             this.backgroundCalendar.ResumeLayout(false);
-            this.calendarsContainer.ResumeLayout(false);
             this.backgroundHeader.ResumeLayout(false);
-            this.eventsLayout.ResumeLayout(false);
+            this.calendarsContainer.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -296,8 +337,11 @@
         private TableLayoutPanel calendarsContainer;
         private Panel calendar2;
         private Panel calendar1;
+<<<<<<< HEAD
         private TableLayoutPanel eventsLayout;
-        private Button button1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private Button event1;
+=======
+>>>>>>> parent of b50eccb (Added container for events)
     }
 }
