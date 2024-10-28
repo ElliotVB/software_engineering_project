@@ -1,0 +1,17 @@
+C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\bin\Debug\net6.0-windows\UIDesign_EventSearch.exe
+C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\bin\Debug\net6.0-windows\UIDesign_EventSearch.deps.json
+C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\bin\Debug\net6.0-windows\UIDesign_EventSearch.runtimeconfig.json
+C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\bin\Debug\net6.0-windows\UIDesign_EventSearch.dll
+C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\bin\Debug\net6.0-windows\UIDesign_EventSearch.pdb
+C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\UIDesign_EventSearch.csproj.AssemblyReference.cache
+C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\UIDesign_EventSearch.Form1.resources
+C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\UIDesign_EventSearch.csproj.GenerateResource.cache
+C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\UIDesign_EventSearch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\UIDesign_EventSearch.AssemblyInfoInputs.cache
+C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\UIDesign_EventSearch.AssemblyInfo.cs
+C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\UIDesign_EventSearch.csproj.CoreCompileInputs.cache
+C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\UIDesign_EventSearch.dll
+C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\refint\UIDesign_EventSearch.dll
+C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\UIDesign_EventSearch.pdb
+C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\UIDesign_EventSearch.genruntimeconfig.cache
+C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\ref\UIDesign_EventSearch.dll
