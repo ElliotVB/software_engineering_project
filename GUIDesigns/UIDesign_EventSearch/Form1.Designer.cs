@@ -30,7 +30,10 @@
         {
             this.navigationPanel = new System.Windows.Forms.TableLayoutPanel();
             this.calendarsPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.calendar1 = new System.Windows.Forms.Panel();
             this.eventsPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.calendarsPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // navigationPanel
@@ -56,29 +59,51 @@
             this.calendarsPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(35)))), ((int)(((byte)(64)))));
             this.calendarsPanel.ColumnCount = 1;
             this.calendarsPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.calendarsPanel.Controls.Add(this.panel1, 0, 1);
+            this.calendarsPanel.Controls.Add(this.calendar1, 0, 0);
             this.calendarsPanel.Location = new System.Drawing.Point(0, 80);
             this.calendarsPanel.Margin = new System.Windows.Forms.Padding(0);
             this.calendarsPanel.Name = "calendarsPanel";
             this.calendarsPanel.RowCount = 2;
             this.calendarsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.calendarsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.calendarsPanel.Size = new System.Drawing.Size(267, 373);
+            this.calendarsPanel.Size = new System.Drawing.Size(213, 373);
             this.calendarsPanel.TabIndex = 1;
+            // 
+            // calendar1
+            // 
+            this.calendar1.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources.calendar1;
+            this.calendar1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.calendar1.Location = new System.Drawing.Point(3, 3);
+            this.calendar1.Name = "calendar1";
+            this.calendar1.Size = new System.Drawing.Size(207, 180);
+            this.calendar1.TabIndex = 0;
             // 
             // eventsPanel
             // 
             this.eventsPanel.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.eventsPanel.ColumnCount = 2;
-            this.eventsPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.eventsPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.eventsPanel.Location = new System.Drawing.Point(267, 80);
+            this.eventsPanel.ColumnCount = 3;
+            this.eventsPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.eventsPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.eventsPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.eventsPanel.Location = new System.Drawing.Point(213, 80);
             this.eventsPanel.Margin = new System.Windows.Forms.Padding(0);
             this.eventsPanel.Name = "eventsPanel";
-            this.eventsPanel.RowCount = 2;
-            this.eventsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.eventsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.eventsPanel.Size = new System.Drawing.Size(534, 373);
+            this.eventsPanel.RowCount = 3;
+            this.eventsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.eventsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.eventsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.eventsPanel.Size = new System.Drawing.Size(588, 373);
             this.eventsPanel.TabIndex = 2;
+            // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources.calendar2;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Location = new System.Drawing.Point(3, 189);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(207, 180);
+            this.panel1.TabIndex = 1;
             // 
             // Form1
             // 
@@ -90,6 +115,7 @@
             this.Controls.Add(this.navigationPanel);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.calendarsPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -99,5 +125,7 @@
         private TableLayoutPanel navigationPanel;
         private TableLayoutPanel calendarsPanel;
         private TableLayoutPanel eventsPanel;
+        private Panel calendar1;
+        private Panel panel1;
     }
 }

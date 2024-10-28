@@ -15,3 +15,4 @@ C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesign
 C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\UIDesign_EventSearch.pdb
 C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\UIDesign_EventSearch.genruntimeconfig.cache
 C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\ref\UIDesign_EventSearch.dll
+C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\UIDesign_EventSearch.Properties.Resources.resources
