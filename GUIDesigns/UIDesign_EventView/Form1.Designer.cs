@@ -40,7 +40,7 @@
             // 
             // navigationPanel
             // 
-            this.navigationPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(16)))));
+            this.navigationPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(30)))), ((int)(((byte)(60)))));
             this.navigationPanel.ColumnCount = 6;
             this.navigationPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.46615F));
             this.navigationPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15.77954F));
@@ -125,14 +125,14 @@
             // buttonHome
             // 
             this.buttonHome.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.buttonHome.BackgroundImage = global::UIDesign_EventView.Properties.Resources.TCClogo;
+            this.buttonHome.BackgroundImage = global::UIDesign_EventView.Properties.Resources.TCClogo1;
             this.buttonHome.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.buttonHome.Cursor = System.Windows.Forms.Cursors.Hand;
             this.buttonHome.FlatAppearance.BorderSize = 0;
             this.buttonHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonHome.Location = new System.Drawing.Point(3, 10);
+            this.buttonHome.Location = new System.Drawing.Point(3, 5);
             this.buttonHome.Name = "buttonHome";
-            this.buttonHome.Size = new System.Drawing.Size(117, 60);
+            this.buttonHome.Size = new System.Drawing.Size(127, 70);
             this.buttonHome.TabIndex = 0;
             this.buttonHome.UseVisualStyleBackColor = true;
             // 
@@ -155,6 +155,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.navigationPanel);
             this.Name = "Form1";
