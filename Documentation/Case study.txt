@@ -1,0 +1,19 @@
+Together Culture is a Community Interest Company that gathers a membership community united in their desire to help create a more equitable and ecological creative economy. It provides facilities, creative leadership and entrepreneurial skills development, momentum, structure, and resources for people to come together and make change happen.
+
+The company aims to transition from their current manual system for managing customer data to a digital Customer Relationship Management (CRM) solution. The following are their requirements:
+●	Data mine and look at people coming into the funnel and progressing through our Community Journey.  
+●	Create appropriate tags and searches which both appear on the dashboard and are searchable in a relational database to identify activity trends from which we can surmise insights about behaviour. 
+●	All users should be able to log into a password protected members-only area
+●	An administrator can add members once they’ve signed up via our website (this is something our helpers team could do) and indicate predominant interests at the beginning of the relationship: caring, sharing, creating, experiencing, working.  We aim to see how that shifts as members settle into the community. 
+●	An administrator should be able to differentiate between membership types (Community Members, Key Access Members, Creative Workspace Members)
+●	An administrator should be able to search for individual members and non-members to see all of the events and visits they’ve made to Together Culture 
+●	An administrator should be able to search specific events or time periods to see how many guests we had, and who those guests were 
+●	A user should be able to express their interest to become a member by creating a profile that is then authorised by an administrator
+●	A member should be able to view and book onto our full series of digital content modules 
+●	A member should be able to see a dashboard view of the benefits that they are using and benefits they have not utilised. To deliver a sense of value. 
+●	A member should be able to see the information they contributed about their interests and intentions as a member when they join and in orientation. 
+
+The company also has some “nice to have” requirements:
+●	A member should be able to see suggestions about events and activities that they might enjoy based on data gathered by the CRM from past experiences. 
+●	A member should be able to see the digital connections board: things people need and things people would like to offer as part of our timebank and skills library.
+●	A member should be able to view member documents and chat with each other online (eventually we just have one go-to online members’ area)
