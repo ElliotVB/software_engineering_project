@@ -1,8 +1,0 @@
-C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\UIDesign_EventSearch.csproj.AssemblyReference.cache
-C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\Software_Engineering_2024.Form1.resources
-C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\Software_Engineering_2024.Properties.Resources.resources
-C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\UIDesign_EventSearch.csproj.GenerateResource.cache
-C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\UIDesign_EventSearch.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\UIDesign_EventSearch.AssemblyInfoInputs.cache
-C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\UIDesign_EventSearch.AssemblyInfo.cs
-C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\GUIDesigns\UIDesign_EventSearch\obj\Debug\net6.0-windows\UIDesign_EventSearch.csproj.CoreCompileInputs.cache
