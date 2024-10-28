@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.navigationPanel = new System.Windows.Forms.TableLayoutPanel();
             this.buttonProfile = new System.Windows.Forms.Button();
             this.buttonChatroom = new System.Windows.Forms.Button();
@@ -35,7 +36,17 @@
             this.buttonModules = new System.Windows.Forms.Button();
             this.buttonHome = new System.Windows.Forms.Button();
             this.buttonEvents = new System.Windows.Forms.Button();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.labelEventTime = new System.Windows.Forms.Label();
+            this.labelEventDate = new System.Windows.Forms.Label();
+            this.labelEventName = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.labelEventDescription = new System.Windows.Forms.Label();
+            this.buttonBook = new System.Windows.Forms.Button();
             this.navigationPanel.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // navigationPanel
@@ -151,17 +162,132 @@
             this.buttonEvents.Text = "Events";
             this.buttonEvents.UseVisualStyleBackColor = true;
             // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(19)))), ((int)(((byte)(38)))));
+            this.tableLayoutPanel1.ColumnCount = 1;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Controls.Add(this.labelEventTime, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.labelEventDate, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.labelEventName, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 98);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 4;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(270, 340);
+            this.tableLayoutPanel1.TabIndex = 0;
+            // 
+            // labelEventTime
+            // 
+            this.labelEventTime.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.labelEventTime.AutoSize = true;
+            this.labelEventTime.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelEventTime.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.labelEventTime.Location = new System.Drawing.Point(89, 306);
+            this.labelEventTime.Name = "labelEventTime";
+            this.labelEventTime.Size = new System.Drawing.Size(91, 20);
+            this.labelEventTime.TabIndex = 2;
+            this.labelEventTime.Text = "12pm - 3pm";
+            // 
+            // labelEventDate
+            // 
+            this.labelEventDate.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelEventDate.AutoSize = true;
+            this.labelEventDate.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelEventDate.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.labelEventDate.Location = new System.Drawing.Point(50, 279);
+            this.labelEventDate.Name = "labelEventDate";
+            this.labelEventDate.Size = new System.Drawing.Size(169, 20);
+            this.labelEventDate.TabIndex = 1;
+            this.labelEventDate.Text = "Monday 1 October 2025";
+            // 
+            // labelEventName
+            // 
+            this.labelEventName.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.labelEventName.AutoSize = true;
+            this.labelEventName.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelEventName.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.labelEventName.Location = new System.Drawing.Point(59, 241);
+            this.labelEventName.Name = "labelEventName";
+            this.labelEventName.Size = new System.Drawing.Size(151, 28);
+            this.labelEventName.TabIndex = 0;
+            this.labelEventName.Text = "Example event";
+            // 
+            // panel1
+            // 
+            this.panel1.BackgroundImage = global::UIDesign_EventView.Properties.Resources._event;
+            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(264, 232);
+            this.panel1.TabIndex = 0;
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(19)))), ((int)(((byte)(38)))));
+            this.tableLayoutPanel2.ColumnCount = 1;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.Controls.Add(this.labelEventDescription, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.buttonBook, 0, 1);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(282, 98);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 2;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(508, 340);
+            this.tableLayoutPanel2.TabIndex = 3;
+            // 
+            // labelEventDescription
+            // 
+            this.labelEventDescription.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.labelEventDescription.AutoSize = true;
+            this.labelEventDescription.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelEventDescription.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.labelEventDescription.Location = new System.Drawing.Point(34, 0);
+            this.labelEventDescription.Name = "labelEventDescription";
+            this.labelEventDescription.Size = new System.Drawing.Size(440, 196);
+            this.labelEventDescription.TabIndex = 0;
+            this.labelEventDescription.Text = resources.GetString("labelEventDescription.Text");
+            this.labelEventDescription.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // buttonBook
+            // 
+            this.buttonBook.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.buttonBook.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(30)))), ((int)(((byte)(60)))));
+            this.buttonBook.FlatAppearance.BorderSize = 0;
+            this.buttonBook.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonBook.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonBook.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.buttonBook.Location = new System.Drawing.Point(198, 280);
+            this.buttonBook.Name = "buttonBook";
+            this.buttonBook.Size = new System.Drawing.Size(112, 51);
+            this.buttonBook.TabIndex = 1;
+            this.buttonBook.Text = "Book";
+            this.buttonBook.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.tableLayoutPanel2);
+            this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.navigationPanel);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.navigationPanel.ResumeLayout(false);
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -175,5 +301,13 @@
         private Button buttonModules;
         private Button buttonHome;
         private Button buttonEvents;
+        private TableLayoutPanel tableLayoutPanel1;
+        private Label labelEventTime;
+        private Label labelEventDate;
+        private Label labelEventName;
+        private Panel panel1;
+        private TableLayoutPanel tableLayoutPanel2;
+        private Label labelEventDescription;
+        private Button buttonBook;
     }
 }
