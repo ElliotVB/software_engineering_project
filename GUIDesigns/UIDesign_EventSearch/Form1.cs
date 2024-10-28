@@ -6,5 +6,10 @@ namespace UIDesign_EventSearch
         {
             InitializeComponent();
         }
+
+        private void buttonEvents_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
