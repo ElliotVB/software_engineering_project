@@ -7,4 +7,23 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Resources\3671896_circle_solid_user_icon.png" />
+    <None Remove="Resources\calendar1.png" />
+    <None Remove="Resources\calendar2.png" />
+    <None Remove="Resources\event.jpg" />
+    <None Remove="Resources\TCClogo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\3671896_circle_solid_user_icon.png" />
+    <Resource Include="Resources\calendar1.png" />
+    <Resource Include="Resources\calendar2.png" />
+    <Resource Include="Resources\event.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\TCClogo.png" />
+  </ItemGroup>
+
 </Project>
