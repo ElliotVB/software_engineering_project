@@ -1,0 +1,14 @@
+C:\Users\brota\source\repos\UiDesign_Membership Page\UiDesign_Membership Page\obj\Debug\UiDesign_Membership Page.csproj.AssemblyReference.cache
+C:\Users\brota\source\repos\UiDesign_Membership Page\UiDesign_Membership Page\obj\Debug\MainWindow.baml
+C:\Users\brota\source\repos\UiDesign_Membership Page\UiDesign_Membership Page\obj\Debug\MainWindow.g.cs
+C:\Users\brota\source\repos\UiDesign_Membership Page\UiDesign_Membership Page\obj\Debug\App.g.cs
+C:\Users\brota\source\repos\UiDesign_Membership Page\UiDesign_Membership Page\obj\Debug\UiDesign_Membership Page_MarkupCompile.cache
+C:\Users\brota\source\repos\UiDesign_Membership Page\UiDesign_Membership Page\obj\Debug\UiDesign_Membership Page.g.resources
+C:\Users\brota\source\repos\UiDesign_Membership Page\UiDesign_Membership Page\obj\Debug\UiDesign_Membership_Page.Properties.Resources.resources
+C:\Users\brota\source\repos\UiDesign_Membership Page\UiDesign_Membership Page\obj\Debug\UiDesign_Membership Page.csproj.GenerateResource.cache
+C:\Users\brota\source\repos\UiDesign_Membership Page\UiDesign_Membership Page\obj\Debug\UiDesign_Membership Page.csproj.CoreCompileInputs.cache
+C:\Users\brota\source\repos\UiDesign_Membership Page\UiDesign_Membership Page\bin\Debug\UiDesign_Membership Page.exe.config
+C:\Users\brota\source\repos\UiDesign_Membership Page\UiDesign_Membership Page\bin\Debug\UiDesign_Membership Page.exe
+C:\Users\brota\source\repos\UiDesign_Membership Page\UiDesign_Membership Page\bin\Debug\UiDesign_Membership Page.pdb
+C:\Users\brota\source\repos\UiDesign_Membership Page\UiDesign_Membership Page\obj\Debug\UiDesign_Membership Page.exe
+C:\Users\brota\source\repos\UiDesign_Membership Page\UiDesign_Membership Page\obj\Debug\UiDesign_Membership Page.pdb
