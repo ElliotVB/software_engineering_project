@@ -1,0 +1,55 @@
+﻿<Window x:Class="TogetherCulture.MembershipPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Together Culture - Membership" 
+        Width="800" Height="600" Background="White">
+
+    <!-- Main Layout Grid -->
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <!-- Header row height -->
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Header Section -->
+        <Border Grid.Row="0" Grid.ColumnSpan="2" Background="#C00010" Margin="-21,-23,-19,427" Grid.RowSpan="2">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20">
+                <TextBlock Text="Together" Foreground="Black" FontSize="24" FontWeight="Bold"/>
+                <TextBlock Text="Culture" Foreground="Black" FontSize="24" FontWeight="Bold"/>
+                <TextBlock Text="Cambridge" Foreground="White" FontSize="24" FontWeight="Bold"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Membership Types Title and Description -->
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="160,22,0,0">
+            <TextBlock Text="Membership Types" Foreground="#C00010" FontSize="24" FontWeight="Bold" TextAlignment="Center"/>
+            <TextBlock Text="For curious citizens and change makers looking to connect, collaborate,"
+                       Foreground="Black" FontSize="14" TextAlignment="Center" Margin="0,10,0,0"/>
+            <TextBlock Text="and be part of shaping a more inclusive, vibrant Cambridge."
+           Foreground="Black" FontSize="14" TextAlignment="Center"/>
+        </StackPanel>
+
+        <!-- Community Membership Section -->
+        <StackPanel Grid.Row="1" Grid.Column="0" Margin="10,0,10,0" Background="#6C152A"  VerticalAlignment="Center">
+            <TextBlock Text="Community Membership" Foreground="White" FontSize="20" FontWeight="Bold" Margin="0,0,0,10"/>
+            <TextBlock Text="£18.50 / month" Foreground="White" FontSize="16" FontWeight="Medium" Margin="0,0,0,20"/>
+            <TextBlock Text="Join our burgeoning community of open-minded and curious people and make 5 Fitzroy Street your home away from home. 
+Membership provides free or discounted tickets to all events, collaborative and creative skills development workshops, participation in the annual Citizens’ Studio, and a voice in decision about new social enterprises developed in Together Culture’s incubator. Plus, you’ll have a City Centre base that you can call home, have a (free) coffee with your friends, host your next bookclub, do some work, be inspired, or just be." 
+                       Foreground="White" FontSize="12" TextWrapping="Wrap"/>
+        </StackPanel>
+
+        <!-- Workspace Membership Section -->
+        <StackPanel Grid.Row="1" Grid.Column="1" Margin="20,111,0,0" Background="#6C152A"  VerticalAlignment="Top">
+            <TextBlock Text="Workspace Membership" Foreground="White" FontSize="20" FontWeight="Bold" Margin="0,0,0,10"/>
+            <TextBlock Text="From £70 / month + £100 joining fee" Foreground="White" FontSize="16" FontWeight="Medium" Margin="0,0,0,20"/>
+            <TextBlock Text="Find a supportive and collaborative network of like-minded change makers.
+Enjoy all the perks of Community Membership, plus 24/7 access to Together Culture Fitzroy including a dedicated workspace, storage space, and cohort of Workspace Members with which to build collaborative relationships."
+                       Foreground="White" FontSize="12" TextWrapping="Wrap"/>
+        </StackPanel>
+    </Grid>
+</Window>
