@@ -103,6 +103,16 @@ namespace UIDesign_EventSearch.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap GridiconsSearch {
+            get {
+                object obj = ResourceManager.GetObject("GridiconsSearch", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap TCClogo {
             get {
                 object obj = ResourceManager.GetObject("TCClogo", resourceCulture);

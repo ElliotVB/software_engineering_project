@@ -38,20 +38,25 @@
             this.calendarsPanel = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.calendar1 = new System.Windows.Forms.Panel();
-            this.eventsPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.button12 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
             this.navigationPanel.SuspendLayout();
             this.calendarsPanel.SuspendLayout();
-            this.eventsPanel.SuspendLayout();
+            this.flowLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // navigationPanel
@@ -201,80 +206,64 @@
             this.calendar1.Size = new System.Drawing.Size(207, 180);
             this.calendar1.TabIndex = 0;
             // 
-            // eventsPanel
+            // textBox1
             // 
-            this.eventsPanel.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.eventsPanel.ColumnCount = 3;
-            this.eventsPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.eventsPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.eventsPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.eventsPanel.Controls.Add(this.button4, 0, 2);
-            this.eventsPanel.Controls.Add(this.button3, 0, 2);
-            this.eventsPanel.Controls.Add(this.button2, 0, 2);
-            this.eventsPanel.Controls.Add(this.button1, 0, 0);
-            this.eventsPanel.Controls.Add(this.button5, 0, 1);
-            this.eventsPanel.Controls.Add(this.button6, 1, 1);
-            this.eventsPanel.Controls.Add(this.button8, 2, 1);
-            this.eventsPanel.Controls.Add(this.button7, 1, 0);
-            this.eventsPanel.Controls.Add(this.button9, 2, 0);
-            this.eventsPanel.Location = new System.Drawing.Point(213, 113);
-            this.eventsPanel.Margin = new System.Windows.Forms.Padding(0);
-            this.eventsPanel.Name = "eventsPanel";
-            this.eventsPanel.RowCount = 3;
-            this.eventsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.eventsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.eventsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.eventsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.eventsPanel.Size = new System.Drawing.Size(588, 340);
-            this.eventsPanel.TabIndex = 2;
+            this.textBox1.Location = new System.Drawing.Point(238, 83);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(552, 23);
+            this.textBox1.TabIndex = 3;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // button4
+            // flowLayoutPanel1
             // 
-            this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button4.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources._event;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(19, 229);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(157, 107);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Example event";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.button4.UseVisualStyleBackColor = true;
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.AutoScrollMargin = new System.Drawing.Size(5, 5);
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(19)))), ((int)(((byte)(38)))));
+            this.flowLayoutPanel1.Controls.Add(this.button12);
+            this.flowLayoutPanel1.Controls.Add(this.button1);
+            this.flowLayoutPanel1.Controls.Add(this.button2);
+            this.flowLayoutPanel1.Controls.Add(this.button3);
+            this.flowLayoutPanel1.Controls.Add(this.button4);
+            this.flowLayoutPanel1.Controls.Add(this.button5);
+            this.flowLayoutPanel1.Controls.Add(this.button6);
+            this.flowLayoutPanel1.Controls.Add(this.button7);
+            this.flowLayoutPanel1.Controls.Add(this.button8);
+            this.flowLayoutPanel1.Controls.Add(this.button9);
+            this.flowLayoutPanel1.Controls.Add(this.button10);
+            this.flowLayoutPanel1.Controls.Add(this.button11);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(213, 111);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(588, 338);
+            this.flowLayoutPanel1.TabIndex = 4;
             // 
-            // button3
+            // button12
             // 
-            this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button3.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources._event;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(214, 229);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(157, 107);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Example event";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.button3.UseVisualStyleBackColor = true;
+            this.button12.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button12.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources._event;
+            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button12.FlatAppearance.BorderSize = 0;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Location = new System.Drawing.Point(5, 10);
+            this.button12.Margin = new System.Windows.Forms.Padding(5, 10, 5, 10);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(180, 115);
+            this.button12.TabIndex = 12;
+            this.button12.Text = "Example event";
+            this.button12.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.button12.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // pictureBox1
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources._event;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(410, 229);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(157, 107);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Example event";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.button2.UseVisualStyleBackColor = true;
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources.GridiconsSearch;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(217, 83);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
             // 
             // button1
             // 
@@ -284,13 +273,65 @@
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(19, 3);
+            this.button1.Location = new System.Drawing.Point(195, 10);
+            this.button1.Margin = new System.Windows.Forms.Padding(5, 10, 5, 10);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(157, 107);
-            this.button1.TabIndex = 0;
+            this.button1.Size = new System.Drawing.Size(180, 115);
+            this.button1.TabIndex = 13;
             this.button1.Text = "Example event";
             this.button1.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button2.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources._event;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(385, 10);
+            this.button2.Margin = new System.Windows.Forms.Padding(5, 10, 5, 10);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(180, 115);
+            this.button2.TabIndex = 14;
+            this.button2.Text = "Example event";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button3.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources._event;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(5, 145);
+            this.button3.Margin = new System.Windows.Forms.Padding(5, 10, 5, 10);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(180, 115);
+            this.button3.TabIndex = 15;
+            this.button3.Text = "Example event";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button4.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources._event;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Location = new System.Drawing.Point(195, 145);
+            this.button4.Margin = new System.Windows.Forms.Padding(5, 10, 5, 10);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(180, 115);
+            this.button4.TabIndex = 16;
+            this.button4.Text = "Example event";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
@@ -300,10 +341,11 @@
             this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(19, 116);
+            this.button5.Location = new System.Drawing.Point(385, 145);
+            this.button5.Margin = new System.Windows.Forms.Padding(5, 10, 5, 10);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(157, 107);
-            this.button5.TabIndex = 4;
+            this.button5.Size = new System.Drawing.Size(180, 115);
+            this.button5.TabIndex = 17;
             this.button5.Text = "Example event";
             this.button5.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.button5.UseVisualStyleBackColor = true;
@@ -316,29 +358,14 @@
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(214, 116);
+            this.button6.Location = new System.Drawing.Point(5, 280);
+            this.button6.Margin = new System.Windows.Forms.Padding(5, 10, 5, 10);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(157, 107);
-            this.button6.TabIndex = 5;
+            this.button6.Size = new System.Drawing.Size(180, 115);
+            this.button6.TabIndex = 18;
             this.button6.Text = "Example event";
             this.button6.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button8.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources._event;
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Location = new System.Drawing.Point(410, 116);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(157, 107);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "Example event";
-            this.button8.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.button8.UseVisualStyleBackColor = true;
             // 
             // button7
             // 
@@ -348,13 +375,31 @@
             this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button7.FlatAppearance.BorderSize = 0;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(214, 3);
+            this.button7.Location = new System.Drawing.Point(195, 280);
+            this.button7.Margin = new System.Windows.Forms.Padding(5, 10, 5, 10);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(157, 107);
-            this.button7.TabIndex = 6;
+            this.button7.Size = new System.Drawing.Size(180, 115);
+            this.button7.TabIndex = 19;
             this.button7.Text = "Example event";
             this.button7.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button8.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources._event;
+            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button8.FlatAppearance.BorderSize = 0;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Location = new System.Drawing.Point(385, 280);
+            this.button8.Margin = new System.Windows.Forms.Padding(5, 10, 5, 10);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(180, 115);
+            this.button8.TabIndex = 20;
+            this.button8.Text = "Example event";
+            this.button8.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.button8.UseVisualStyleBackColor = true;
             // 
             // button9
             // 
@@ -364,28 +409,58 @@
             this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button9.FlatAppearance.BorderSize = 0;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(410, 3);
+            this.button9.Location = new System.Drawing.Point(5, 415);
+            this.button9.Margin = new System.Windows.Forms.Padding(5, 10, 5, 10);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(157, 107);
-            this.button9.TabIndex = 8;
+            this.button9.Size = new System.Drawing.Size(180, 115);
+            this.button9.TabIndex = 21;
             this.button9.Text = "Example event";
             this.button9.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.button9.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // button10
             // 
-            this.textBox1.Location = new System.Drawing.Point(216, 87);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(574, 23);
-            this.textBox1.TabIndex = 3;
+            this.button10.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button10.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources._event;
+            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button10.FlatAppearance.BorderSize = 0;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Location = new System.Drawing.Point(195, 415);
+            this.button10.Margin = new System.Windows.Forms.Padding(5, 10, 5, 10);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(180, 115);
+            this.button10.TabIndex = 22;
+            this.button10.Text = "Example event";
+            this.button10.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button11.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources._event;
+            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Location = new System.Drawing.Point(385, 415);
+            this.button11.Margin = new System.Windows.Forms.Padding(5, 10, 5, 10);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(180, 115);
+            this.button11.TabIndex = 23;
+            this.button11.Text = "Example event";
+            this.button11.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.button11.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(19)))), ((int)(((byte)(38)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.eventsPanel);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.calendarsPanel);
             this.Controls.Add(this.navigationPanel);
             this.Name = "Form1";
@@ -393,7 +468,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.navigationPanel.ResumeLayout(false);
             this.calendarsPanel.ResumeLayout(false);
-            this.eventsPanel.ResumeLayout(false);
+            this.flowLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -403,7 +479,6 @@
 
         private TableLayoutPanel navigationPanel;
         private TableLayoutPanel calendarsPanel;
-        private TableLayoutPanel eventsPanel;
         private Panel calendar1;
         private Panel panel1;
         private Button buttonHome;
@@ -412,15 +487,20 @@
         private Button buttonUsers;
         private Button buttonModules;
         private Button buttonProfile;
+        private TextBox textBox1;
+        private FlowLayoutPanel flowLayoutPanel1;
+        private PictureBox pictureBox1;
+        private Button button12;
         private Button button1;
-        private Button button4;
-        private Button button3;
         private Button button2;
+        private Button button3;
+        private Button button4;
         private Button button5;
         private Button button6;
-        private Button button8;
         private Button button7;
+        private Button button8;
         private Button button9;
-        private TextBox textBox1;
+        private Button button10;
+        private Button button11;
     }
 }
