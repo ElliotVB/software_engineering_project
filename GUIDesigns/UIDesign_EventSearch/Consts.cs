@@ -9,7 +9,7 @@ namespace UIDesign_EventSearch
     //All global consts are stored here
     internal class Consts
     {
-
+        //QUERIES
         public static string SELECTALL = "SELECT * FROM Event";
 
     }

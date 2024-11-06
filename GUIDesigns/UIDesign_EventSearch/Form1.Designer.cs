@@ -38,8 +38,8 @@
             this.calendarsPanel = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.calendar1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.searchBox = new System.Windows.Forms.TextBox();
+            this.eventFlowLayout = new System.Windows.Forms.FlowLayoutPanel();
             this.button12 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -55,7 +55,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.navigationPanel.SuspendLayout();
             this.calendarsPanel.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
+            this.eventFlowLayout.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -206,36 +206,38 @@
             this.calendar1.Size = new System.Drawing.Size(207, 180);
             this.calendar1.TabIndex = 0;
             // 
-            // textBox1
+            // searchBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(238, 83);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(552, 23);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.searchBox.ForeColor = System.Drawing.Color.Gray;
+            this.searchBox.Location = new System.Drawing.Point(238, 83);
+            this.searchBox.Name = "searchBox";
+            this.searchBox.Size = new System.Drawing.Size(552, 23);
+            this.searchBox.TabIndex = 3;
+            this.searchBox.Text = "Search for events";
+            this.searchBox.Click += new System.EventHandler(this.searchBox_Clicked);
             // 
-            // flowLayoutPanel1
+            // eventFlowLayout
             // 
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.AutoScrollMargin = new System.Drawing.Size(5, 5);
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(19)))), ((int)(((byte)(38)))));
-            this.flowLayoutPanel1.Controls.Add(this.button12);
-            this.flowLayoutPanel1.Controls.Add(this.button1);
-            this.flowLayoutPanel1.Controls.Add(this.button2);
-            this.flowLayoutPanel1.Controls.Add(this.button3);
-            this.flowLayoutPanel1.Controls.Add(this.button4);
-            this.flowLayoutPanel1.Controls.Add(this.button5);
-            this.flowLayoutPanel1.Controls.Add(this.button6);
-            this.flowLayoutPanel1.Controls.Add(this.button7);
-            this.flowLayoutPanel1.Controls.Add(this.button8);
-            this.flowLayoutPanel1.Controls.Add(this.button9);
-            this.flowLayoutPanel1.Controls.Add(this.button10);
-            this.flowLayoutPanel1.Controls.Add(this.button11);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(213, 111);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(588, 338);
-            this.flowLayoutPanel1.TabIndex = 4;
+            this.eventFlowLayout.AutoScroll = true;
+            this.eventFlowLayout.AutoScrollMargin = new System.Drawing.Size(5, 5);
+            this.eventFlowLayout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(19)))), ((int)(((byte)(38)))));
+            this.eventFlowLayout.Controls.Add(this.button12);
+            this.eventFlowLayout.Controls.Add(this.button1);
+            this.eventFlowLayout.Controls.Add(this.button2);
+            this.eventFlowLayout.Controls.Add(this.button3);
+            this.eventFlowLayout.Controls.Add(this.button4);
+            this.eventFlowLayout.Controls.Add(this.button5);
+            this.eventFlowLayout.Controls.Add(this.button6);
+            this.eventFlowLayout.Controls.Add(this.button7);
+            this.eventFlowLayout.Controls.Add(this.button8);
+            this.eventFlowLayout.Controls.Add(this.button9);
+            this.eventFlowLayout.Controls.Add(this.button10);
+            this.eventFlowLayout.Controls.Add(this.button11);
+            this.eventFlowLayout.Location = new System.Drawing.Point(213, 111);
+            this.eventFlowLayout.Margin = new System.Windows.Forms.Padding(0);
+            this.eventFlowLayout.Name = "eventFlowLayout";
+            this.eventFlowLayout.Size = new System.Drawing.Size(588, 338);
+            this.eventFlowLayout.TabIndex = 4;
             // 
             // button12
             // 
@@ -253,6 +255,7 @@
             this.button12.Text = "Example event";
             this.button12.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button1
             // 
@@ -460,8 +463,8 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(19)))), ((int)(((byte)(38)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.searchBox);
+            this.Controls.Add(this.eventFlowLayout);
             this.Controls.Add(this.calendarsPanel);
             this.Controls.Add(this.navigationPanel);
             this.Name = "Form1";
@@ -469,7 +472,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.navigationPanel.ResumeLayout(false);
             this.calendarsPanel.ResumeLayout(false);
-            this.flowLayoutPanel1.ResumeLayout(false);
+            this.eventFlowLayout.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -488,8 +491,8 @@
         private Button buttonUsers;
         private Button buttonModules;
         private Button buttonProfile;
-        private TextBox textBox1;
-        private FlowLayoutPanel flowLayoutPanel1;
+        private TextBox searchBox;
+        private FlowLayoutPanel eventFlowLayout;
         private PictureBox pictureBox1;
         private Button button12;
         private Button button1;
