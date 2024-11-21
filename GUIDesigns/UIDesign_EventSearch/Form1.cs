@@ -9,10 +9,9 @@ namespace UIDesign_EventSearch
             InitializeComponent();
         }
 
-        //TEMP: used to switch to other form
         private void buttonEvents_Click(object sender, EventArgs e)
         {
-            Consts.FormEventView.Show();    
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -32,15 +31,8 @@ namespace UIDesign_EventSearch
             for (int i = 0; i < 20; i++)
             {
                 //CREATE A NEW CLASS THAT INHERITS FROM BUTTON (to link to event view page)
-                    //also give the text a border in that class's draw function
-                Button b = new Button();
-                b.Name = "Event";
-                b.Text = "Example event no. " + (i + 1);
-                b.Size = new System.Drawing.Size(150, 100);
-                b.Cursor = System.Windows.Forms.Cursors.Hand;
-                b.Image = UIDesign_EventSearch.Properties.Resources._event;
-                b.Tag = i;
-                b.Margin = new System.Windows.Forms.Padding(20);
+                //also give the text a border in that class's draw function
+                Button b = new EventButton("Event no. " + (i+1), "Example event description.", "TCC building", "N/A", "N/A", 5, 3, 0, i);
                 eventFlowLayout.Controls.Add(b);
             }
         }

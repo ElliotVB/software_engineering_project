@@ -44,9 +44,9 @@
             this.ContactsTableLayout = new System.Windows.Forms.TableLayoutPanel();
             this.Contact2 = new System.Windows.Forms.Label();
             this.Contact1 = new System.Windows.Forms.Label();
-            this.Price = new System.Windows.Forms.Label();
+            this.EventPrice = new System.Windows.Forms.Label();
             this.EventDescription = new System.Windows.Forms.Label();
-            this.Location = new System.Windows.Forms.Label();
+            this.EventLocation = new System.Windows.Forms.Label();
             this.navigationPanel.SuspendLayout();
             this.eventLayoutPanel.SuspendLayout();
             this.EventInfoLayoutPanel.SuspendLayout();
@@ -165,6 +165,7 @@
             this.buttonEvents.TabIndex = 1;
             this.buttonEvents.Text = "Events";
             this.buttonEvents.UseVisualStyleBackColor = true;
+            this.buttonEvents.Click += new System.EventHandler(this.buttonEvents_Click);
             // 
             // Book
             // 
@@ -231,9 +232,9 @@
             this.EventInfoLayoutPanel.ColumnCount = 1;
             this.EventInfoLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.EventInfoLayoutPanel.Controls.Add(this.ContactsTableLayout, 0, 3);
-            this.EventInfoLayoutPanel.Controls.Add(this.Price, 0, 2);
+            this.EventInfoLayoutPanel.Controls.Add(this.EventPrice, 0, 2);
             this.EventInfoLayoutPanel.Controls.Add(this.EventDescription, 0, 0);
-            this.EventInfoLayoutPanel.Controls.Add(this.Location, 0, 1);
+            this.EventInfoLayoutPanel.Controls.Add(this.EventLocation, 0, 1);
             this.EventInfoLayoutPanel.Location = new System.Drawing.Point(300, 79);
             this.EventInfoLayoutPanel.Margin = new System.Windows.Forms.Padding(0);
             this.EventInfoLayoutPanel.Name = "EventInfoLayoutPanel";
@@ -287,17 +288,17 @@
             this.Contact1.Text = "contact1@gmail.com";
             this.Contact1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // Price
+            // EventPrice
             // 
-            this.Price.AutoSize = true;
-            this.Price.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Price.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Price.Location = new System.Drawing.Point(3, 269);
-            this.Price.Name = "Price";
-            this.Price.Size = new System.Drawing.Size(495, 62);
-            this.Price.TabIndex = 1;
-            this.Price.Text = "Price";
-            this.Price.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.EventPrice.AutoSize = true;
+            this.EventPrice.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.EventPrice.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.EventPrice.Location = new System.Drawing.Point(3, 269);
+            this.EventPrice.Name = "EventPrice";
+            this.EventPrice.Size = new System.Drawing.Size(495, 62);
+            this.EventPrice.TabIndex = 1;
+            this.EventPrice.Text = "Price";
+            this.EventPrice.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // EventDescription
             // 
@@ -314,18 +315,18 @@
             this.EventDescription.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.EventDescription.Click += new System.EventHandler(this.EventDescription_Click);
             // 
-            // Location
+            // EventLocation
             // 
-            this.Location.AutoSize = true;
-            this.Location.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.Location.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Location.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Location.Location = new System.Drawing.Point(3, 218);
-            this.Location.Name = "Location";
-            this.Location.Size = new System.Drawing.Size(495, 51);
-            this.Location.TabIndex = 3;
-            this.Location.Text = "Event location";
-            this.Location.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.EventLocation.AutoSize = true;
+            this.EventLocation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.EventLocation.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.EventLocation.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.EventLocation.Location = new System.Drawing.Point(3, 218);
+            this.EventLocation.Name = "EventLocation";
+            this.EventLocation.Size = new System.Drawing.Size(495, 51);
+            this.EventLocation.TabIndex = 3;
+            this.EventLocation.Text = "Event location";
+            this.EventLocation.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // EventView
             // 
@@ -367,8 +368,8 @@
         private TableLayoutPanel ContactsTableLayout;
         private Label Contact2;
         private Label Contact1;
-        private Label Price;
+        private Label EventPrice;
         private Label EventDescription;
-        private Label Location;
+        private Label EventLocation;
     }
 }
