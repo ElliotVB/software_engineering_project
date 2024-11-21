@@ -35,12 +35,17 @@ namespace UIDesign_EventSearch
             this.memberDiscount = memberDiscount;
             this.accessRequired = accessRequired;
 
-            this.Text = name;
-            this.Size = new System.Drawing.Size(150, 100);
-            this.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Image = UIDesign_EventSearch.Properties.Resources._event;  //TEMP - should use imageLink
-            this.Tag = index;
-            this.Margin = new System.Windows.Forms.Padding(20);
+            Text = name;
+            TextAlign = ContentAlignment.BottomCenter;
+            Size = new System.Drawing.Size(150, 100);
+            Cursor = System.Windows.Forms.Cursors.Hand;
+            Image = UIDesign_EventSearch.Properties.Resources._event;  //TEMP - should use imageLink
+            BackgroundImageLayout = ImageLayout.Stretch;    //TEMP - stretch doesn't seem to be working
+            FlatAppearance.BorderSize = 0;
+            FlatStyle = FlatStyle.Flat;
+            Tag = index;
+            Margin = new System.Windows.Forms.Padding(20);
+            
         }
 
         protected override void OnClick(EventArgs e)
