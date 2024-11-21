@@ -12,5 +12,9 @@ namespace UIDesign_EventSearch
         //QUERIES
         public static string SELECTALL = "SELECT * FROM Event";
 
+        //FORMS
+        public static Form1 FormEventSearch = new Form1();
+        public static EventView FormEventView = new EventView();
+
     }
 }

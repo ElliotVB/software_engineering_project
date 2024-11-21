@@ -69,6 +69,7 @@
             this.navigationPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.navigationPanel.Size = new System.Drawing.Size(801, 80);
             this.navigationPanel.TabIndex = 0;
+            this.navigationPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.navigationPanel_Paint);
             // 
             // buttonProfile
             // 
@@ -207,12 +208,13 @@
             // 
             this.eventFlowLayout.AutoScroll = true;
             this.eventFlowLayout.AutoScrollMargin = new System.Drawing.Size(5, 5);
-            this.eventFlowLayout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(19)))), ((int)(((byte)(38)))));
+            this.eventFlowLayout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.eventFlowLayout.Location = new System.Drawing.Point(213, 111);
             this.eventFlowLayout.Margin = new System.Windows.Forms.Padding(0);
             this.eventFlowLayout.Name = "eventFlowLayout";
             this.eventFlowLayout.Size = new System.Drawing.Size(588, 338);
             this.eventFlowLayout.TabIndex = 4;
+            this.eventFlowLayout.Paint += new System.Windows.Forms.PaintEventHandler(this.eventFlowLayout_Paint);
             // 
             // pictureBox1
             // 
@@ -229,7 +231,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(19)))), ((int)(((byte)(38)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.searchBox);

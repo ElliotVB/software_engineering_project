@@ -8,9 +8,11 @@ namespace UIDesign_EventSearch
         {
             InitializeComponent();
         }
+
+        //TEMP: used to switch to other form
         private void buttonEvents_Click(object sender, EventArgs e)
         {
-
+            Consts.FormEventView.Show();    
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -18,25 +20,27 @@ namespace UIDesign_EventSearch
             //Establish connection to db
             //Send query to get all events from db
             //For each event, generate a button within eventFlowLayout
+
             GenerateEventsFromDB();
         }
 
         private void GenerateEventsFromDB()
         {
-            //Generates a button for each event within the database
-            //Temporarily disabled for now
-                //DataSet ds = DBConnectionClass.getInstanceOfDBConnection().getDataSet(Consts.SELECTALL);
+            // DataSet ds = DBConnectionClass.getInstanceOfDBConnection().getDataSet(Consts.SELECTALL);
 
             //TEMP - generates 20 "dummy" events
             for (int i = 0; i < 20; i++)
             {
+                //CREATE A NEW CLASS THAT INHERITS FROM BUTTON (to link to event view page)
+                    //also give the text a border in that class's draw function
                 Button b = new Button();
                 b.Name = "Event";
-                b.Text = "Example event no. " + (i+1);
+                b.Text = "Example event no. " + (i + 1);
                 b.Size = new System.Drawing.Size(150, 100);
                 b.Cursor = System.Windows.Forms.Cursors.Hand;
                 b.Image = UIDesign_EventSearch.Properties.Resources._event;
                 b.Tag = i;
+                b.Margin = new System.Windows.Forms.Padding(20);
                 eventFlowLayout.Controls.Add(b);
             }
         }
@@ -62,6 +66,16 @@ namespace UIDesign_EventSearch
         }
 
         private void button11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void navigationPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void eventFlowLayout_Paint(object sender, PaintEventArgs e)
         {
 
         }
