@@ -118,22 +118,70 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="calendar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\calendar2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TCClogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TCClogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="calendar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\calendar1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="3671896_circle_solid_user_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3671896_circle_solid_user_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="GridiconsSearch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GridiconsSearch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TCClogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TCClogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="event" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\event.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TCClogo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TCClogo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3671896_circle_solid_user_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3671896_circle_solid_user_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Event_AmayiRosePopUpShop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Event_AmayiRosePopUpShop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Event_ArtGathering" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Event_ArtGathering.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Event_CamLetsWinterCraftFair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Event_CamLetsWinterCraftFair.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Event_ConnectionsCafe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Event_ConnectionsCafe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Event_DayOfTheDeadShrineMaking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Event_DayOfTheDeadShrineMaking.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Event_DigitalOrientation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Event_DigitalOrientation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Event_FocusingWorkshop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Event_FocusingWorkshop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Event_FreshStartFridays" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Event_FreshStartFridays.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Event_LineAndWashPaintingClass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Event_LineAndWashPaintingClass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Event_MakaniDabkehClub" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Event_MakaniDabkehClub.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Event_MindfulKickBoxing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Event_MindfulKickBoxing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Event_MonthlyRestorativeRest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Event_MonthlyRestorativeRest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Event_StirUpSunday" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Event_StirUpSunday.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Event_StorySharingTeaParty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Event_StorySharingTeaParty.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Event_TurnUpAndWrite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Event_TurnUpAndWrite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

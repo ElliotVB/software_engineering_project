@@ -38,19 +38,12 @@
             this.calendarsPanel = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.calendar1 = new System.Windows.Forms.Panel();
-            this.eventsPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.searchBox = new System.Windows.Forms.TextBox();
+            this.eventFlowLayout = new System.Windows.Forms.FlowLayoutPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.navigationPanel.SuspendLayout();
             this.calendarsPanel.SuspendLayout();
-            this.eventsPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // navigationPanel
@@ -76,6 +69,7 @@
             this.navigationPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.navigationPanel.Size = new System.Drawing.Size(801, 80);
             this.navigationPanel.TabIndex = 0;
+            this.navigationPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.navigationPanel_Paint);
             // 
             // buttonProfile
             // 
@@ -200,183 +194,48 @@
             this.calendar1.Size = new System.Drawing.Size(207, 180);
             this.calendar1.TabIndex = 0;
             // 
-            // eventsPanel
+            // searchBox
             // 
-            this.eventsPanel.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.eventsPanel.ColumnCount = 3;
-            this.eventsPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.eventsPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.eventsPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.eventsPanel.Controls.Add(this.button4, 0, 2);
-            this.eventsPanel.Controls.Add(this.button3, 0, 2);
-            this.eventsPanel.Controls.Add(this.button2, 0, 2);
-            this.eventsPanel.Controls.Add(this.button1, 0, 0);
-            this.eventsPanel.Controls.Add(this.button5, 0, 1);
-            this.eventsPanel.Controls.Add(this.button6, 1, 1);
-            this.eventsPanel.Controls.Add(this.button8, 2, 1);
-            this.eventsPanel.Controls.Add(this.button7, 1, 0);
-            this.eventsPanel.Controls.Add(this.button9, 2, 0);
-            this.eventsPanel.Location = new System.Drawing.Point(213, 113);
-            this.eventsPanel.Margin = new System.Windows.Forms.Padding(0);
-            this.eventsPanel.Name = "eventsPanel";
-            this.eventsPanel.RowCount = 3;
-            this.eventsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.eventsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.eventsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.eventsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.eventsPanel.Size = new System.Drawing.Size(588, 340);
-            this.eventsPanel.TabIndex = 2;
+            this.searchBox.ForeColor = System.Drawing.Color.Gray;
+            this.searchBox.Location = new System.Drawing.Point(238, 83);
+            this.searchBox.Name = "searchBox";
+            this.searchBox.Size = new System.Drawing.Size(552, 23);
+            this.searchBox.TabIndex = 3;
+            this.searchBox.Text = "Search for events";
+            this.searchBox.Click += new System.EventHandler(this.searchBox_Clicked);
             // 
-            // button4
+            // eventFlowLayout
             // 
-            this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button4.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources._event;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(19, 229);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(157, 107);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Example event";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.button4.UseVisualStyleBackColor = true;
+            this.eventFlowLayout.AutoScroll = true;
+            this.eventFlowLayout.AutoScrollMargin = new System.Drawing.Size(5, 5);
+            this.eventFlowLayout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.eventFlowLayout.Location = new System.Drawing.Point(213, 111);
+            this.eventFlowLayout.Margin = new System.Windows.Forms.Padding(0);
+            this.eventFlowLayout.Name = "eventFlowLayout";
+            this.eventFlowLayout.Size = new System.Drawing.Size(588, 338);
+            this.eventFlowLayout.TabIndex = 4;
+            this.eventFlowLayout.Paint += new System.Windows.Forms.PaintEventHandler(this.eventFlowLayout_Paint);
             // 
-            // button3
+            // pictureBox1
             // 
-            this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button3.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources._event;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(214, 229);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(157, 107);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Example event";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources._event;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(410, 229);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(157, 107);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Example event";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources._event;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(19, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(157, 107);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Example event";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button5.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources._event;
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(19, 116);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(157, 107);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Example event";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button6.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources._event;
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(214, 116);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(157, 107);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Example event";
-            this.button6.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            this.button8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button8.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources._event;
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Location = new System.Drawing.Point(410, 116);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(157, 107);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "Example event";
-            this.button8.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            this.button7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button7.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources._event;
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(214, 3);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(157, 107);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "Example event";
-            this.button7.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button9.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources._event;
-            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(410, 3);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(157, 107);
-            this.button9.TabIndex = 8;
-            this.button9.Text = "Example event";
-            this.button9.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.button9.UseVisualStyleBackColor = true;
+            this.pictureBox1.BackColor = System.Drawing.Color.White;
+            this.pictureBox1.BackgroundImage = global::UIDesign_EventSearch.Properties.Resources.GridiconsSearch;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(217, 83);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(23, 23);
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.eventsPanel);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.searchBox);
+            this.Controls.Add(this.eventFlowLayout);
             this.Controls.Add(this.calendarsPanel);
             this.Controls.Add(this.navigationPanel);
             this.Name = "Form1";
@@ -384,8 +243,9 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.navigationPanel.ResumeLayout(false);
             this.calendarsPanel.ResumeLayout(false);
-            this.eventsPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -393,7 +253,6 @@
 
         private TableLayoutPanel navigationPanel;
         private TableLayoutPanel calendarsPanel;
-        private TableLayoutPanel eventsPanel;
         private Panel calendar1;
         private Panel panel1;
         private Button buttonHome;
@@ -402,14 +261,8 @@
         private Button buttonUsers;
         private Button buttonModules;
         private Button buttonProfile;
-        private Button button1;
-        private Button button4;
-        private Button button3;
-        private Button button2;
-        private Button button5;
-        private Button button6;
-        private Button button8;
-        private Button button7;
-        private Button button9;
+        private TextBox searchBox;
+        private FlowLayoutPanel eventFlowLayout;
+        private PictureBox pictureBox1;
     }
 }
