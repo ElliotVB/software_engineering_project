@@ -28,8 +28,8 @@ namespace TCC_App
             Display.Controls.Add(new placeholder(this));
         }
 
+
         //Switches Display to show the form passed to the method
-        //An example use of this method is present within "placeholder.cs"
         public void SwitchForm(UserControl form)
         {
             Display.Controls.Clear();
