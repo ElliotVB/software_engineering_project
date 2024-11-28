@@ -7,5 +7,8 @@
     <Compile Update="placeholder.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UI_EventSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

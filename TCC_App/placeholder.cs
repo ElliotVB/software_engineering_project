@@ -10,6 +10,8 @@ using System.Windows.Forms;
 
 namespace TCC_App
 {
+    //Creator: Elliot
+
     //Placeholder User Control which the project will load into (until it is eventually replaced with the login screen)
     //Contains buttons which link directly to other User Controls, so that we can navigate the project before the navigation bar has been implemented
 
@@ -30,11 +32,10 @@ namespace TCC_App
         }
 
 
-        //Example function to show how to use SwitchForm
-        //This would just switch the form to a new placeholder - although SwitchForm should be used to switch between different forms
-        private void Example()
+        //Displays the event search page
+        private void buttonEvents_Click(object sender, EventArgs e)
         {
-            form.SwitchForm(new placeholder(form));
+            form.SwitchForm(new UI_EventSearch(form));
         }
     }
 }

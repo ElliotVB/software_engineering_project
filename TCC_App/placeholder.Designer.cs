@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.buttonEvents = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -40,10 +41,21 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "placeholder user form";
             // 
+            // buttonEvents
+            // 
+            this.buttonEvents.Location = new System.Drawing.Point(3, 41);
+            this.buttonEvents.Name = "buttonEvents";
+            this.buttonEvents.Size = new System.Drawing.Size(95, 35);
+            this.buttonEvents.TabIndex = 1;
+            this.buttonEvents.Text = "Event search";
+            this.buttonEvents.UseVisualStyleBackColor = true;
+            this.buttonEvents.Click += new System.EventHandler(this.buttonEvents_Click);
+            // 
             // placeholder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.buttonEvents);
             this.Controls.Add(this.label1);
             this.Name = "placeholder";
             this.Size = new System.Drawing.Size(523, 346);
@@ -55,5 +67,6 @@
         #endregion
 
         private Label label1;
+        private Button buttonEvents;
     }
 }

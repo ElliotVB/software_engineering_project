@@ -11,13 +11,15 @@ using System.Windows.Forms;
 
 namespace TCC_App
 {
+    //Creator: Elliot
+
+    //Contains a single panel called "Display"
+    //Different UserControls can be loaded into Display to make them show on the form
+    //When loading a form, a reference to this form must be passed to its constructor - this allows it to call SwitchForm
+    //VERY IMPORTANT - The constructor for all User Forms must be edited to take a reference to this form, which must be stored in a local "FormUI" variable
+        //View "placeholder.cs" for an example of this
     public partial class FormUI : Form
     {
-        //Contains a single panel called "Display"
-        //Different UserControls can be loaded into Display to make them show on the form
-        //When loading a form, a reference to this form must be passed to its constructor - this allows it to call SwitchForm
-        //VERY IMPORTANT - The constructor for all User Forms must be edited to take a reference to this form, which must be stored in a local "FormUI" variable
-            //View "placeholder.cs" for an example of this
         public FormUI()
         {
             InitializeComponent();
