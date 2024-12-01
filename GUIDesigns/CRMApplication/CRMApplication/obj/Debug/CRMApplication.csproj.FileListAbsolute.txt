@@ -1,0 +1,48 @@
+D:\TAYYAB\Fiverr Projects\CRMApplication\CRMApplication\bin\Debug\CRMApplication.exe.config
+D:\TAYYAB\Fiverr Projects\CRMApplication\CRMApplication\bin\Debug\CRMApplication.exe
+D:\TAYYAB\Fiverr Projects\CRMApplication\CRMApplication\bin\Debug\CRMApplication.pdb
+D:\TAYYAB\Fiverr Projects\CRMApplication\CRMApplication\obj\Debug\CRMApplication.csproj.AssemblyReference.cache
+D:\TAYYAB\Fiverr Projects\CRMApplication\CRMApplication\obj\Debug\CRMApplication.Form1.resources
+D:\TAYYAB\Fiverr Projects\CRMApplication\CRMApplication\obj\Debug\CRMApplication.Properties.Resources.resources
+D:\TAYYAB\Fiverr Projects\CRMApplication\CRMApplication\obj\Debug\CRMApplication.csproj.GenerateResource.cache
+D:\TAYYAB\Fiverr Projects\CRMApplication\CRMApplication\obj\Debug\CRMApplication.csproj.CoreCompileInputs.cache
+D:\TAYYAB\Fiverr Projects\CRMApplication\CRMApplication\obj\Debug\CRMApplication.exe
+D:\TAYYAB\Fiverr Projects\CRMApplication\CRMApplication\obj\Debug\CRMApplication.pdb
+D:\TAYYAB\Fiverr Projects\CRMApplication\CRMApplication\obj\Debug\CRMApplication.AddUserControl.resources
+D:\TAYYAB\Fiverr Projects\CRMApplication\CRMApplication\obj\Debug\CRMApplication.EditPermissionsControl.resources
+D:\TAYYAB\Fiverr Projects\CRMApplication\CRMApplication\obj\Debug\CRMApplication.ScheduleAnnouncementControl.resources
+D:\TAYYAB\Fiverr Projects\CRMApplication\CRMApplication\obj\Debug\CRMApplication.ViewAnalyticsControl.resources
+D:\TAYYAB\Fiverr Projects\CRMApplication\CRMApplication\obj\Debug\CRMApplication.ViewFeedbackControl.resources
+D:\TAYYAB\Fiverr Projects\CRMApplication\CRMApplication\obj\Debug\CRMApplication.ViewTasksControl.resources
+C:\Users\brota\OneDrive\Desktop\Admin CRM Together Culture\CRMApplication\CRMApplication\bin\Debug\CRMApplication.exe.config
+C:\Users\brota\OneDrive\Desktop\Admin CRM Together Culture\CRMApplication\CRMApplication\bin\Debug\CRMApplication.exe
+C:\Users\brota\OneDrive\Desktop\Admin CRM Together Culture\CRMApplication\CRMApplication\bin\Debug\CRMApplication.pdb
+C:\Users\brota\OneDrive\Desktop\Admin CRM Together Culture\CRMApplication\CRMApplication\obj\Debug\CRMApplication.csproj.AssemblyReference.cache
+C:\Users\brota\OneDrive\Desktop\Admin CRM Together Culture\CRMApplication\CRMApplication\obj\Debug\CRMApplication.AddUserControl.resources
+C:\Users\brota\OneDrive\Desktop\Admin CRM Together Culture\CRMApplication\CRMApplication\obj\Debug\CRMApplication.EditPermissionsControl.resources
+C:\Users\brota\OneDrive\Desktop\Admin CRM Together Culture\CRMApplication\CRMApplication\obj\Debug\CRMApplication.Form1.resources
+C:\Users\brota\OneDrive\Desktop\Admin CRM Together Culture\CRMApplication\CRMApplication\obj\Debug\CRMApplication.Properties.Resources.resources
+C:\Users\brota\OneDrive\Desktop\Admin CRM Together Culture\CRMApplication\CRMApplication\obj\Debug\CRMApplication.ScheduleAnnouncementControl.resources
+C:\Users\brota\OneDrive\Desktop\Admin CRM Together Culture\CRMApplication\CRMApplication\obj\Debug\CRMApplication.ViewAnalyticsControl.resources
+C:\Users\brota\OneDrive\Desktop\Admin CRM Together Culture\CRMApplication\CRMApplication\obj\Debug\CRMApplication.ViewFeedbackControl.resources
+C:\Users\brota\OneDrive\Desktop\Admin CRM Together Culture\CRMApplication\CRMApplication\obj\Debug\CRMApplication.ViewTasksControl.resources
+C:\Users\brota\OneDrive\Desktop\Admin CRM Together Culture\CRMApplication\CRMApplication\obj\Debug\CRMApplication.csproj.GenerateResource.cache
+C:\Users\brota\OneDrive\Desktop\Admin CRM Together Culture\CRMApplication\CRMApplication\obj\Debug\CRMApplication.csproj.CoreCompileInputs.cache
+C:\Users\brota\OneDrive\Desktop\Admin CRM Together Culture\CRMApplication\CRMApplication\obj\Debug\CRMApplication.exe
+C:\Users\brota\OneDrive\Desktop\Admin CRM Together Culture\CRMApplication\CRMApplication\obj\Debug\CRMApplication.pdb
+C:\Users\brota\OneDrive\Desktop\CRM old\CRMApplication\CRMApplication\obj\Debug\CRMApplication.csproj.AssemblyReference.cache
+C:\Users\brota\OneDrive\Desktop\CRM old\CRMApplication\CRMApplication\obj\Debug\CRMApplication.AddUserControl.resources
+C:\Users\brota\OneDrive\Desktop\CRM old\CRMApplication\CRMApplication\obj\Debug\CRMApplication.EditPermissionsControl.resources
+C:\Users\brota\OneDrive\Desktop\CRM old\CRMApplication\CRMApplication\obj\Debug\CRMApplication.Form1.resources
+C:\Users\brota\OneDrive\Desktop\CRM old\CRMApplication\CRMApplication\obj\Debug\CRMApplication.Properties.Resources.resources
+C:\Users\brota\OneDrive\Desktop\CRM old\CRMApplication\CRMApplication\obj\Debug\CRMApplication.ScheduleAnnouncementControl.resources
+C:\Users\brota\OneDrive\Desktop\CRM old\CRMApplication\CRMApplication\obj\Debug\CRMApplication.ViewAnalyticsControl.resources
+C:\Users\brota\OneDrive\Desktop\CRM old\CRMApplication\CRMApplication\obj\Debug\CRMApplication.ViewFeedbackControl.resources
+C:\Users\brota\OneDrive\Desktop\CRM old\CRMApplication\CRMApplication\obj\Debug\CRMApplication.ViewTasksControl.resources
+C:\Users\brota\OneDrive\Desktop\CRM old\CRMApplication\CRMApplication\obj\Debug\CRMApplication.csproj.GenerateResource.cache
+C:\Users\brota\OneDrive\Desktop\CRM old\CRMApplication\CRMApplication\obj\Debug\CRMApplication.csproj.CoreCompileInputs.cache
+C:\Users\brota\OneDrive\Desktop\CRM old\CRMApplication\CRMApplication\obj\Debug\CRMApplication.exe
+C:\Users\brota\OneDrive\Desktop\CRM old\CRMApplication\CRMApplication\obj\Debug\CRMApplication.pdb
+C:\Users\brota\OneDrive\Desktop\CRM old\CRMApplication\CRMApplication\bin\Debug\CRMApplication.exe.config
+C:\Users\brota\OneDrive\Desktop\CRM old\CRMApplication\CRMApplication\bin\Debug\CRMApplication.exe
+C:\Users\brota\OneDrive\Desktop\CRM old\CRMApplication\CRMApplication\bin\Debug\CRMApplication.pdb
