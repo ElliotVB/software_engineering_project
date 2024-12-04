@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Software_Engineering_2024.Properties {
+namespace UIDesign_EventSearch.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Software_Engineering_2024.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Software_Engineering_2024.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("UIDesign_EventSearch.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -57,6 +57,26 @@ namespace Software_Engineering_2024.Properties {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3671896_circle_solid_user_icon {
+            get {
+                object obj = ResourceManager.GetObject("3671896_circle_solid_user_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _event {
+            get {
+                object obj = ResourceManager.GetObject("event", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -83,9 +103,159 @@ namespace Software_Engineering_2024.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap profilePic {
+        internal static System.Drawing.Bitmap Event_AmayiRosePopUpShop {
             get {
-                object obj = ResourceManager.GetObject("profilePic", resourceCulture);
+                object obj = ResourceManager.GetObject("Event_AmayiRosePopUpShop", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Event_ArtGathering {
+            get {
+                object obj = ResourceManager.GetObject("Event_ArtGathering", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Event_CamLetsWinterCraftFair {
+            get {
+                object obj = ResourceManager.GetObject("Event_CamLetsWinterCraftFair", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Event_ConnectionsCafe {
+            get {
+                object obj = ResourceManager.GetObject("Event_ConnectionsCafe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Event_DayOfTheDeadShrineMaking {
+            get {
+                object obj = ResourceManager.GetObject("Event_DayOfTheDeadShrineMaking", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Event_DigitalOrientation {
+            get {
+                object obj = ResourceManager.GetObject("Event_DigitalOrientation", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Event_FocusingWorkshop {
+            get {
+                object obj = ResourceManager.GetObject("Event_FocusingWorkshop", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Event_FreshStartFridays {
+            get {
+                object obj = ResourceManager.GetObject("Event_FreshStartFridays", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Event_LineAndWashPaintingClass {
+            get {
+                object obj = ResourceManager.GetObject("Event_LineAndWashPaintingClass", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Event_MakaniDabkehClub {
+            get {
+                object obj = ResourceManager.GetObject("Event_MakaniDabkehClub", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Event_MindfulKickBoxing {
+            get {
+                object obj = ResourceManager.GetObject("Event_MindfulKickBoxing", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Event_MonthlyRestorativeRest {
+            get {
+                object obj = ResourceManager.GetObject("Event_MonthlyRestorativeRest", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Event_StirUpSunday {
+            get {
+                object obj = ResourceManager.GetObject("Event_StirUpSunday", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Event_StorySharingTeaParty {
+            get {
+                object obj = ResourceManager.GetObject("Event_StorySharingTeaParty", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Event_TurnUpAndWrite {
+            get {
+                object obj = ResourceManager.GetObject("Event_TurnUpAndWrite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap GridiconsSearch {
+            get {
+                object obj = ResourceManager.GetObject("GridiconsSearch", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -96,6 +266,16 @@ namespace Software_Engineering_2024.Properties {
         internal static System.Drawing.Bitmap TCClogo {
             get {
                 object obj = ResourceManager.GetObject("TCClogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TCClogo1 {
+            get {
+                object obj = ResourceManager.GetObject("TCClogo1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
