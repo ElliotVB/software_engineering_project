@@ -19,6 +19,7 @@ namespace TCC_App
         private string eventLink;
         private string imageLink;
         private string location;
+        public DateTime dateTime { get; }
 
         private int cost;
         private int memberDiscount;
@@ -34,13 +35,14 @@ namespace TCC_App
         //Switches form to EventView when pressed
         //Loads EventView with the information contained within this button
 
-        public EventButton(FormUI form, string name, string description, string location, string eventLink, string imageLink, int cost, int memberDiscount, int accessRequired, int index)
+        public EventButton(FormUI form, string name, string description, string location, DateTime dateTime, string eventLink, string imageLink, int cost, int memberDiscount, int accessRequired, int index)
         {
             this.form = form;
 
             this.name = name;
             this.description = description;
             this.location = location;
+            this.dateTime = dateTime;
             this.eventLink = eventLink;
             this.imageLink = imageLink;
             this.cost = cost;
@@ -73,10 +75,10 @@ namespace TCC_App
         //Loads UI_EventView into Display
         protected override void OnClick(EventArgs e)
         {
-            form.SwitchForm(new UI_EventInformation(form, name, description, location, eventLink, imageLink, cost, memberDiscount, accessRequired));
+            form.SwitchForm(new UI_EventInformation(form, name, description, location, dateTime, eventLink, imageLink, cost, memberDiscount, accessRequired));
 
             /*OLD IMPLEMENTATION
-            Consts.FormEventView.InitializeDetails(name, description, location, eventLink, imageLink, cost, memberDiscount, accessRequired);
+            Consts.FormEventView.InitializeDetails(name, description, location, dateTime, eventLink, imageLink, cost, memberDiscount, accessRequired);
             Consts.FormEventView.Show();
             Consts.FormEventSearch.Hide();
             */
