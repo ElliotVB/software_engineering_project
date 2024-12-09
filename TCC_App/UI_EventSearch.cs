@@ -39,6 +39,8 @@ namespace TCC_App
         //Generates a set of events within the event layout
         //Only shows events which contin the searchTerm (which is empty by default, resulting in all events being shown)
         //Currently just generates "dummy" events - will eventually be changed to generate events from the DB
+        //NOTE - split this into different functions after DB is implemented
+        //NOTE - add some sort of verification for if the current date is before today
         private void GenerateEventsFromDB(string searchTerm = "")
         {
             //Clears events from layout if any exist
@@ -47,24 +49,52 @@ namespace TCC_App
                 eventFlowLayout.Controls.Clear();
             }
 
+            //Stores events taken from the DB
+            List<EventButton> events = new List<EventButton>();
 
-
-            //Tgenerates 20 "dummy" events
+            //TEMP - Generates 20 "dummy" events
+            //Shoud be replaced with a loop which gets events from DB (if they match search)
             for (int i = 0; i < 20; i++)
             {
-                //CREATE A NEW CLASS THAT INHERITS FROM BUTTON (to link to event view page)
-                //also give the text a border in that class's draw function
-                EventButton b = new EventButton(form, "Event no. " + (i + 1), "Example event description.", "TCC building", "N/A", "N/A", 5, 3, 0, i);
-
-                //Checks if event matches search term
-                //TEMP - this check should be called when the EventButton, not when it is added to the flow layout. It's here for now until the DB is implemented.
-
-                if (global.CheckSearchTerm(b.GetInfoForSearch(), searchTerm))
+                EventButton e = new EventButton(form, "Event no. " + (i + 1), "Example event description.", "TCC building", new DateTime(2025, 1, i + 1, 18, 30, 0), "N/A", "N/A", 5, 3, 0, i);
+                //Checking search term + if date has already passed
+                if (global.CheckSearchTerm(e.GetInfoForSearch(), searchTerm) && !global.HasDateTimePassed(e.dateTime))
                 {
-                    eventFlowLayout.Controls.Add(b);
+                    events.Add(e);
                 }
             }
+
+            DisplayEvents(events);
+
         }
+
+        //Adds events to the UI in chronological order
+        private void DisplayEvents(List<EventButton> events)
+        {
+            //Iterates through events until all have been added
+            while(events.Count > 0)
+            {
+                //Stores the earliest DateTime within events
+                DateTime earliest = DateTime.MaxValue;
+                //Stores the index of the earliest events
+                int index = 0;
+
+                //Finds the earliest event, and stores its index
+                foreach (EventButton e in events)
+                {
+                    if (e.dateTime < earliest)
+                    {
+                        earliest = e.dateTime;
+                        index = events.IndexOf(e);
+                    }
+                }
+
+                //Event is removed from the list when added
+                eventFlowLayout.Controls.Add(events[index]);
+                events.RemoveAt(index);
+            }
+        }
+
 
         //Deletes the default text in the search box the first time it's clicked
         private void searchBox_Clicked(object sender, EventArgs e)
