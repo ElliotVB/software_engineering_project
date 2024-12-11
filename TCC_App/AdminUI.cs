@@ -11,15 +11,15 @@ using TCC_App;
 
 namespace CRMApplication
 {
-    public partial class UI_AdminView : Form
+    public partial class AdminUI : Form
     {
         private FormUI form;
 
-        public UI_AdminView()
+        public AdminUI()
         {
             InitializeComponent();
-            this.form = new FormUI();
-            ShowUserControl(new ViewAddUserControl());
+            this.form = new FormUI(); 
+            ShowUserControl(new AddUserControl());
 
         }
 
@@ -46,7 +46,7 @@ namespace CRMApplication
 
         private void btnAddUser(object sender, EventArgs e)
         {
-            ShowUserControl(new ViewAddUserControl());
+            ShowUserControl(new AddUserControl());
 
         }
 
@@ -73,11 +73,6 @@ namespace CRMApplication
             form.SwitchForm(new placeholder(form));
             form.Show();
             this.Close();
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

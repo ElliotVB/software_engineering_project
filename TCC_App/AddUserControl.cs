@@ -12,9 +12,9 @@ using Org.BouncyCastle.Asn1.Cmp;
 
 namespace CRMApplication
 {
-    public partial class ViewAddUserControl : UserControl
+    public partial class AddUserControl : UserControl
     {
-        public ViewAddUserControl()
+        public AddUserControl()
         {
             InitializeComponent();
             txtHashedPassword.PasswordChar = '*';

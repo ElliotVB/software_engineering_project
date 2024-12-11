@@ -1,6 +1,6 @@
 ﻿namespace CRMApplication
 {
-    partial class UI_AdminView
+    partial class AdminUI
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UI_AdminView));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminUI));
             panel1 = new Panel();
             pictureBox5 = new PictureBox();
             pictureBox4 = new PictureBox();
@@ -36,7 +36,6 @@
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
             panel3 = new Panel();
-            buttonHome = new Button();
             panel2 = new Panel();
             btnViewTasks = new Button();
             btnViewFeedback = new Button();
@@ -46,6 +45,7 @@
             btnScheduleAnnouncement = new Button();
             panelMain = new Panel();
             label4 = new Label();
+            buttonHome = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
@@ -58,7 +58,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.FromArgb(254, 30, 60);
+            panel1.BackColor = Color.FromArgb(192, 0, 16);
             panel1.Controls.Add(pictureBox5);
             panel1.Controls.Add(pictureBox4);
             panel1.Controls.Add(pictureBox3);
@@ -67,18 +67,18 @@
             panel1.Controls.Add(panel3);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
-            panel1.Margin = new Padding(2);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(931, 75);
+            panel1.Size = new Size(1330, 125);
             panel1.TabIndex = 0;
             // 
             // pictureBox5
             // 
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(841, 29);
-            pictureBox5.Margin = new Padding(2);
+            pictureBox5.Location = new Point(1202, 49);
+            pictureBox5.Margin = new Padding(3, 4, 3, 4);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(42, 39);
+            pictureBox5.Size = new Size(66, 65);
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 1;
             pictureBox5.TabStop = false;
@@ -86,10 +86,10 @@
             // pictureBox4
             // 
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(671, 29);
-            pictureBox4.Margin = new Padding(2);
+            pictureBox4.Location = new Point(959, 49);
+            pictureBox4.Margin = new Padding(3, 4, 3, 4);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(43, 39);
+            pictureBox4.Size = new Size(66, 65);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 1;
             pictureBox4.TabStop = false;
@@ -97,10 +97,10 @@
             // pictureBox3
             // 
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(511, 29);
-            pictureBox3.Margin = new Padding(2);
+            pictureBox3.Location = new Point(730, 49);
+            pictureBox3.Margin = new Padding(3, 4, 3, 4);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(41, 39);
+            pictureBox3.Size = new Size(66, 65);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 1;
             pictureBox3.TabStop = false;
@@ -108,10 +108,10 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(340, 29);
-            pictureBox2.Margin = new Padding(2);
+            pictureBox2.Location = new Point(486, 49);
+            pictureBox2.Margin = new Padding(3, 4, 3, 4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(46, 39);
+            pictureBox2.Size = new Size(66, 65);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 1;
             pictureBox2.TabStop = false;
@@ -119,10 +119,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(186, 29);
-            pictureBox1.Margin = new Padding(2);
+            pictureBox1.Location = new Point(266, 49);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(43, 39);
+            pictureBox1.Size = new Size(66, 65);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
@@ -130,52 +130,33 @@
             // panel3
             // 
             panel3.Controls.Add(buttonHome);
-            panel3.Location = new Point(7, 2);
-            panel3.Margin = new Padding(2);
+            panel3.Location = new Point(10, 3);
             panel3.Name = "panel3";
-            panel3.Size = new Size(128, 71);
+            panel3.Size = new Size(123, 119);
             panel3.TabIndex = 2;
-            // 
-            // buttonHome
-            // 
-            buttonHome.BackColor = Color.FromArgb(254, 30, 60);
-            buttonHome.BackgroundImageLayout = ImageLayout.None;
-            buttonHome.FlatStyle = FlatStyle.Popup;
-            buttonHome.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            buttonHome.ForeColor = SystemColors.ButtonFace;
-            buttonHome.Image = TCC_App.Properties.Resources.TCClogo;
-            buttonHome.Location = new Point(-4, 0);
-            buttonHome.Margin = new Padding(2);
-            buttonHome.Name = "buttonHome";
-            buttonHome.Size = new Size(132, 73);
-            buttonHome.TabIndex = 3;
-            buttonHome.TextAlign = ContentAlignment.MiddleLeft;
-            buttonHome.UseVisualStyleBackColor = false;
-            buttonHome.Click += buttonHome_Click;
             // 
             // panel2
             // 
             panel2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
-            panel2.BackColor = Color.FromArgb(254, 30, 60);
+            panel2.BackColor = Color.FromArgb(192, 0, 16);
             panel2.Controls.Add(btnViewTasks);
             panel2.Controls.Add(btnViewFeedback);
             panel2.Controls.Add(btnAddUsers);
             panel2.Controls.Add(AddUser);
             panel2.Controls.Add(btnViewAnalytics);
             panel2.Controls.Add(btnScheduleAnnouncement);
-            panel2.Location = new Point(0, 83);
-            panel2.Margin = new Padding(2);
+            panel2.Location = new Point(0, 138);
+            panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.Name = "panel2";
-            panel2.Size = new Size(155, 501);
+            panel2.Size = new Size(222, 835);
             panel2.TabIndex = 1;
-            panel2.Paint += panel2_Paint;
             // 
             // btnViewTasks
             // 
-            btnViewTasks.Location = new Point(2, 359);
-            btnViewTasks.Margin = new Padding(2);
+            btnViewTasks.Location = new Point(3, 599);
+            btnViewTasks.Margin = new Padding(3, 4, 3, 4);
             btnViewTasks.Name = "btnViewTasks";
-            btnViewTasks.Size = new Size(148, 44);
+            btnViewTasks.Size = new Size(211, 74);
             btnViewTasks.TabIndex = 5;
             btnViewTasks.Text = "Review Admin Requests";
             btnViewTasks.UseVisualStyleBackColor = true;
@@ -183,10 +164,10 @@
             // 
             // btnViewFeedback
             // 
-            btnViewFeedback.Location = new Point(3, 293);
-            btnViewFeedback.Margin = new Padding(2);
+            btnViewFeedback.Location = new Point(4, 488);
+            btnViewFeedback.Margin = new Padding(3, 4, 3, 4);
             btnViewFeedback.Name = "btnViewFeedback";
-            btnViewFeedback.Size = new Size(148, 44);
+            btnViewFeedback.Size = new Size(211, 74);
             btnViewFeedback.TabIndex = 4;
             btnViewFeedback.Text = "View Feedback";
             btnViewFeedback.UseVisualStyleBackColor = true;
@@ -194,10 +175,10 @@
             // 
             // btnAddUsers
             // 
-            btnAddUsers.Location = new Point(2, 226);
-            btnAddUsers.Margin = new Padding(2);
+            btnAddUsers.Location = new Point(3, 376);
+            btnAddUsers.Margin = new Padding(3, 4, 3, 4);
             btnAddUsers.Name = "btnAddUsers";
-            btnAddUsers.Size = new Size(148, 44);
+            btnAddUsers.Size = new Size(211, 74);
             btnAddUsers.TabIndex = 3;
             btnAddUsers.Text = "Remove Users";
             btnAddUsers.UseVisualStyleBackColor = true;
@@ -205,10 +186,10 @@
             // 
             // AddUser
             // 
-            AddUser.Location = new Point(3, 162);
-            AddUser.Margin = new Padding(2);
+            AddUser.Location = new Point(4, 270);
+            AddUser.Margin = new Padding(3, 4, 3, 4);
             AddUser.Name = "AddUser";
-            AddUser.Size = new Size(148, 44);
+            AddUser.Size = new Size(211, 74);
             AddUser.TabIndex = 2;
             AddUser.Text = "Add Users";
             AddUser.UseVisualStyleBackColor = true;
@@ -216,10 +197,10 @@
             // 
             // btnViewAnalytics
             // 
-            btnViewAnalytics.Location = new Point(3, 101);
-            btnViewAnalytics.Margin = new Padding(2);
+            btnViewAnalytics.Location = new Point(4, 168);
+            btnViewAnalytics.Margin = new Padding(3, 4, 3, 4);
             btnViewAnalytics.Name = "btnViewAnalytics";
-            btnViewAnalytics.Size = new Size(148, 44);
+            btnViewAnalytics.Size = new Size(211, 74);
             btnViewAnalytics.TabIndex = 1;
             btnViewAnalytics.Text = "View User Tags";
             btnViewAnalytics.UseVisualStyleBackColor = true;
@@ -227,10 +208,10 @@
             // 
             // btnScheduleAnnouncement
             // 
-            btnScheduleAnnouncement.Location = new Point(3, 41);
-            btnScheduleAnnouncement.Margin = new Padding(2);
+            btnScheduleAnnouncement.Location = new Point(4, 69);
+            btnScheduleAnnouncement.Margin = new Padding(3, 4, 3, 4);
             btnScheduleAnnouncement.Name = "btnScheduleAnnouncement";
-            btnScheduleAnnouncement.Size = new Size(148, 44);
+            btnScheduleAnnouncement.Size = new Size(211, 74);
             btnScheduleAnnouncement.TabIndex = 0;
             btnScheduleAnnouncement.Text = "View Current Visitors";
             btnScheduleAnnouncement.UseVisualStyleBackColor = true;
@@ -239,34 +220,48 @@
             // panelMain
             // 
             panelMain.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            panelMain.Location = new Point(165, 114);
-            panelMain.Margin = new Padding(2);
+            panelMain.Location = new Point(236, 190);
+            panelMain.Margin = new Padding(3, 4, 3, 4);
             panelMain.Name = "panelMain";
-            panelMain.Size = new Size(766, 469);
+            panelMain.Size = new Size(1094, 782);
             panelMain.TabIndex = 2;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(160, 83);
-            label4.Margin = new Padding(2, 0, 2, 0);
+            label4.Location = new Point(229, 138);
             label4.Name = "label4";
-            label4.Size = new Size(201, 25);
+            label4.Size = new Size(295, 36);
             label4.TabIndex = 0;
             label4.Text = "Administrative View";
             // 
-            // UI_AdminView
+            // buttonHome
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            buttonHome.BackColor = Color.FromArgb(192, 0, 16);
+            buttonHome.BackgroundImageLayout = ImageLayout.None;
+            buttonHome.FlatStyle = FlatStyle.Popup;
+            buttonHome.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonHome.ForeColor = Color.White;
+            buttonHome.Location = new Point(-10, -3);
+            buttonHome.Name = "buttonHome";
+            buttonHome.Size = new Size(133, 125);
+            buttonHome.TabIndex = 3;
+            buttonHome.Text = "Together Culture Cambridge";
+            buttonHome.UseVisualStyleBackColor = false;
+            buttonHome.Click += buttonHome_Click;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(931, 583);
+            ClientSize = new Size(1330, 972);
             Controls.Add(label4);
             Controls.Add(panelMain);
             Controls.Add(panel2);
             Controls.Add(panel1);
-            Margin = new Padding(2);
-            Name = "UI_AdminView";
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             panel1.ResumeLayout(false);

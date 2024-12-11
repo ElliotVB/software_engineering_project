@@ -1,6 +1,6 @@
 ﻿namespace CRMApplication
 {
-    partial class ViewAddUserControl
+    partial class AddUserControl
     {
         /// <summary> 
         /// Required designer variable.

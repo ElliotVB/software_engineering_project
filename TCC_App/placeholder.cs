@@ -41,7 +41,7 @@ namespace TCC_App
 
         private void btnAdminView_Click(object sender, EventArgs e)
         {
-            UI_AdminView adminUIForm = new UI_AdminView();
+            AdminUI adminUIForm = new AdminUI();
             adminUIForm.ShowDialog();
             Form parentForm = this.FindForm();
             if (parentForm != null)

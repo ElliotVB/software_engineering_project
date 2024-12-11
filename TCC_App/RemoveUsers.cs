@@ -35,10 +35,10 @@ namespace CRMApplication
             dataTable.Columns.Add("Email", typeof(string));
             dataTable.Columns.Add("Status", typeof(string));
 
-            dataTable.Rows.Add(1, "Jason", "Philips", "1234567890", "jasonp@example.com", "Active");
-            dataTable.Rows.Add(4, "Ronald", "Watson", "0987654321", "ronaldw@example.com", "Active");
-            dataTable.Rows.Add(5, "Lisa", "Bennett", "1112223333", "lisab@example.com", "Inactive");
-            dataTable.Rows.Add(6, "Margaret", "Hall", "2223334444", "margareth@example.com", "Active");
+            dataTable.Rows.Add(1, "Tayyab", "J", "1234567890", "tayyab@example.com", "Active");
+            dataTable.Rows.Add(4, "Ali", "K", "0987654321", "ali@example.com", "Active");
+            dataTable.Rows.Add(5, "Ahmed", "B", "1112223333", "ahmed@example.com", "Inactive");
+            dataTable.Rows.Add(6, "Agha", "W", "2223334444", "agha@example.com", "Active");
 
             dataGridViewUsers.DataSource = dataTable;
         }
