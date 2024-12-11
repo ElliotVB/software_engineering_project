@@ -50,10 +50,10 @@ namespace TCC_App
             this.accessRequired = accessRequired;
 
             Text = name;
-            TextAlign = ContentAlignment.BottomCenter;
+            TextAlign = ContentAlignment.BottomRight;
             Size = new System.Drawing.Size(150, 100);
             Cursor = System.Windows.Forms.Cursors.Hand;
-            Image = TCC_App.Properties.Resources._event;  //TEMP - should use imageLink to find link to correct image
+            BackgroundImage = TCC_App.Properties.Resources._event;  //TEMP - should use imageLink to find link to correct image
             BackgroundImageLayout = ImageLayout.Stretch;    //BUG - stretch doesn't seem to be working
             FlatAppearance.BorderSize = 0;
             FlatStyle = FlatStyle.Flat;
@@ -76,12 +76,6 @@ namespace TCC_App
         protected override void OnClick(EventArgs e)
         {
             form.SwitchForm(new UI_EventInformation(form, name, description, location, dateTime, eventLink, imageLink, cost, memberDiscount, accessRequired));
-
-            /*OLD IMPLEMENTATION
-            Consts.FormEventView.InitializeDetails(name, description, location, eventLink, imageLink, cost, memberDiscount, accessRequired);
-            Consts.FormEventView.Show();
-            Consts.FormEventSearch.Hide();
-            */
         }
     }
 }

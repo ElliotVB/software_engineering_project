@@ -1,0 +1,123 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace TCC_App
+{
+    //Creator: Elliot
+
+    //Displys a list of buttons which link to different user profiles
+    //Search bar can be used to filter users
+    public partial class UI_UserSearch : UserControl
+    {
+        FormUI form;
+        public UI_UserSearch(FormUI form)
+        {
+            InitializeComponent();
+
+            this.form = form;
+
+            //This is done in code since the foreColour is used in searchBox_Clicked()
+            searchBox.ForeColor = global.DefaultSearchBoxColour;
+
+            GenerateUsersFromDB();
+        }
+
+        //Generates a set of users within the user layout
+        //Only shows users which contin the searchTerm (which is empty by default, resulting in all users being shown)
+        //Currently just generates "dummy" users - will eventually be changed to generate users from the DB
+        //NOTE - split this into different functions after DB is implemented
+        private void GenerateUsersFromDB(string searchTerm = "")
+        {
+            //Clears users from layout if any exist
+            if (usersFlowLayoutPanel.Controls.Count > 0)
+            {
+                usersFlowLayoutPanel.Controls.Clear();
+            }
+
+            //Stores users taken from the DB
+            List<UserButton> users = new List<UserButton>();
+
+            //TEMP - Generates 20 "dummy" users
+            //Shoud be replaced with a loop which gets users from DB (if they match search)
+            for (int i = 0; i < 20; i++)
+            {
+                UserButton u = new UserButton(form, "Example", $"User {i+1}", "", new DateTime(2024, 11, i + 1, 18, 30, 0), i);
+                //Checking search term
+                if (global.CheckSearchTerm(u.GetInfoForSearch(), searchTerm))
+                {
+                    users.Add(u);
+                }
+            }
+
+
+            DisplayUsers(users);
+        }
+
+        //Adds users to the UI based on when they were last active
+        private void DisplayUsers(List<UserButton> users)
+        {
+            //Iterates through events until all have been added
+            while (users.Count > 0)
+            {
+                //Stores the earliest DateTime within users
+                DateTime earliest = DateTime.MaxValue;
+                //Stores the index of the most recently active user
+                int index = 0;
+
+                //Finds the most recentlyc active user, and stores its index
+                foreach (UserButton u in users)
+                {
+                    if (u.lastActive < earliest)
+                    {
+                        earliest = u.lastActive;
+                        index = users.IndexOf(u);
+                    }
+                }
+
+                //Event is removed from the list when added
+                usersFlowLayoutPanel.Controls.Add(users[index]);
+                users.RemoveAt(index);
+            }
+        }
+
+        //Deletes the default text in the search box the first time it's clicked
+        private void searchBox_Clicked(object sender, EventArgs e)
+        {
+            if (!IsSearchDefaultTextClear())
+            {
+                searchBox.Text = null;
+                searchBox.ForeColor = Color.Black;
+            }
+        }
+
+        //Returns true if the default text has been cleared, otherwise returns false
+        private bool IsSearchDefaultTextClear()
+        {
+            if (searchBox.ForeColor == global.DefaultSearchBoxColour)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+        //Updates the users display to only show users which contain the search term in their name
+        private void searchButton_Click(object sender, EventArgs e)
+        {
+            //Only runs search if the default text has been cleared
+            if (IsSearchDefaultTextClear())
+            {
+                GenerateUsersFromDB(searchBox.Text);
+            }
+        }
+    }
+}

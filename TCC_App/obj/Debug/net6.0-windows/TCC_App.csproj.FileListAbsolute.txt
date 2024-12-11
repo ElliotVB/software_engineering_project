@@ -162,3 +162,4 @@ C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\o
 C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.UI_MainPage.resources
 C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.UI_Profile.resources
 C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.UI_Edit_Profile.resources
+C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.UI_UserSearch.resources

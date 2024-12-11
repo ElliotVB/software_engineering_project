@@ -34,8 +34,14 @@
     <Compile Update="UI_Profile.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="UserControl1.cs">
+    <Compile Update="UI_UserSearch.cs">
       <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI_Main.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserButton.cs">
+      <SubType>Component</SubType>
     </Compile>
     <Compile Update="ViewAdminRequests.cs">
       <SubType>UserControl</SubType>
