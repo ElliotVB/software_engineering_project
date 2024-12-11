@@ -42,7 +42,7 @@ namespace CRMApplication
 
         private void btndeleterequest_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("No DB is Attached🧑");
+            MessageBox.Show("No DB is Attached");
            
             }
 
@@ -60,7 +60,7 @@ namespace CRMApplication
 
         private void dataGridViewAdminRequests_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            MessageBox.Show("No DB is Attached🧑");
+            MessageBox.Show("No DB is Attached");
 
         }
     }

@@ -43,7 +43,7 @@ namespace CRMApplication
 
     private void buttonDeleteUserTag(object sender, EventArgs e)
         {
-            MessageBox.Show("No DB is Attached🧑");
+            MessageBox.Show("No DB is Attached");
 
         }
 
@@ -60,7 +60,7 @@ namespace CRMApplication
         {
             if (e.RowIndex >= 0)
             {
-                MessageBox.Show("No DB is Attached🧑");
+                MessageBox.Show("No DB is Attached");
             }
         }
     }

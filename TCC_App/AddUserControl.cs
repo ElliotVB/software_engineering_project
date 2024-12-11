@@ -29,7 +29,7 @@ namespace CRMApplication
 
         private void btnAddUser_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("No DB is Attached🧑");
+            MessageBox.Show("No DB is Attached");
            
         }
 
