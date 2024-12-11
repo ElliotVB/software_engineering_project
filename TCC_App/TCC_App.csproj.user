@@ -19,10 +19,22 @@
     <Compile Update="RemoveUsers.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UI_Edit_Profile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UI_EventInformation.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="UI_EventSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI_NavigationBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UI_Profile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="ViewAdminRequests.cs">

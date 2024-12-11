@@ -51,5 +51,9 @@ namespace TCC_App
             parentForm?.Show();
         }
 
+        private void buttonEvents_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
