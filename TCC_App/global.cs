@@ -30,5 +30,11 @@ namespace TCC_App
 
             return false;
         }
+
+        //Checks if the passed DateTime has already passed
+        public static bool HasDateTimePassed(DateTime date)
+        {
+            return date < DateTime.Now;
+        }
     }
 }

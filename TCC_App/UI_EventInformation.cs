@@ -18,7 +18,7 @@ namespace TCC_App
     {
         private FormUI form;
 
-        public UI_EventInformation(FormUI form, string name, string description, string location, string eventLink, string imageLink, int cost, int memberDiscount, int accessRequired)
+        public UI_EventInformation(FormUI form, string name, string description, string location, DateTime dateTime, string eventLink, string imageLink, int cost, int memberDiscount, int accessRequired)
         {
             InitializeComponent();
             this.form = form;
@@ -27,6 +27,7 @@ namespace TCC_App
             EventName.Text = name;
             EventDescription.Text = description;
             EventLocation.Text = location;
+            EventDateTime.Text = dateTime.ToString();
             EventPrice.Text = GetCostAsString(cost, memberDiscount);
             //TEMP: currently doesn't initialize contacts, as User isn't implemented
         }
@@ -43,6 +44,11 @@ namespace TCC_App
         private void buttonHome_Click(object sender, EventArgs e)
         {
             form.SwitchForm(new placeholder(form));
+        }
+
+        private void EventInfoLayoutPanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

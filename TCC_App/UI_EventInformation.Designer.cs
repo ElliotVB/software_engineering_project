@@ -47,6 +47,7 @@
             this.buttonHome = new System.Windows.Forms.Button();
             this.buttonEvents = new System.Windows.Forms.Button();
             this.navigationPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.EventDateTime = new System.Windows.Forms.Label();
             this.ContactsTableLayout.SuspendLayout();
             this.EventInfoLayoutPanel.SuspendLayout();
             this.eventLayoutPanel.SuspendLayout();
@@ -58,9 +59,9 @@
             this.EventPrice.AutoSize = true;
             this.EventPrice.Dock = System.Windows.Forms.DockStyle.Fill;
             this.EventPrice.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.EventPrice.Location = new System.Drawing.Point(3, 269);
+            this.EventPrice.Location = new System.Drawing.Point(3, 296);
             this.EventPrice.Name = "EventPrice";
-            this.EventPrice.Size = new System.Drawing.Size(495, 62);
+            this.EventPrice.Size = new System.Drawing.Size(495, 37);
             this.EventPrice.TabIndex = 1;
             this.EventPrice.Text = "Price";
             this.EventPrice.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -71,9 +72,9 @@
             this.EventLocation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.EventLocation.Dock = System.Windows.Forms.DockStyle.Fill;
             this.EventLocation.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.EventLocation.Location = new System.Drawing.Point(3, 218);
+            this.EventLocation.Location = new System.Drawing.Point(3, 222);
             this.EventLocation.Name = "EventLocation";
-            this.EventLocation.Size = new System.Drawing.Size(495, 51);
+            this.EventLocation.Size = new System.Drawing.Size(495, 37);
             this.EventLocation.TabIndex = 3;
             this.EventLocation.Text = "Event location";
             this.EventLocation.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -85,7 +86,7 @@
             this.Contact2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Contact2.Location = new System.Drawing.Point(243, 0);
             this.Contact2.Name = "Contact2";
-            this.Contact2.Size = new System.Drawing.Size(235, 19);
+            this.Contact2.Size = new System.Drawing.Size(235, 17);
             this.Contact2.TabIndex = 1;
             this.Contact2.Text = "contact2@gmail.com";
             this.Contact2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -97,7 +98,7 @@
             this.Contact1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Contact1.Location = new System.Drawing.Point(3, 0);
             this.Contact1.Name = "Contact1";
-            this.Contact1.Size = new System.Drawing.Size(234, 19);
+            this.Contact1.Size = new System.Drawing.Size(234, 17);
             this.Contact1.TabIndex = 0;
             this.Contact1.Text = "contact1@gmail.com";
             this.Contact1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -109,13 +110,13 @@
             this.ContactsTableLayout.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.ContactsTableLayout.Controls.Add(this.Contact2, 1, 0);
             this.ContactsTableLayout.Controls.Add(this.Contact1, 0, 0);
-            this.ContactsTableLayout.Location = new System.Drawing.Point(10, 341);
+            this.ContactsTableLayout.Location = new System.Drawing.Point(10, 343);
             this.ContactsTableLayout.Margin = new System.Windows.Forms.Padding(10);
             this.ContactsTableLayout.Name = "ContactsTableLayout";
             this.ContactsTableLayout.RowCount = 1;
             this.ContactsTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.ContactsTableLayout.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.ContactsTableLayout.Size = new System.Drawing.Size(481, 19);
+            this.ContactsTableLayout.Size = new System.Drawing.Size(481, 17);
             this.ContactsTableLayout.TabIndex = 0;
             // 
             // EventInfoLayoutPanel
@@ -123,21 +124,24 @@
             this.EventInfoLayoutPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.EventInfoLayoutPanel.ColumnCount = 1;
             this.EventInfoLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.EventInfoLayoutPanel.Controls.Add(this.ContactsTableLayout, 0, 3);
-            this.EventInfoLayoutPanel.Controls.Add(this.EventPrice, 0, 2);
+            this.EventInfoLayoutPanel.Controls.Add(this.EventDateTime, 0, 2);
+            this.EventInfoLayoutPanel.Controls.Add(this.ContactsTableLayout, 0, 4);
+            this.EventInfoLayoutPanel.Controls.Add(this.EventPrice, 0, 3);
             this.EventInfoLayoutPanel.Controls.Add(this.EventDescription, 0, 0);
             this.EventInfoLayoutPanel.Controls.Add(this.EventLocation, 0, 1);
             this.EventInfoLayoutPanel.Location = new System.Drawing.Point(300, 80);
             this.EventInfoLayoutPanel.Margin = new System.Windows.Forms.Padding(0);
             this.EventInfoLayoutPanel.Name = "EventInfoLayoutPanel";
-            this.EventInfoLayoutPanel.RowCount = 4;
-            this.EventInfoLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 59F));
-            this.EventInfoLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14F));
-            this.EventInfoLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 17F));
+            this.EventInfoLayoutPanel.RowCount = 5;
+            this.EventInfoLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60F));
+            this.EventInfoLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.EventInfoLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.EventInfoLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.EventInfoLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.EventInfoLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.EventInfoLayoutPanel.Size = new System.Drawing.Size(501, 370);
             this.EventInfoLayoutPanel.TabIndex = 10;
+            this.EventInfoLayoutPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.EventInfoLayoutPanel_Paint);
             // 
             // EventDescription
             // 
@@ -148,7 +152,7 @@
             this.EventDescription.Location = new System.Drawing.Point(15, 15);
             this.EventDescription.Margin = new System.Windows.Forms.Padding(15);
             this.EventDescription.Name = "EventDescription";
-            this.EventDescription.Size = new System.Drawing.Size(471, 188);
+            this.EventDescription.Size = new System.Drawing.Size(471, 192);
             this.EventDescription.TabIndex = 2;
             this.EventDescription.Text = resources.GetString("EventDescription.Text");
             this.EventDescription.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -325,6 +329,19 @@
             this.navigationPanel.Size = new System.Drawing.Size(801, 80);
             this.navigationPanel.TabIndex = 9;
             // 
+            // EventDateTime
+            // 
+            this.EventDateTime.AutoSize = true;
+            this.EventDateTime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.EventDateTime.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.EventDateTime.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.EventDateTime.Location = new System.Drawing.Point(3, 259);
+            this.EventDateTime.Name = "EventDateTime";
+            this.EventDateTime.Size = new System.Drawing.Size(495, 37);
+            this.EventDateTime.TabIndex = 4;
+            this.EventDateTime.Text = "Event DateTime";
+            this.EventDateTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // UI_EventInformation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -365,5 +382,6 @@
         private Button buttonHome;
         private Button buttonEvents;
         private TableLayoutPanel navigationPanel;
+        private Label EventDateTime;
     }
 }
