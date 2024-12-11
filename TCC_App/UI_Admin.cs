@@ -11,11 +11,11 @@ using TCC_App;
 
 namespace CRMApplication
 {
-    public partial class AdminUI : Form
+    public partial class UI_Admin : Form
     {
         private FormUI form;
 
-        public AdminUI()
+        public UI_Admin()
         {
             InitializeComponent();
             this.form = new FormUI(); 

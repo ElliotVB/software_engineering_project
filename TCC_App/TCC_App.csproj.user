@@ -7,7 +7,7 @@
     <Compile Update="EventButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Update="AdminUI.cs">
+    <Compile Update="UI_Admin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormUI.cs">
