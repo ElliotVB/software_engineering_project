@@ -25,6 +25,12 @@
     <Compile Update="UI_EventSearch.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UI_NavigationBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="ViewAdminRequests.cs">
       <SubType>UserControl</SubType>
     </Compile>

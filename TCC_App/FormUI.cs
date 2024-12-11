@@ -18,6 +18,7 @@ namespace TCC_App
     //When loading a form, a reference to this form must be passed to its constructor - this allows it to call SwitchForm
     //VERY IMPORTANT - The constructor for all User Forms must be edited to take a reference to this form, which must be stored in a local "FormUI" variable
         //View "placeholder.cs" for an example of this
+        //NOTE - should check if any forms don't actually use this functionality before submission (and remove the reference to this form from them)
     public partial class FormUI : Form
     {
         public FormUI()
@@ -25,7 +26,8 @@ namespace TCC_App
             InitializeComponent();
 
             //Loads a placeholder from into Display - should be replaced with the login screen when that is implemented
-            Display.Controls.Add(new placeholder(this));
+            Display.Controls.Add(new UI_MainPage(this));
+            NavigationPanel.Controls.Add(new UI_NavigationBar(this));
         }
 
 
@@ -34,6 +36,11 @@ namespace TCC_App
         {
             Display.Controls.Clear();
             Display.Controls.Add(form);
+        }
+
+        private void Display_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
