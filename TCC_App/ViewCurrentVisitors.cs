@@ -49,7 +49,7 @@ namespace CRMApplication
 
         private void btnRemoveVisitors(object sender, EventArgs e)
         {
-            MessageBox.Show("No DB is Attached🧑");
+            MessageBox.Show("No DB is Attached");
           
         }
 
@@ -61,7 +61,7 @@ namespace CRMApplication
 
         private void dataGridViewVisitors_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            MessageBox.Show("No DB is Attached🧑");
+            MessageBox.Show("No DB is Attached");
             
         }
     }
