@@ -1,0 +1,541 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\documents\\github\\software_engineering_project\\tcc_app\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\documents\\github\\software_engineering_project\\tcc_app\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\removeusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:removeusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\documents\\github\\software_engineering_project\\tcc_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\documents\\github\\software_engineering_project\\tcc_app\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\documents\\github\\software_engineering_project\\tcc_app\\removeusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:removeusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\documents\\github\\software_engineering_project\\tcc_app\\placeholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:placeholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\formui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:formui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\documents\\github\\software_engineering_project\\tcc_app\\formui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:formui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\ui_eventinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_eventinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\documents\\github\\software_engineering_project\\tcc_app\\ui_eventinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_eventinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\documents\\github\\software_engineering_project\\tcc_app\\ui_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\adminui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:adminui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\documents\\github\\software_engineering_project\\tcc_app\\viewusertags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:viewusertags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\placeholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:placeholder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\ui_eventsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_eventsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\documents\\github\\software_engineering_project\\tcc_app\\tcc_app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:tcc_app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\documents\\github\\software_engineering_project\\tcc_app\\eventbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:eventbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\documents\\github\\software_engineering_project\\tcc_app\\viewadminrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:viewadminrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\viewadminrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:viewadminrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\viewusertags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:viewusertags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\documents\\github\\software_engineering_project\\tcc_app\\viewfeedbackcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:viewfeedbackcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\viewfeedbackcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:viewfeedbackcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\documents\\github\\software_engineering_project\\tcc_app\\viewcurrentvisitors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:viewcurrentvisitors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\viewcurrentvisitors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:viewcurrentvisitors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\addusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:addusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\documents\\github\\software_engineering_project\\tcc_app\\databasehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:databasehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\documents\\github\\software_engineering_project\\tcc_app\\addusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:addusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\documents\\github\\software_engineering_project\\tcc_app\\tcc_app.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:tcc_app.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\documents\\github\\software_engineering_project\\tcc_app\\removeusers.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:removeusers.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\documents\\github\\software_engineering_project\\tcc_app\\ui_eventsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_eventsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\documents\\github\\software_engineering_project\\tcc_app\\ui_eventsearch.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_eventsearch.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T14:45:55.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:14:52.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormUI.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\FormUI.cs",
+              "RelativeDocumentMoniker": "FormUI.cs",
+              "ToolTip": "C:\\Users\\tayya\\Downloads\\TCC_App\\TCC_App - Copy\\FormUI.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\tayya\\Downloads\\TCC_App\\TCC_App - Copy\\FormUI.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T15:31:29.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RemoveUsers.cs",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\RemoveUsers.cs",
+              "RelativeDocumentMoniker": "RemoveUsers.cs",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\RemoveUsers.cs",
+              "RelativeToolTip": "RemoveUsers.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T11:06:56.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "placeholder.cs",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\placeholder.cs",
+              "RelativeDocumentMoniker": "placeholder.cs",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\placeholder.cs*",
+              "RelativeToolTip": "placeholder.cs*",
+              "ViewState": "AgIAACYAAAAAAAAAAAAUwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T10:55:02.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormUI.cs",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\FormUI.cs",
+              "RelativeDocumentMoniker": "FormUI.cs",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\FormUI.cs",
+              "RelativeToolTip": "FormUI.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwBgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:16:49.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UI_EventInformation.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\UI_EventInformation.cs",
+              "RelativeDocumentMoniker": "UI_EventInformation.cs",
+              "ToolTip": "C:\\Users\\tayya\\Downloads\\TCC_App\\TCC_App - Copy\\UI_EventInformation.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\tayya\\Downloads\\TCC_App\\TCC_App - Copy\\UI_EventInformation.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T18:35:34.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UI_EventInformation.cs",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\UI_EventInformation.cs",
+              "RelativeDocumentMoniker": "UI_EventInformation.cs",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\UI_EventInformation.cs",
+              "RelativeToolTip": "UI_EventInformation.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAgwC4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T18:35:34.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "global.cs",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\global.cs",
+              "RelativeDocumentMoniker": "global.cs",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\global.cs",
+              "RelativeToolTip": "global.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T18:38:23.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\Notification.cs",
+              "RelativeDocumentMoniker": "Notification.cs",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\Notification.cs",
+              "RelativeToolTip": "Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T14:43:22.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RemoveUsers.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\RemoveUsers.cs",
+              "RelativeDocumentMoniker": "RemoveUsers.cs",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\RemoveUsers.cs [Design]",
+              "RelativeToolTip": "RemoveUsers.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T10:45:18.708Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UI_Admin.cs",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\UI_Admin.cs",
+              "RelativeDocumentMoniker": "UI_Admin.cs",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\UI_Admin.cs*",
+              "RelativeToolTip": "UI_Admin.cs*",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAgwEoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:00:20.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminUI.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\AdminUI.cs",
+              "RelativeDocumentMoniker": "AdminUI.cs",
+              "ToolTip": "C:\\Users\\tayya\\Downloads\\TCC_App\\TCC_App - Copy\\AdminUI.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\tayya\\Downloads\\TCC_App\\TCC_App - Copy\\AdminUI.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T10:52:41.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ViewUserTags.cs",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\ViewUserTags.cs",
+              "RelativeDocumentMoniker": "ViewUserTags.cs",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\ViewUserTags.cs",
+              "RelativeToolTip": "ViewUserTags.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwBEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T11:04:08.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "placeholder.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\placeholder.cs",
+              "RelativeDocumentMoniker": "placeholder.cs",
+              "ToolTip": "C:\\Users\\tayya\\Downloads\\TCC_App\\TCC_App - Copy\\placeholder.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\tayya\\Downloads\\TCC_App\\TCC_App - Copy\\placeholder.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T18:38:21.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UI_EventSearch.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\UI_EventSearch.cs",
+              "RelativeDocumentMoniker": "UI_EventSearch.cs",
+              "ToolTip": "C:\\Users\\tayya\\Downloads\\TCC_App\\TCC_App - Copy\\UI_EventSearch.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\tayya\\Downloads\\TCC_App\\TCC_App - Copy\\UI_EventSearch.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T18:35:35.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TCC_App.csproj",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\TCC_App.csproj",
+              "RelativeDocumentMoniker": "TCC_App.csproj",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\TCC_App.csproj",
+              "RelativeToolTip": "TCC_App.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-11T10:34:35.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EventButton.cs",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\EventButton.cs",
+              "RelativeDocumentMoniker": "EventButton.cs",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\EventButton.cs",
+              "RelativeToolTip": "EventButton.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAgwEEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T18:35:34.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ViewAdminRequests.cs",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\ViewAdminRequests.cs",
+              "RelativeDocumentMoniker": "ViewAdminRequests.cs",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\ViewAdminRequests.cs",
+              "RelativeToolTip": "ViewAdminRequests.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wBEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T11:08:30.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ViewAdminRequests.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\ViewAdminRequests.cs",
+              "RelativeDocumentMoniker": "ViewAdminRequests.cs",
+              "ToolTip": "C:\\Users\\tayya\\Downloads\\TCC_App\\TCC_App - Copy\\ViewAdminRequests.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\tayya\\Downloads\\TCC_App\\TCC_App - Copy\\ViewAdminRequests.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T11:08:27.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ViewUserTags.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\ViewUserTags.cs",
+              "RelativeDocumentMoniker": "ViewUserTags.cs",
+              "ToolTip": "C:\\Users\\tayya\\Downloads\\TCC_App\\TCC_App - Copy\\ViewUserTags.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\tayya\\Downloads\\TCC_App\\TCC_App - Copy\\ViewUserTags.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T11:04:06.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ViewFeedbackControl.cs",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\ViewFeedbackControl.cs",
+              "RelativeDocumentMoniker": "ViewFeedbackControl.cs",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\ViewFeedbackControl.cs",
+              "RelativeToolTip": "ViewFeedbackControl.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T11:07:34.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ViewFeedbackControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\ViewFeedbackControl.cs",
+              "RelativeDocumentMoniker": "ViewFeedbackControl.cs",
+              "ToolTip": "C:\\Users\\tayya\\Downloads\\TCC_App\\TCC_App - Copy\\ViewFeedbackControl.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\tayya\\Downloads\\TCC_App\\TCC_App - Copy\\ViewFeedbackControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T11:07:32.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ViewCurrentVisitors.cs",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\ViewCurrentVisitors.cs",
+              "RelativeDocumentMoniker": "ViewCurrentVisitors.cs",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\ViewCurrentVisitors.cs",
+              "RelativeToolTip": "ViewCurrentVisitors.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwBIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T11:06:05.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ViewCurrentVisitors.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\ViewCurrentVisitors.cs",
+              "RelativeDocumentMoniker": "ViewCurrentVisitors.cs",
+              "ToolTip": "C:\\Users\\tayya\\Downloads\\TCC_App\\TCC_App - Copy\\ViewCurrentVisitors.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\tayya\\Downloads\\TCC_App\\TCC_App - Copy\\ViewCurrentVisitors.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T11:06:03.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AddUserControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\AddUserControl.cs",
+              "RelativeDocumentMoniker": "AddUserControl.cs",
+              "ToolTip": "C:\\Users\\tayya\\Downloads\\TCC_App\\TCC_App - Copy\\AddUserControl.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\tayya\\Downloads\\TCC_App\\TCC_App - Copy\\AddUserControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T10:44:42.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DatabaseHandler.cs",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\DatabaseHandler.cs",
+              "RelativeDocumentMoniker": "DatabaseHandler.cs",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\DatabaseHandler.cs",
+              "RelativeToolTip": "DatabaseHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T10:58:33.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AddUserControl.cs",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\AddUserControl.cs",
+              "RelativeDocumentMoniker": "AddUserControl.cs",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\AddUserControl.cs",
+              "RelativeToolTip": "AddUserControl.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T10:40:27.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TCC_App",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\TCC_App.csproj",
+              "RelativeDocumentMoniker": "TCC_App.csproj",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\TCC_App.csproj",
+              "RelativeToolTip": "TCC_App.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-11T10:34:40.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RemoveUsers.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\RemoveUsers.Designer.cs",
+              "RelativeDocumentMoniker": "RemoveUsers.Designer.cs",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\RemoveUsers.Designer.cs",
+              "RelativeToolTip": "RemoveUsers.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T10:45:16.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UI_EventSearch.cs",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\UI_EventSearch.cs",
+              "RelativeDocumentMoniker": "UI_EventSearch.cs",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\UI_EventSearch.cs",
+              "RelativeToolTip": "UI_EventSearch.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwD4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T18:35:34.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UI_EventSearch.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\UI_EventSearch.Designer.cs",
+              "RelativeDocumentMoniker": "UI_EventSearch.Designer.cs",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Documents\\GitHub\\software_engineering_project\\TCC_App\\UI_EventSearch.Designer.cs",
+              "RelativeToolTip": "UI_EventSearch.Designer.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAApwBYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T18:35:33.835Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

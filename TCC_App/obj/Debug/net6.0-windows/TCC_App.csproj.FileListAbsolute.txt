@@ -19,3 +19,110 @@ C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\o
 C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.placeholder.resources
 C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.UI_EventSearch.resources
 C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.UI_EventInformation.resources
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\TCC_App.exe
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\TCC_App.deps.json
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\TCC_App.runtimeconfig.json
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\TCC_App.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\TCC_App.pdb
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\TCC_App.FormUI.resources
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\TCC_App.placeholder.resources
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\TCC_App.Properties.Resources.resources
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\TCC_App.UI_EventInformation.resources
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\TCC_App.UI_EventSearch.resources
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\TCC_App.csproj.GenerateResource.cache
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\TCC_App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\TCC_App.AssemblyInfoInputs.cache
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\TCC_App.AssemblyInfo.cs
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\TCC_App.csproj.CoreCompileInputs.cache
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\TCC_App.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\refint\TCC_App.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\TCC_App.pdb
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\TCC_App.genruntimeconfig.cache
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\ref\TCC_App.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\System.Security.Permissions.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\System.Text.Encoding.CodePages.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\System.Windows.Extensions.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\TCC_App.csproj.AssemblyReference.cache
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\CRMApplication.AddUserControl.resources
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\CRMApplication.RemoveUserControl.resources
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\CRMApplication.ViewAdminRequests.resources
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\CRMApplication.ViewCurrentVisitorControl.resources
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\CRMApplication.ViewFeedbackControl.resources
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\CRMApplication.ViewUserTagControl.resources
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\TCC_App.csproj.Up2Date
+C:\Users\tayya\Downloads\TCC_App\TCC_App - Copy\obj\Debug\net6.0-windows\CRMApplication.AdminUI.resources
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\TCC_App.exe
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\TCC_App.deps.json
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\TCC_App.runtimeconfig.json
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\TCC_App.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\TCC_App.pdb
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\System.IO.Pipelines.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\System.Security.Permissions.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\System.Text.Encoding.CodePages.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\System.Windows.Extensions.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.csproj.AssemblyReference.cache
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\CRMApplication.AddUserControl.resources
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.FormUI.resources
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.placeholder.resources
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.Properties.Resources.resources
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\CRMApplication.RemoveUserControl.resources
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.UI_EventInformation.resources
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.UI_EventSearch.resources
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\CRMApplication.ViewAdminRequests.resources
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\CRMApplication.ViewCurrentVisitorControl.resources
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\CRMApplication.ViewFeedbackControl.resources
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\CRMApplication.ViewUserTagControl.resources
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.csproj.GenerateResource.cache
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.AssemblyInfoInputs.cache
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.AssemblyInfo.cs
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.csproj.CoreCompileInputs.cache
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.sourcelink.json
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.csproj.Up2Date
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\refint\TCC_App.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.pdb
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.genruntimeconfig.cache
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\ref\TCC_App.dll
+C:\Users\brota\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\CRMApplication.UI_Admin.resources

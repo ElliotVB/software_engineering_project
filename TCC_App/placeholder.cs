@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CRMApplication;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -37,5 +38,18 @@ namespace TCC_App
         {
             form.SwitchForm(new UI_EventSearch(form));
         }
+
+        private void btnAdminView_Click(object sender, EventArgs e)
+        {
+            UI_Admin adminUIForm = new UI_Admin();
+            adminUIForm.ShowDialog();
+            Form parentForm = this.FindForm();
+            if (parentForm != null)
+            {
+                parentForm.Hide();
+            }
+            parentForm?.Show();
+        }
+
     }
 }
