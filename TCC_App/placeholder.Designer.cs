@@ -28,45 +28,61 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.buttonEvents = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            label1 = new Label();
+            buttonEvents = new Button();
+            btnAdminView = new Button();
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(123, 15);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "placeholder user form";
+            label1.AutoSize = true;
+            label1.Location = new Point(0, 0);
+            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(186, 25);
+            label1.TabIndex = 0;
+            label1.Text = "placeholder user form";
             // 
             // buttonEvents
             // 
-            this.buttonEvents.Location = new System.Drawing.Point(3, 41);
-            this.buttonEvents.Name = "buttonEvents";
-            this.buttonEvents.Size = new System.Drawing.Size(95, 35);
-            this.buttonEvents.TabIndex = 1;
-            this.buttonEvents.Text = "Event search";
-            this.buttonEvents.UseVisualStyleBackColor = true;
-            this.buttonEvents.Click += new System.EventHandler(this.buttonEvents_Click);
+            buttonEvents.Location = new Point(4, 68);
+            buttonEvents.Margin = new Padding(4, 5, 4, 5);
+            buttonEvents.Name = "buttonEvents";
+            buttonEvents.Size = new Size(136, 58);
+            buttonEvents.TabIndex = 1;
+            buttonEvents.Text = "Event search";
+            buttonEvents.UseVisualStyleBackColor = true;
+            buttonEvents.Click += buttonEvents_Click;
+            // 
+            // btnAdminView
+            // 
+            btnAdminView.Location = new Point(194, 68);
+            btnAdminView.Margin = new Padding(4, 5, 4, 5);
+            btnAdminView.Name = "btnAdminView";
+            btnAdminView.Size = new Size(136, 58);
+            btnAdminView.TabIndex = 2;
+            btnAdminView.Text = "Admin View";
+            btnAdminView.UseVisualStyleBackColor = true;
+            btnAdminView.Click += btnAdminView_Click;
             // 
             // placeholder
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.buttonEvents);
-            this.Controls.Add(this.label1);
-            this.Name = "placeholder";
-            this.Size = new System.Drawing.Size(523, 346);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(btnAdminView);
+            Controls.Add(buttonEvents);
+            Controls.Add(label1);
+            Margin = new Padding(4, 5, 4, 5);
+            Name = "placeholder";
+            Size = new Size(747, 577);
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Label label1;
         private Button buttonEvents;
+        private Button btnAdminView;
     }
 }

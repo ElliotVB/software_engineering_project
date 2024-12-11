@@ -38,12 +38,11 @@
             this.calendarsPanel = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.calendar1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.searchBox = new System.Windows.Forms.TextBox();
             this.eventFlowLayout = new System.Windows.Forms.FlowLayoutPanel();
+            this.searchButton = new System.Windows.Forms.Button();
             this.navigationPanel.SuspendLayout();
             this.calendarsPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // navigationPanel
@@ -67,6 +66,7 @@
             this.navigationPanel.Name = "navigationPanel";
             this.navigationPanel.RowCount = 1;
             this.navigationPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.navigationPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.navigationPanel.Size = new System.Drawing.Size(801, 80);
             this.navigationPanel.TabIndex = 6;
             this.navigationPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.navigationPanel_Paint);
@@ -195,17 +195,6 @@
             this.calendar1.Size = new System.Drawing.Size(207, 180);
             this.calendar1.TabIndex = 0;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.BackgroundImage = global::TCC_App.Properties.Resources.GridiconsSearch;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(217, 83);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox1.TabIndex = 10;
-            this.pictureBox1.TabStop = false;
-            // 
             // searchBox
             // 
             this.searchBox.ForeColor = System.Drawing.Color.Gray;
@@ -214,6 +203,7 @@
             this.searchBox.Size = new System.Drawing.Size(552, 23);
             this.searchBox.TabIndex = 8;
             this.searchBox.Text = "Search for events";
+            this.searchBox.Click += new System.EventHandler(this.searchBox_Clicked);
             // 
             // eventFlowLayout
             // 
@@ -226,20 +216,30 @@
             this.eventFlowLayout.Size = new System.Drawing.Size(588, 338);
             this.eventFlowLayout.TabIndex = 9;
             // 
+            // searchButton
+            // 
+            this.searchButton.BackgroundImage = global::TCC_App.Properties.Resources.GridiconsSearch;
+            this.searchButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.searchButton.Location = new System.Drawing.Point(213, 82);
+            this.searchButton.Name = "searchButton";
+            this.searchButton.Size = new System.Drawing.Size(26, 25);
+            this.searchButton.TabIndex = 0;
+            this.searchButton.UseVisualStyleBackColor = true;
+            this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
+            // 
             // UI_EventSearch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.searchButton);
             this.Controls.Add(this.navigationPanel);
             this.Controls.Add(this.calendarsPanel);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.searchBox);
             this.Controls.Add(this.eventFlowLayout);
             this.Name = "UI_EventSearch";
             this.Size = new System.Drawing.Size(801, 449);
             this.navigationPanel.ResumeLayout(false);
             this.calendarsPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -257,8 +257,8 @@
         private TableLayoutPanel calendarsPanel;
         private Panel panel1;
         private Panel calendar1;
-        private PictureBox pictureBox1;
         private TextBox searchBox;
         private FlowLayoutPanel eventFlowLayout;
+        private Button searchButton;
     }
 }

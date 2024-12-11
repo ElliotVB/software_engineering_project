@@ -28,28 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Display = new System.Windows.Forms.Panel();
-            this.SuspendLayout();
+            Display = new Panel();
+            SuspendLayout();
             // 
             // Display
             // 
-            this.Display.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Display.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Display.Location = new System.Drawing.Point(0, 0);
-            this.Display.Name = "Display";
-            this.Display.Size = new System.Drawing.Size(800, 450);
-            this.Display.TabIndex = 0;
+            Display.BackColor = SystemColors.ControlLight;
+            Display.Dock = DockStyle.Fill;
+            Display.Location = new Point(0, 0);
+            Display.Margin = new Padding(4, 5, 4, 5);
+            Display.Name = "Display";
+            Display.Size = new Size(1143, 750);
+            Display.TabIndex = 0;
             // 
             // FormUI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.Display);
-            this.Name = "FormUI";
-            this.Text = "Form1";
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1143, 750);
+            Controls.Add(Display);
+            Margin = new Padding(4, 5, 4, 5);
+            Name = "FormUI";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Form1";
+            ResumeLayout(false);
         }
 
         #endregion
