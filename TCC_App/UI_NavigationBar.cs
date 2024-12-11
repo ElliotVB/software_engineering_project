@@ -35,7 +35,7 @@ namespace TCC_App
 
         private void users_BT_Click(object sender, EventArgs e)
         {
-            //user search not implemented
+            form.SwitchForm(new UI_UserSearch(form));
         }
 
         private void profile_BT_Click(object sender, EventArgs e)

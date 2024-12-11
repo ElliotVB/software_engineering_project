@@ -16,10 +16,7 @@ namespace TCC_App
     //Search bar can be used to filter events
 
     /*TODO:
-     * Implement dummy event buttons
      * Implement proper event buttons which take info from database
-     * Implement search function
-     * Redesign UI to work with navigation bar (once implemented)
      */
     public partial class UI_EventSearch : UserControl
     {
@@ -144,6 +141,11 @@ namespace TCC_App
         private void buttonHome_Click(object sender, EventArgs e)
         {
             form.SwitchForm(new placeholder(form));
+        }
+
+        private void searchBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
