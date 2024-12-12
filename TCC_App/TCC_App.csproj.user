@@ -8,7 +8,7 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Update="UI_Admin.cs">
-      <SubType>Form</SubType>
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="FormUI.cs">
       <SubType>Form</SubType>

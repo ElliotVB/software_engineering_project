@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CRMApplication;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,28 +8,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using TCC_App;
-
-namespace CRMApplication
+//By Yusef
+namespace TCC_App
 {
-    public partial class UI_Admin : Form
+    public partial class UI_Admin : UserControl
     {
         private FormUI form;
-
-        public UI_Admin()
+        public UI_Admin(FormUI form)
         {
             InitializeComponent();
-            this.form = new FormUI(); 
+            this.form = form;
             ShowUserControl(new AddUserControl());
-
         }
-
-        private void btnViewFeedback_Click(object sender, EventArgs e)
-        {
-            ShowUserControl(new ViewFeedbackControl());
-        }
-
-
         private void ShowUserControl(UserControl userControl)
         {
             panelMain.Controls.Clear();
@@ -36,43 +27,46 @@ namespace CRMApplication
             panelMain.Controls.Add(userControl);
         }
 
-        private void btnViewCurrentVisitors(object sender, EventArgs e)
+        private void btnViewFeedback_Click(object sender, EventArgs e)
         {
-            ShowUserControl(new ViewCurrentVisitorControl());
-
+            ShowUserControl(new ViewFeedbackControl());
         }
 
-
-
-        private void btnAddUser(object sender, EventArgs e)
-        {
-            ShowUserControl(new AddUserControl());
-
-        }
-
-        private void btnRemoveUser(object sender, EventArgs e)
-        {
-            ShowUserControl(new RemoveUserControl());
-
-        }
-
-        private void btnReviewAdminRequests(object sender, EventArgs e)
+        private void btnViewTasks_Click(object sender, EventArgs e)
         {
             ShowUserControl(new ViewAdminRequests());
-
         }
 
-        private void btnViewUserTag(object sender, EventArgs e)
+        private void btnAddUsers_Click(object sender, EventArgs e)
+        {
+            ShowUserControl(new RemoveUserControl());
+        }
+
+        private void AddUser_Click(object sender, EventArgs e)
+        {
+            ShowUserControl(new AddUserControl());
+        }
+
+        private void btnViewAnalytics_Click(object sender, EventArgs e)
         {
             ShowUserControl(new ViewUserTagControl());
+        }
 
+        private void btnScheduleAnnouncement_Click(object sender, EventArgs e)
+        {
+            ShowUserControl(new ViewCurrentVisitorControl());
         }
 
         private void buttonHome_Click(object sender, EventArgs e)
         {
             form.SwitchForm(new placeholder(form));
             form.Show();
-            this.Close();
+            this.Hide();
+        }
+
+        private void UI_Admin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -28,41 +28,40 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Display = new System.Windows.Forms.Panel();
-            this.NavigationPanel = new System.Windows.Forms.Panel();
-            this.SuspendLayout();
+            Display = new Panel();
+            NavigationPanel = new Panel();
+            SuspendLayout();
             // 
             // Display
             // 
-            this.Display.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Display.Location = new System.Drawing.Point(149, 0);
-            this.Display.Margin = new System.Windows.Forms.Padding(0);
-            this.Display.Name = "Display";
-            this.Display.Size = new System.Drawing.Size(651, 450);
-            this.Display.TabIndex = 0;
-            this.Display.Paint += new System.Windows.Forms.PaintEventHandler(this.Display_Paint);
+            Display.BackColor = SystemColors.ControlLight;
+            Display.Location = new Point(149, 0);
+            Display.Margin = new Padding(0);
+            Display.Name = "Display";
+            Display.Size = new Size(650, 450);
+            Display.TabIndex = 0;
+            Display.Paint += Display_Paint;
             // 
             // NavigationPanel
             // 
-            this.NavigationPanel.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.NavigationPanel.Location = new System.Drawing.Point(-1, 0);
-            this.NavigationPanel.Margin = new System.Windows.Forms.Padding(0);
-            this.NavigationPanel.Name = "NavigationPanel";
-            this.NavigationPanel.Size = new System.Drawing.Size(150, 450);
-            this.NavigationPanel.TabIndex = 1;
+            NavigationPanel.BackColor = SystemColors.ControlLight;
+            NavigationPanel.Location = new Point(-1, 0);
+            NavigationPanel.Margin = new Padding(0);
+            NavigationPanel.Name = "NavigationPanel";
+            NavigationPanel.Size = new Size(150, 450);
+            NavigationPanel.TabIndex = 1;
             // 
             // FormUI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.NavigationPanel);
-            this.Controls.Add(this.Display);
-            this.Name = "FormUI";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(NavigationPanel);
+            Controls.Add(Display);
+            Name = "FormUI";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Form1";
+            ResumeLayout(false);
         }
 
         #endregion

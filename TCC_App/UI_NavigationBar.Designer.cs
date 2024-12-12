@@ -29,185 +29,184 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UI_NavigationBar));
-            this.Navigation_Panel = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.profile_BT = new System.Windows.Forms.Button();
-            this.users_BT = new System.Windows.Forms.Button();
-            this.admin_BT = new System.Windows.Forms.Button();
-            this.Main_BT = new System.Windows.Forms.Button();
-            this.events_BT = new System.Windows.Forms.Button();
-            this.logo = new System.Windows.Forms.Label();
-            this.Navigation_Panel.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
-            this.SuspendLayout();
+            Navigation_Panel = new Panel();
+            tableLayoutPanel1 = new TableLayoutPanel();
+            profile_BT = new Button();
+            users_BT = new Button();
+            admin_BT = new Button();
+            Main_BT = new Button();
+            events_BT = new Button();
+            logo = new Label();
+            Navigation_Panel.SuspendLayout();
+            tableLayoutPanel1.SuspendLayout();
+            SuspendLayout();
             // 
             // Navigation_Panel
             // 
-            this.Navigation_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(36)))), ((int)(((byte)(74)))));
-            this.Navigation_Panel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Navigation_Panel.Controls.Add(this.tableLayoutPanel1);
-            this.Navigation_Panel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.Navigation_Panel.Location = new System.Drawing.Point(0, 0);
-            this.Navigation_Panel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Navigation_Panel.Name = "Navigation_Panel";
-            this.Navigation_Panel.Size = new System.Drawing.Size(150, 450);
-            this.Navigation_Panel.TabIndex = 14;
+            Navigation_Panel.BackColor = Color.FromArgb(75, 36, 74);
+            Navigation_Panel.BorderStyle = BorderStyle.FixedSingle;
+            Navigation_Panel.Controls.Add(tableLayoutPanel1);
+            Navigation_Panel.Dock = DockStyle.Left;
+            Navigation_Panel.Location = new Point(0, 0);
+            Navigation_Panel.Margin = new Padding(3, 2, 3, 2);
+            Navigation_Panel.Name = "Navigation_Panel";
+            Navigation_Panel.Size = new Size(150, 450);
+            Navigation_Panel.TabIndex = 14;
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(30)))), ((int)(((byte)(60)))));
-            this.tableLayoutPanel1.ColumnCount = 1;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Controls.Add(this.profile_BT, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.users_BT, 0, 3);
-            this.tableLayoutPanel1.Controls.Add(this.admin_BT, 0, 5);
-            this.tableLayoutPanel1.Controls.Add(this.Main_BT, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.events_BT, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.logo, 0, 0);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 6;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(148, 448);
-            this.tableLayoutPanel1.TabIndex = 3;
+            tableLayoutPanel1.BackColor = Color.FromArgb(254, 30, 60);
+            tableLayoutPanel1.ColumnCount = 1;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel1.Controls.Add(profile_BT, 0, 4);
+            tableLayoutPanel1.Controls.Add(users_BT, 0, 3);
+            tableLayoutPanel1.Controls.Add(admin_BT, 0, 5);
+            tableLayoutPanel1.Controls.Add(Main_BT, 0, 1);
+            tableLayoutPanel1.Controls.Add(events_BT, 0, 2);
+            tableLayoutPanel1.Controls.Add(logo, 0, 0);
+            tableLayoutPanel1.Dock = DockStyle.Fill;
+            tableLayoutPanel1.Location = new Point(0, 0);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 6;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel1.Size = new Size(148, 448);
+            tableLayoutPanel1.TabIndex = 3;
             // 
             // profile_BT
             // 
-            this.profile_BT.BackColor = System.Drawing.Color.Transparent;
-            this.profile_BT.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.profile_BT.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.profile_BT.FlatAppearance.BorderSize = 0;
-            this.profile_BT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.profile_BT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.profile_BT.ForeColor = System.Drawing.Color.White;
-            this.profile_BT.Image = ((System.Drawing.Image)(resources.GetObject("profile_BT.Image")));
-            this.profile_BT.Location = new System.Drawing.Point(3, 315);
-            this.profile_BT.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.profile_BT.Name = "profile_BT";
-            this.profile_BT.Size = new System.Drawing.Size(142, 63);
-            this.profile_BT.TabIndex = 5;
-            this.profile_BT.Text = "Profile";
-            this.profile_BT.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.profile_BT.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.profile_BT.UseVisualStyleBackColor = false;
-            this.profile_BT.Click += new System.EventHandler(this.profile_BT_Click);
+            profile_BT.BackColor = Color.Transparent;
+            profile_BT.Cursor = Cursors.Hand;
+            profile_BT.Dock = DockStyle.Fill;
+            profile_BT.FlatAppearance.BorderSize = 0;
+            profile_BT.FlatStyle = FlatStyle.Flat;
+            profile_BT.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            profile_BT.ForeColor = Color.White;
+            profile_BT.Image = (Image)resources.GetObject("profile_BT.Image");
+            profile_BT.Location = new Point(3, 315);
+            profile_BT.Margin = new Padding(3, 2, 3, 2);
+            profile_BT.Name = "profile_BT";
+            profile_BT.Size = new Size(142, 63);
+            profile_BT.TabIndex = 5;
+            profile_BT.Text = "Profile";
+            profile_BT.TextAlign = ContentAlignment.MiddleLeft;
+            profile_BT.TextImageRelation = TextImageRelation.ImageBeforeText;
+            profile_BT.UseVisualStyleBackColor = false;
+            profile_BT.Click += profile_BT_Click;
             // 
             // users_BT
             // 
-            this.users_BT.BackColor = System.Drawing.Color.Transparent;
-            this.users_BT.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.users_BT.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.users_BT.FlatAppearance.BorderSize = 0;
-            this.users_BT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.users_BT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.users_BT.ForeColor = System.Drawing.Color.White;
-            this.users_BT.Image = ((System.Drawing.Image)(resources.GetObject("users_BT.Image")));
-            this.users_BT.Location = new System.Drawing.Point(3, 248);
-            this.users_BT.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.users_BT.Name = "users_BT";
-            this.users_BT.Size = new System.Drawing.Size(142, 63);
-            this.users_BT.TabIndex = 1;
-            this.users_BT.Text = "Users";
-            this.users_BT.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.users_BT.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.users_BT.UseVisualStyleBackColor = false;
-            this.users_BT.Click += new System.EventHandler(this.users_BT_Click);
+            users_BT.BackColor = Color.Transparent;
+            users_BT.Cursor = Cursors.Hand;
+            users_BT.Dock = DockStyle.Fill;
+            users_BT.FlatAppearance.BorderSize = 0;
+            users_BT.FlatStyle = FlatStyle.Flat;
+            users_BT.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            users_BT.ForeColor = Color.White;
+            users_BT.Image = (Image)resources.GetObject("users_BT.Image");
+            users_BT.Location = new Point(3, 248);
+            users_BT.Margin = new Padding(3, 2, 3, 2);
+            users_BT.Name = "users_BT";
+            users_BT.Size = new Size(142, 63);
+            users_BT.TabIndex = 1;
+            users_BT.Text = "Users";
+            users_BT.TextAlign = ContentAlignment.MiddleLeft;
+            users_BT.TextImageRelation = TextImageRelation.ImageBeforeText;
+            users_BT.UseVisualStyleBackColor = false;
+            users_BT.Click += users_BT_Click;
             // 
             // admin_BT
             // 
-            this.admin_BT.BackColor = System.Drawing.Color.Transparent;
-            this.admin_BT.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.admin_BT.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.admin_BT.FlatAppearance.BorderSize = 0;
-            this.admin_BT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.admin_BT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.admin_BT.ForeColor = System.Drawing.Color.White;
-            this.admin_BT.Image = ((System.Drawing.Image)(resources.GetObject("admin_BT.Image")));
-            this.admin_BT.Location = new System.Drawing.Point(3, 382);
-            this.admin_BT.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.admin_BT.Name = "admin_BT";
-            this.admin_BT.Size = new System.Drawing.Size(142, 64);
-            this.admin_BT.TabIndex = 2;
-            this.admin_BT.Text = "Admin";
-            this.admin_BT.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.admin_BT.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.admin_BT.UseVisualStyleBackColor = false;
-            this.admin_BT.Click += new System.EventHandler(this.admin_BT_Click);
+            admin_BT.BackColor = Color.Transparent;
+            admin_BT.Cursor = Cursors.Hand;
+            admin_BT.Dock = DockStyle.Fill;
+            admin_BT.FlatAppearance.BorderSize = 0;
+            admin_BT.FlatStyle = FlatStyle.Flat;
+            admin_BT.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            admin_BT.ForeColor = Color.White;
+            admin_BT.Image = (Image)resources.GetObject("admin_BT.Image");
+            admin_BT.Location = new Point(3, 382);
+            admin_BT.Margin = new Padding(3, 2, 3, 2);
+            admin_BT.Name = "admin_BT";
+            admin_BT.Size = new Size(142, 64);
+            admin_BT.TabIndex = 2;
+            admin_BT.Text = "Admin";
+            admin_BT.TextAlign = ContentAlignment.MiddleLeft;
+            admin_BT.TextImageRelation = TextImageRelation.ImageBeforeText;
+            admin_BT.UseVisualStyleBackColor = false;
+            admin_BT.Click += admin_BT_Click;
             // 
             // Main_BT
             // 
-            this.Main_BT.BackColor = System.Drawing.Color.Transparent;
-            this.Main_BT.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Main_BT.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Main_BT.FlatAppearance.BorderSize = 0;
-            this.Main_BT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Main_BT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Main_BT.ForeColor = System.Drawing.Color.White;
-            this.Main_BT.Image = ((System.Drawing.Image)(resources.GetObject("Main_BT.Image")));
-            this.Main_BT.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Main_BT.Location = new System.Drawing.Point(3, 114);
-            this.Main_BT.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Main_BT.Name = "Main_BT";
-            this.Main_BT.Size = new System.Drawing.Size(142, 63);
-            this.Main_BT.TabIndex = 0;
-            this.Main_BT.Text = "Main";
-            this.Main_BT.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Main_BT.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Main_BT.UseVisualStyleBackColor = false;
-            this.Main_BT.Click += new System.EventHandler(this.Main_BT_Click);
+            Main_BT.BackColor = Color.Transparent;
+            Main_BT.Cursor = Cursors.Hand;
+            Main_BT.Dock = DockStyle.Fill;
+            Main_BT.FlatAppearance.BorderSize = 0;
+            Main_BT.FlatStyle = FlatStyle.Flat;
+            Main_BT.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            Main_BT.ForeColor = Color.White;
+            Main_BT.Image = (Image)resources.GetObject("Main_BT.Image");
+            Main_BT.ImageAlign = ContentAlignment.MiddleLeft;
+            Main_BT.Location = new Point(3, 114);
+            Main_BT.Margin = new Padding(3, 2, 3, 2);
+            Main_BT.Name = "Main_BT";
+            Main_BT.Size = new Size(142, 63);
+            Main_BT.TabIndex = 0;
+            Main_BT.Text = "Main";
+            Main_BT.TextAlign = ContentAlignment.MiddleLeft;
+            Main_BT.TextImageRelation = TextImageRelation.ImageBeforeText;
+            Main_BT.UseVisualStyleBackColor = false;
+            Main_BT.Click += Main_BT_Click;
             // 
             // events_BT
             // 
-            this.events_BT.BackColor = System.Drawing.Color.Transparent;
-            this.events_BT.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.events_BT.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.events_BT.FlatAppearance.BorderSize = 0;
-            this.events_BT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.events_BT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.events_BT.ForeColor = System.Drawing.Color.White;
-            this.events_BT.Image = ((System.Drawing.Image)(resources.GetObject("events_BT.Image")));
-            this.events_BT.Location = new System.Drawing.Point(3, 181);
-            this.events_BT.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.events_BT.Name = "events_BT";
-            this.events_BT.Size = new System.Drawing.Size(142, 63);
-            this.events_BT.TabIndex = 3;
-            this.events_BT.Text = "Events";
-            this.events_BT.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.events_BT.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.events_BT.UseVisualStyleBackColor = false;
-            this.events_BT.Click += new System.EventHandler(this.events_BT_Click);
+            events_BT.BackColor = Color.Transparent;
+            events_BT.Cursor = Cursors.Hand;
+            events_BT.Dock = DockStyle.Fill;
+            events_BT.FlatAppearance.BorderSize = 0;
+            events_BT.FlatStyle = FlatStyle.Flat;
+            events_BT.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            events_BT.ForeColor = Color.White;
+            events_BT.Image = (Image)resources.GetObject("events_BT.Image");
+            events_BT.Location = new Point(3, 181);
+            events_BT.Margin = new Padding(3, 2, 3, 2);
+            events_BT.Name = "events_BT";
+            events_BT.Size = new Size(142, 63);
+            events_BT.TabIndex = 3;
+            events_BT.Text = "Events";
+            events_BT.TextAlign = ContentAlignment.MiddleLeft;
+            events_BT.TextImageRelation = TextImageRelation.ImageBeforeText;
+            events_BT.UseVisualStyleBackColor = false;
+            events_BT.Click += events_BT_Click;
             // 
             // logo
             // 
-            this.logo.AutoSize = true;
-            this.logo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(30)))), ((int)(((byte)(60)))));
-            this.logo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.logo.Image = global::TCC_App.Properties.Resources.TCClogo;
-            this.logo.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.logo.Location = new System.Drawing.Point(3, 0);
-            this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(142, 112);
-            this.logo.TabIndex = 4;
+            logo.AutoSize = true;
+            logo.BackColor = Color.FromArgb(254, 30, 60);
+            logo.Dock = DockStyle.Fill;
+            logo.Image = Properties.Resources.TCClogo;
+            logo.ImageAlign = ContentAlignment.TopLeft;
+            logo.Location = new Point(3, 0);
+            logo.Name = "logo";
+            logo.Size = new Size(142, 112);
+            logo.TabIndex = 4;
             // 
             // UI_NavigationBar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.Navigation_Panel);
-            this.Name = "UI_NavigationBar";
-            this.Size = new System.Drawing.Size(150, 450);
-            this.Navigation_Panel.ResumeLayout(false);
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(Navigation_Panel);
+            Name = "UI_NavigationBar";
+            Size = new Size(150, 450);
+            Navigation_Panel.ResumeLayout(false);
+            tableLayoutPanel1.ResumeLayout(false);
+            tableLayoutPanel1.PerformLayout();
+            ResumeLayout(false);
         }
 
         #endregion

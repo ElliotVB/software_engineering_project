@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CRMApplication;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -45,7 +46,7 @@ namespace TCC_App
 
         private void admin_BT_Click(object sender, EventArgs e)
         {
-            //Admin not implemented (in user form)
+            form.SwitchForm(new UI_Admin(form));
         }
     }
 }
