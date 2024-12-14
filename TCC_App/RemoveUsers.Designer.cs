@@ -37,13 +37,13 @@
             // 
             dataGridViewUsers.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             dataGridViewUsers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewUsers.Location = new Point(21, 26);
-            dataGridViewUsers.Margin = new Padding(3, 4, 3, 4);
+            dataGridViewUsers.Location = new Point(15, 16);
+            dataGridViewUsers.Margin = new Padding(2);
             dataGridViewUsers.Name = "dataGridViewUsers";
             dataGridViewUsers.RowHeadersWidth = 180;
             dataGridViewUsers.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             dataGridViewUsers.RowTemplate.Height = 28;
-            dataGridViewUsers.Size = new Size(1053, 546);
+            dataGridViewUsers.Size = new Size(737, 208);
             dataGridViewUsers.TabIndex = 2;
             dataGridViewUsers.CellClick += dataGridViewUsers_CellClick;
             dataGridViewUsers.CellContentClick += dataGridViewUsers_CellContentClick;
@@ -53,10 +53,10 @@
             button1.BackColor = Color.Red;
             button1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(465, 595);
-            button1.Margin = new Padding(3, 4, 3, 4);
+            button1.Location = new Point(303, 228);
+            button1.Margin = new Padding(2);
             button1.Name = "button1";
-            button1.Size = new Size(228, 74);
+            button1.Size = new Size(160, 44);
             button1.TabIndex = 3;
             button1.Text = "Remove User";
             button1.UseVisualStyleBackColor = false;
@@ -64,13 +64,13 @@
             // 
             // RemoveUserControl
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(button1);
             Controls.Add(dataGridViewUsers);
-            Margin = new Padding(3, 4, 3, 4);
+            Margin = new Padding(2);
             Name = "RemoveUserControl";
-            Size = new Size(1094, 782);
+            Size = new Size(766, 287);
             Load += RemoveUserForm_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridViewUsers).EndInit();
             ResumeLayout(false);

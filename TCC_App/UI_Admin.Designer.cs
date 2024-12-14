@@ -135,11 +135,10 @@
             // 
             // panelMain
             // 
-            panelMain.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             panelMain.Location = new Point(2, 113);
             panelMain.Margin = new Padding(2);
             panelMain.Name = "panelMain";
-            panelMain.Size = new Size(647, 335);
+            panelMain.Size = new Size(647, 337);
             panelMain.TabIndex = 6;
             // 
             // UI_Admin

@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 //by yusef
 namespace CRMApplication
 {
@@ -19,27 +21,14 @@ namespace CRMApplication
             LoadFeedbackData();
             dataGridViewFeedback.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridViewFeedback.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
-
         }
-
         private void LoadFeedbackData()
         {
-            
-            DataTable dataTable = new DataTable();
-
-            
-            dataTable.Columns.Add("FeedbackID", typeof(int));
-            dataTable.Columns.Add("BookingID", typeof(int));
-            dataTable.Columns.Add("FeedbackScore", typeof(int));
-            dataTable.Columns.Add("FeedbackText", typeof(string));
-            dataTable.Columns.Add("UserID", typeof(int));
-
-            dataTable.Rows.Add(1, 1, 5, "Excellent service!", 1);
-            dataTable.Rows.Add(2, 2, 4, "Good, but there is room for improvement.", 4);
-            dataTable.Rows.Add(3, 3, 3, "Average experience.", 5);
-            dataTable.Rows.Add(4, 4, 2, "Not satisfied with the service.", 6);
-
+            string query = "SELECT * from feedback";
+            DataTable dataTable = DatabaseHandler.ExecuteQuery(query);
             dataGridViewFeedback.DataSource = dataTable;
+
+            
         }
 
 

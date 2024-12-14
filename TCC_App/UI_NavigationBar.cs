@@ -41,7 +41,7 @@ namespace TCC_App
 
         private void profile_BT_Click(object sender, EventArgs e)
         {
-            form.SwitchForm(new UI_Profile(form));
+            //form.SwitchForm(new UI_Profile(form));
         }
 
         private void admin_BT_Click(object sender, EventArgs e)

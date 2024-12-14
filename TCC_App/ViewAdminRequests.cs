@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
 //by yusef
 namespace CRMApplication
 {
@@ -24,18 +25,8 @@ namespace CRMApplication
 
         private void LoadAdminRequestData()
         {
-            DataTable dataTable = new DataTable();
-
-            dataTable.Columns.Add("AdminRequestID", typeof(int));
-            dataTable.Columns.Add("UserID", typeof(int));
-            dataTable.Columns.Add("RequestDescription", typeof(string));
-            dataTable.Columns.Add("RequestTime", typeof(DateTime));
-
-            dataTable.Rows.Add(1, 1, "Need access to admin panel", DateTime.Now);
-            dataTable.Rows.Add(2, 4, "Request for new user role", DateTime.Now);
-            dataTable.Rows.Add(3, 5, "Permission to edit settings", DateTime.Now);
-            dataTable.Rows.Add(4, 6, "Access to advanced reporting", DateTime.Now);
-
+            string query = "SELECT * from adminrequests";
+            DataTable dataTable = DatabaseHandler.ExecuteQuery(query);
             dataGridViewAdminRequests.DataSource = dataTable;
         }
 

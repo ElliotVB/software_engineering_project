@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
+using Mysqlx.Crud;
 //by yusef
 namespace CRMApplication
 {
@@ -23,21 +25,14 @@ namespace CRMApplication
         }
 
         private void LoadUserTagData()
-    {
-        DataTable dataTable = new DataTable();
+        {
 
-        
-        dataTable.Columns.Add("UserID", typeof(int));
-        dataTable.Columns.Add("TagID", typeof(int));
-        dataTable.Columns.Add("DateOfInterest", typeof(DateTime));
+            string query = "SELECT * from interesttag";
 
-        dataTable.Rows.Add(1, 2, DateTime.Now);
-        dataTable.Rows.Add(4, 3, DateTime.Now);
-        dataTable.Rows.Add(5, 1, DateTime.Now);
-        dataTable.Rows.Add(6, 2, DateTime.Now);
+            DataTable dataTable = DatabaseHandler.ExecuteQuery(query);
+            dataGridViewUserTags.DataSource = dataTable;
 
-        dataGridViewUserTags.DataSource = dataTable;
-    }
+        }
 
 
 

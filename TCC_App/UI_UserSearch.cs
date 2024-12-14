@@ -1,6 +1,8 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Drawing;
 using System.Linq;
@@ -44,18 +46,61 @@ namespace TCC_App
             //Stores users taken from the DB
             List<UserButton> users = new List<UserButton>();
 
-            //TEMP - Generates 20 "dummy" users
-            //Shoud be replaced with a loop which gets users from DB (if they match search)
-            for (int i = 0; i < 20; i++)
+            string connectionString = ConfigurationManager.ConnectionStrings["MySqlConnection"].ConnectionString;
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
-                UserButton u = new UserButton(form, "Example", $"User {i+1}", "", new DateTime(2024, 11, i + 1, 18, 30, 0), i);
-                //Checking search term
-                if (global.CheckSearchTerm(u.GetInfoForSearch(), searchTerm))
+                try
                 {
-                    users.Add(u);
+                    conn.Open();
+
+                    // Query using a WHERE clause if searchTerm is provided
+                    string query = string.IsNullOrEmpty(searchTerm)
+                        ? "SELECT * FROM user"
+                        : "SELECT * FROM user WHERE FirstName LIKE CONCAT('%', @searchTerm, '%')";
+
+                    MySqlCommand cmd = new MySqlCommand(query, conn);
+
+                    if (!string.IsNullOrEmpty(searchTerm))
+                    {
+                        cmd.Parameters.AddWithValue("@searchTerm", searchTerm);
+                    }
+
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+
+                        while (reader.Read())
+                        {
+                            string foreName = reader["FirstName"].ToString();
+                            string surName = reader["LastName"].ToString();
+                            string email = reader["Email"].ToString();
+                            string phoneNumber = reader["PhoneNumber"].ToString();
+                            string status = reader["Status"].ToString();
+                            string profilePictureAddress = reader["ProfilePictureAddress"].ToString();
+
+                            UserButton userButton = new UserButton(
+                                form,
+                                foreName,
+                                surName,
+                                email,
+                                phoneNumber,
+                                status,
+                                profilePictureAddress,
+                                DateTime.Now,
+                                users.Count
+                            );
+
+                            if (global.CheckSearchTerm(userButton.GetInfoForSearch(), searchTerm))
+                            {
+                                users.Add(userButton);
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Failed to load users: {ex.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-
 
             DisplayUsers(users);
         }

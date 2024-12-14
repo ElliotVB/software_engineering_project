@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\TCC_App.csproj": {}
+    "C:\\Users\\brota\\OneDrive\\Desktop\\TCC_App\\TCC_App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\TCC_App.csproj": {
+    "C:\\Users\\brota\\OneDrive\\Desktop\\TCC_App\\TCC_App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\TCC_App.csproj",
+        "projectUniqueName": "C:\\Users\\brota\\OneDrive\\Desktop\\TCC_App\\TCC_App.csproj",
         "projectName": "TCC_App",
-        "projectPath": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\TCC_App.csproj",
+        "projectPath": "C:\\Users\\brota\\OneDrive\\Desktop\\TCC_App\\TCC_App.csproj",
         "packagesPath": "C:\\Users\\brota\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\obj\\",
+        "outputPath": "C:\\Users\\brota\\OneDrive\\Desktop\\TCC_App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,6 +53,10 @@
             "MySql.Data": {
               "target": "Package",
               "version": "[9.1.0, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
             }
           },
           "imports": [

@@ -28,157 +28,156 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Profile4352 = new System.Windows.Forms.Panel();
-            this.Profile_BT = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.labelMembershipButton = new System.Windows.Forms.Label();
-            this.Coming_EventBT = new System.Windows.Forms.Panel();
-            this.labelEventsButton = new System.Windows.Forms.Label();
-            this.labelWelcomeMessage = new System.Windows.Forms.Label();
-            this.mainLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.Profile4352.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.Coming_EventBT.SuspendLayout();
-            this.mainLayoutPanel.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
-            this.SuspendLayout();
+            Profile4352 = new Panel();
+            Profile_BT = new Label();
+            panel2 = new Panel();
+            labelMembershipButton = new Label();
+            Coming_EventBT = new Panel();
+            labelEventsButton = new Label();
+            labelWelcomeMessage = new Label();
+            mainLayoutPanel = new TableLayoutPanel();
+            tableLayoutPanel1 = new TableLayoutPanel();
+            Profile4352.SuspendLayout();
+            panel2.SuspendLayout();
+            Coming_EventBT.SuspendLayout();
+            mainLayoutPanel.SuspendLayout();
+            tableLayoutPanel1.SuspendLayout();
+            SuspendLayout();
             // 
             // Profile4352
             // 
-            this.Profile4352.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(174)))));
-            this.Profile4352.Controls.Add(this.Profile_BT);
-            this.Profile4352.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Profile4352.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Profile4352.Location = new System.Drawing.Point(433, 2);
-            this.Profile4352.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Profile4352.Name = "Profile4352";
-            this.Profile4352.Size = new System.Drawing.Size(209, 395);
-            this.Profile4352.TabIndex = 10;
+            Profile4352.BackColor = Color.FromArgb(255, 160, 174);
+            Profile4352.Controls.Add(Profile_BT);
+            Profile4352.Cursor = Cursors.Hand;
+            Profile4352.Dock = DockStyle.Fill;
+            Profile4352.Location = new Point(433, 2);
+            Profile4352.Margin = new Padding(3, 2, 3, 2);
+            Profile4352.Name = "Profile4352";
+            Profile4352.Size = new Size(209, 395);
+            Profile4352.TabIndex = 10;
             // 
             // Profile_BT
             // 
-            this.Profile_BT.AutoSize = true;
-            this.Profile_BT.BackColor = System.Drawing.Color.Transparent;
-            this.Profile_BT.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Profile_BT.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Profile_BT.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(0)))), ((int)(((byte)(10)))));
-            this.Profile_BT.Location = new System.Drawing.Point(0, 0);
-            this.Profile_BT.Name = "Profile_BT";
-            this.Profile_BT.Size = new System.Drawing.Size(107, 36);
-            this.Profile_BT.TabIndex = 3;
-            this.Profile_BT.Text = "Profile";
+            Profile_BT.AutoSize = true;
+            Profile_BT.BackColor = Color.Transparent;
+            Profile_BT.Dock = DockStyle.Top;
+            Profile_BT.Font = new Font("Microsoft Sans Serif", 22.2F, FontStyle.Bold, GraphicsUnit.Point);
+            Profile_BT.ForeColor = Color.FromArgb(26, 0, 10);
+            Profile_BT.Location = new Point(0, 0);
+            Profile_BT.Name = "Profile_BT";
+            Profile_BT.Size = new Size(107, 36);
+            Profile_BT.TabIndex = 3;
+            Profile_BT.Text = "Profile";
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(194)))), ((int)(((byte)(138)))));
-            this.panel2.Controls.Add(this.labelMembershipButton);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(218, 2);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(209, 395);
-            this.panel2.TabIndex = 8;
+            panel2.BackColor = Color.FromArgb(255, 194, 138);
+            panel2.Controls.Add(labelMembershipButton);
+            panel2.Dock = DockStyle.Fill;
+            panel2.Location = new Point(218, 2);
+            panel2.Margin = new Padding(3, 2, 3, 2);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(209, 395);
+            panel2.TabIndex = 8;
             // 
             // labelMembershipButton
             // 
-            this.labelMembershipButton.AutoSize = true;
-            this.labelMembershipButton.BackColor = System.Drawing.Color.Transparent;
-            this.labelMembershipButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.labelMembershipButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelMembershipButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(0)))), ((int)(((byte)(10)))));
-            this.labelMembershipButton.Location = new System.Drawing.Point(0, 0);
-            this.labelMembershipButton.Name = "labelMembershipButton";
-            this.labelMembershipButton.Size = new System.Drawing.Size(188, 36);
-            this.labelMembershipButton.TabIndex = 2;
-            this.labelMembershipButton.Text = "Membership";
+            labelMembershipButton.AutoSize = true;
+            labelMembershipButton.BackColor = Color.Transparent;
+            labelMembershipButton.Dock = DockStyle.Top;
+            labelMembershipButton.Font = new Font("Microsoft Sans Serif", 22.2F, FontStyle.Bold, GraphicsUnit.Point);
+            labelMembershipButton.ForeColor = Color.FromArgb(26, 0, 10);
+            labelMembershipButton.Location = new Point(0, 0);
+            labelMembershipButton.Name = "labelMembershipButton";
+            labelMembershipButton.Size = new Size(188, 36);
+            labelMembershipButton.TabIndex = 2;
+            labelMembershipButton.Text = "Membership";
             // 
             // Coming_EventBT
             // 
-            this.Coming_EventBT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(115)))), ((int)(((byte)(49)))), ((int)(((byte)(71)))));
-            this.Coming_EventBT.Controls.Add(this.labelEventsButton);
-            this.Coming_EventBT.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Coming_EventBT.Location = new System.Drawing.Point(3, 2);
-            this.Coming_EventBT.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Coming_EventBT.Name = "Coming_EventBT";
-            this.Coming_EventBT.Size = new System.Drawing.Size(209, 395);
-            this.Coming_EventBT.TabIndex = 7;
+            Coming_EventBT.BackColor = Color.FromArgb(115, 49, 71);
+            Coming_EventBT.Controls.Add(labelEventsButton);
+            Coming_EventBT.Dock = DockStyle.Fill;
+            Coming_EventBT.Location = new Point(3, 2);
+            Coming_EventBT.Margin = new Padding(3, 2, 3, 2);
+            Coming_EventBT.Name = "Coming_EventBT";
+            Coming_EventBT.Size = new Size(209, 395);
+            Coming_EventBT.TabIndex = 7;
             // 
             // labelEventsButton
             // 
-            this.labelEventsButton.AutoSize = true;
-            this.labelEventsButton.BackColor = System.Drawing.Color.Transparent;
-            this.labelEventsButton.Dock = System.Windows.Forms.DockStyle.Top;
-            this.labelEventsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelEventsButton.ForeColor = System.Drawing.Color.White;
-            this.labelEventsButton.Location = new System.Drawing.Point(0, 0);
-            this.labelEventsButton.Name = "labelEventsButton";
-            this.labelEventsButton.Size = new System.Drawing.Size(112, 36);
-            this.labelEventsButton.TabIndex = 1;
-            this.labelEventsButton.Text = "Events";
+            labelEventsButton.AutoSize = true;
+            labelEventsButton.BackColor = Color.Transparent;
+            labelEventsButton.Dock = DockStyle.Top;
+            labelEventsButton.Font = new Font("Microsoft Sans Serif", 22.2F, FontStyle.Bold, GraphicsUnit.Point);
+            labelEventsButton.ForeColor = Color.White;
+            labelEventsButton.Location = new Point(0, 0);
+            labelEventsButton.Name = "labelEventsButton";
+            labelEventsButton.Size = new Size(112, 36);
+            labelEventsButton.TabIndex = 1;
+            labelEventsButton.Text = "Events";
             // 
             // labelWelcomeMessage
             // 
-            this.labelWelcomeMessage.AutoSize = true;
-            this.labelWelcomeMessage.Dock = System.Windows.Forms.DockStyle.Left;
-            this.labelWelcomeMessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelWelcomeMessage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(0)))), ((int)(((byte)(10)))));
-            this.labelWelcomeMessage.Location = new System.Drawing.Point(3, 0);
-            this.labelWelcomeMessage.Name = "labelWelcomeMessage";
-            this.labelWelcomeMessage.Size = new System.Drawing.Size(393, 45);
-            this.labelWelcomeMessage.TabIndex = 6;
-            this.labelWelcomeMessage.Text = "Good morning, UserName";
+            labelWelcomeMessage.AutoSize = true;
+            labelWelcomeMessage.Dock = DockStyle.Left;
+            labelWelcomeMessage.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            labelWelcomeMessage.ForeColor = Color.FromArgb(26, 0, 10);
+            labelWelcomeMessage.Location = new Point(3, 0);
+            labelWelcomeMessage.Name = "labelWelcomeMessage";
+            labelWelcomeMessage.Size = new Size(393, 45);
+            labelWelcomeMessage.TabIndex = 6;
+            labelWelcomeMessage.Text = "Good morning, UserName";
             // 
             // mainLayoutPanel
             // 
-            this.mainLayoutPanel.ColumnCount = 1;
-            this.mainLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.mainLayoutPanel.Controls.Add(this.labelWelcomeMessage, 0, 0);
-            this.mainLayoutPanel.Controls.Add(this.tableLayoutPanel1, 0, 1);
-            this.mainLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mainLayoutPanel.Location = new System.Drawing.Point(0, 0);
-            this.mainLayoutPanel.Name = "mainLayoutPanel";
-            this.mainLayoutPanel.RowCount = 2;
-            this.mainLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.mainLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 90F));
-            this.mainLayoutPanel.Size = new System.Drawing.Size(651, 450);
-            this.mainLayoutPanel.TabIndex = 11;
+            mainLayoutPanel.ColumnCount = 1;
+            mainLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            mainLayoutPanel.Controls.Add(labelWelcomeMessage, 0, 0);
+            mainLayoutPanel.Controls.Add(tableLayoutPanel1, 0, 1);
+            mainLayoutPanel.Dock = DockStyle.Fill;
+            mainLayoutPanel.Location = new Point(0, 0);
+            mainLayoutPanel.Name = "mainLayoutPanel";
+            mainLayoutPanel.RowCount = 2;
+            mainLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 10F));
+            mainLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 90F));
+            mainLayoutPanel.Size = new Size(651, 450);
+            mainLayoutPanel.TabIndex = 11;
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.ColumnCount = 3;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.Controls.Add(this.Profile4352, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.Coming_EventBT, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.panel2, 1, 0);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 48);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 1;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(645, 399);
-            this.tableLayoutPanel1.TabIndex = 7;
+            tableLayoutPanel1.ColumnCount = 3;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.33333F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.33333F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.33333F));
+            tableLayoutPanel1.Controls.Add(Profile4352, 2, 0);
+            tableLayoutPanel1.Controls.Add(Coming_EventBT, 0, 0);
+            tableLayoutPanel1.Controls.Add(panel2, 1, 0);
+            tableLayoutPanel1.Dock = DockStyle.Fill;
+            tableLayoutPanel1.Location = new Point(3, 48);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 1;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            tableLayoutPanel1.Size = new Size(645, 399);
+            tableLayoutPanel1.TabIndex = 7;
             // 
             // UI_MainPage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.mainLayoutPanel);
-            this.Name = "UI_MainPage";
-            this.Size = new System.Drawing.Size(651, 450);
-            this.Profile4352.ResumeLayout(false);
-            this.Profile4352.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.Coming_EventBT.ResumeLayout(false);
-            this.Coming_EventBT.PerformLayout();
-            this.mainLayoutPanel.ResumeLayout(false);
-            this.mainLayoutPanel.PerformLayout();
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(mainLayoutPanel);
+            Name = "UI_MainPage";
+            Size = new Size(651, 450);
+            Profile4352.ResumeLayout(false);
+            Profile4352.PerformLayout();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            Coming_EventBT.ResumeLayout(false);
+            Coming_EventBT.PerformLayout();
+            mainLayoutPanel.ResumeLayout(false);
+            mainLayoutPanel.PerformLayout();
+            tableLayoutPanel1.ResumeLayout(false);
+            ResumeLayout(false);
         }
 
         #endregion

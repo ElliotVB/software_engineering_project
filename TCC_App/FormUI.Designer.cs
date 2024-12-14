@@ -38,7 +38,7 @@
             Display.Location = new Point(149, 0);
             Display.Margin = new Padding(0);
             Display.Name = "Display";
-            Display.Size = new Size(650, 450);
+            Display.Size = new Size(650, 477);
             Display.TabIndex = 0;
             Display.Paint += Display_Paint;
             // 
@@ -48,14 +48,14 @@
             NavigationPanel.Location = new Point(-1, 0);
             NavigationPanel.Margin = new Padding(0);
             NavigationPanel.Name = "NavigationPanel";
-            NavigationPanel.Size = new Size(150, 450);
+            NavigationPanel.Size = new Size(150, 477);
             NavigationPanel.TabIndex = 1;
             // 
             // FormUI
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 451);
             Controls.Add(NavigationPanel);
             Controls.Add(Display);
             Name = "FormUI";

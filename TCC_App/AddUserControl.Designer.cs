@@ -50,7 +50,7 @@
             // 
             txtFirstName.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txtFirstName.Location = new Point(19, 40);
-            txtFirstName.Margin = new Padding(2, 2, 2, 2);
+            txtFirstName.Margin = new Padding(2);
             txtFirstName.Multiline = true;
             txtFirstName.Name = "txtFirstName";
             txtFirstName.Size = new Size(162, 29);
@@ -63,31 +63,31 @@
             cmbStatus.FormattingEnabled = true;
             cmbStatus.Items.AddRange(new object[] { "Active", "Not Active" });
             cmbStatus.Location = new Point(384, 192);
-            cmbStatus.Margin = new Padding(2, 2, 2, 2);
+            cmbStatus.Margin = new Padding(2);
             cmbStatus.Name = "cmbStatus";
             cmbStatus.Size = new Size(162, 28);
-            cmbStatus.TabIndex = 1;
+            cmbStatus.TabIndex = 5;
             // 
             // txtLastName
             // 
             txtLastName.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txtLastName.Location = new Point(384, 40);
-            txtLastName.Margin = new Padding(2, 2, 2, 2);
+            txtLastName.Margin = new Padding(2);
             txtLastName.Multiline = true;
             txtLastName.Name = "txtLastName";
             txtLastName.Size = new Size(187, 29);
-            txtLastName.TabIndex = 0;
+            txtLastName.TabIndex = 1;
             // 
             // btnAddUser
             // 
             btnAddUser.BackColor = Color.Green;
             btnAddUser.Font = new Font("Microsoft Sans Serif", 15F, FontStyle.Regular, GraphicsUnit.Point);
             btnAddUser.ForeColor = Color.White;
-            btnAddUser.Location = new Point(217, 354);
-            btnAddUser.Margin = new Padding(2, 2, 2, 2);
+            btnAddUser.Location = new Point(367, 260);
+            btnAddUser.Margin = new Padding(2);
             btnAddUser.Name = "btnAddUser";
             btnAddUser.Size = new Size(204, 49);
-            btnAddUser.TabIndex = 2;
+            btnAddUser.TabIndex = 7;
             btnAddUser.Text = "Add User";
             btnAddUser.UseVisualStyleBackColor = false;
             btnAddUser.Click += btnAddUser_Click;
@@ -151,27 +151,27 @@
             // 
             txtEmail.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txtEmail.Location = new Point(384, 115);
-            txtEmail.Margin = new Padding(2, 2, 2, 2);
+            txtEmail.Margin = new Padding(2);
             txtEmail.Multiline = true;
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(187, 29);
-            txtEmail.TabIndex = 4;
+            txtEmail.TabIndex = 3;
             // 
             // txtPhoneNumber
             // 
             txtPhoneNumber.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txtPhoneNumber.Location = new Point(19, 115);
-            txtPhoneNumber.Margin = new Padding(2, 2, 2, 2);
+            txtPhoneNumber.Margin = new Padding(2);
             txtPhoneNumber.Multiline = true;
             txtPhoneNumber.Name = "txtPhoneNumber";
             txtPhoneNumber.Size = new Size(162, 29);
-            txtPhoneNumber.TabIndex = 5;
+            txtPhoneNumber.TabIndex = 2;
             // 
             // txtHashedPassword
             // 
             txtHashedPassword.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txtHashedPassword.Location = new Point(19, 192);
-            txtHashedPassword.Margin = new Padding(2, 2, 2, 2);
+            txtHashedPassword.Margin = new Padding(2);
             txtHashedPassword.Multiline = true;
             txtHashedPassword.Name = "txtHashedPassword";
             txtHashedPassword.Size = new Size(187, 29);
@@ -190,8 +190,8 @@
             // 
             // pictureBoximage
             // 
-            pictureBoximage.Location = new Point(258, 269);
-            pictureBoximage.Margin = new Padding(2, 2, 2, 2);
+            pictureBoximage.Location = new Point(228, 246);
+            pictureBoximage.Margin = new Padding(2);
             pictureBoximage.Name = "pictureBoximage";
             pictureBoximage.Size = new Size(118, 80);
             pictureBoximage.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -200,11 +200,11 @@
             // 
             // btnUploadImage
             // 
-            btnUploadImage.Location = new Point(244, 233);
-            btnUploadImage.Margin = new Padding(2, 2, 2, 2);
+            btnUploadImage.Location = new Point(79, 272);
+            btnUploadImage.Margin = new Padding(2);
             btnUploadImage.Name = "btnUploadImage";
             btnUploadImage.Size = new Size(132, 31);
-            btnUploadImage.TabIndex = 9;
+            btnUploadImage.TabIndex = 6;
             btnUploadImage.Text = "Upload Image";
             btnUploadImage.UseVisualStyleBackColor = true;
             btnUploadImage.Click += btnUploadImage_Click;
@@ -228,9 +228,9 @@
             Controls.Add(cmbStatus);
             Controls.Add(txtLastName);
             Controls.Add(txtFirstName);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "AddUserControl";
-            Size = new Size(766, 469);
+            Size = new Size(766, 365);
             Load += AddUserControl_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBoximage).EndInit();
             ResumeLayout(false);

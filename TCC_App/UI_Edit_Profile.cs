@@ -23,7 +23,7 @@ namespace TCC_App
 
         private void button1_Click(object sender, EventArgs e)
         {
-            form.SwitchForm(new UI_Profile(form));
+            //form.SwitchForm(new UI_Profile(form, userInfo));
         }
 
         private void edit_BT_Click(object sender, EventArgs e)

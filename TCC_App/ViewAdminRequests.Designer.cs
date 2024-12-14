@@ -37,12 +37,12 @@
             // 
             dataGridViewAdminRequests.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             dataGridViewAdminRequests.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewAdminRequests.Location = new Point(14, 26);
-            dataGridViewAdminRequests.Margin = new Padding(3, 4, 3, 4);
+            dataGridViewAdminRequests.Location = new Point(10, 16);
+            dataGridViewAdminRequests.Margin = new Padding(2, 2, 2, 2);
             dataGridViewAdminRequests.Name = "dataGridViewAdminRequests";
             dataGridViewAdminRequests.RowHeadersWidth = 150;
             dataGridViewAdminRequests.RowTemplate.Height = 28;
-            dataGridViewAdminRequests.Size = new Size(1053, 546);
+            dataGridViewAdminRequests.Size = new Size(737, 189);
             dataGridViewAdminRequests.TabIndex = 0;
             dataGridViewAdminRequests.CellClick += dataGridViewAdminRequests_CellClick;
             dataGridViewAdminRequests.CellContentClick += dataGridViewAdminRequests_CellContentClick;
@@ -52,10 +52,10 @@
             btndeleterequest.BackColor = Color.Red;
             btndeleterequest.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
             btndeleterequest.ForeColor = Color.White;
-            btndeleterequest.Location = new Point(465, 595);
-            btndeleterequest.Margin = new Padding(3, 4, 3, 4);
+            btndeleterequest.Location = new Point(278, 209);
+            btndeleterequest.Margin = new Padding(2, 2, 2, 2);
             btndeleterequest.Name = "btndeleterequest";
-            btndeleterequest.Size = new Size(228, 74);
+            btndeleterequest.Size = new Size(160, 44);
             btndeleterequest.TabIndex = 5;
             btndeleterequest.Text = "Delete Request";
             btndeleterequest.UseVisualStyleBackColor = false;
@@ -63,13 +63,13 @@
             // 
             // ViewAdminRequests
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(btndeleterequest);
             Controls.Add(dataGridViewAdminRequests);
-            Margin = new Padding(3, 4, 3, 4);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "ViewAdminRequests";
-            Size = new Size(1094, 782);
+            Size = new Size(766, 469);
             Load += ViewAdminRequests_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridViewAdminRequests).EndInit();
             ResumeLayout(false);

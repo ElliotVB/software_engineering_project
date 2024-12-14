@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using Org.BouncyCastle.Asn1.Cmp;
+using MySql.Data.MySqlClient;
+using System.Configuration;
 
 namespace CRMApplication
 {
@@ -29,7 +31,65 @@ namespace CRMApplication
 
         private void btnAddUser_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("No DB is Attached");
+
+            // Validate input fields
+            if (string.IsNullOrWhiteSpace(txtFirstName.Text) ||
+                string.IsNullOrWhiteSpace(txtLastName.Text) ||
+                string.IsNullOrWhiteSpace(txtPhoneNumber.Text) ||
+                string.IsNullOrWhiteSpace(txtEmail.Text) ||
+                string.IsNullOrWhiteSpace(txtHashedPassword.Text) ||
+                cmbStatus.SelectedIndex == -1)
+            {
+                MessageBox.Show("Please fill all required fields.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            string connectionString = ConfigurationManager.ConnectionStrings["MySqlConnection"].ConnectionString;
+
+            try
+            {
+                using (MySqlConnection connection = new MySqlConnection(connectionString))
+                {
+                    connection.Open();
+
+                    // SQL query for insertion
+                    string query = @"INSERT INTO `user` 
+                            (`FirstName`, `LastName`, `PhoneNumber`, `Email`, `HashedPassword`, `Status`, `ProfilePictureAddress`) 
+                            VALUES 
+                            (@FirstName, @LastName, @PhoneNumber, @Email, @HashedPassword, @Status, @ProfilePictureAddress)";
+
+                    using (MySqlCommand cmd = new MySqlCommand(query, connection))
+                    {
+                        // Parameters
+                        cmd.Parameters.AddWithValue("@FirstName", txtFirstName.Text);
+                        cmd.Parameters.AddWithValue("@LastName", txtLastName.Text);
+                        cmd.Parameters.AddWithValue("@PhoneNumber", txtPhoneNumber.Text);
+                        cmd.Parameters.AddWithValue("@Email", txtEmail.Text);
+                        cmd.Parameters.AddWithValue("@HashedPassword", txtHashedPassword.Text); // couldn't find the hash pass function
+                        cmd.Parameters.AddWithValue("@Status", cmbStatus.SelectedItem.ToString());
+                        cmd.Parameters.AddWithValue("@ProfilePictureAddress", selectedImagePath);
+
+                        // Creating DB
+                        int rowsAffected = cmd.ExecuteNonQuery();
+
+                        if (rowsAffected > 0)
+                        {
+                            MessageBox.Show("User added successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            ClearFormFields(); // Clear form after successful insertion
+                        }
+                        else
+                        {
+                            MessageBox.Show("Failed to add user.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred while Creating the User: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+  
            
         }
 

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -21,9 +22,9 @@ namespace TCC_App
         private string location;
         public DateTime dateTime { get; }
 
-        private int cost;
-        private int memberDiscount;
-        private int accessRequired;
+        //private int cost;
+        //private int memberDiscount;
+        //private int accessRequired;
 
         private FormUI form;
 
@@ -35,32 +36,105 @@ namespace TCC_App
         //Switches form to EventView when pressed
         //Loads EventView with the information contained within this button
 
-        public EventButton(FormUI form, string name, string description, string location, DateTime dateTime, string eventLink, string imageLink, int cost, int memberDiscount, int accessRequired, int index)
+        // only passing event data to this button, some fields are missing from the database tables
+
+        // removed parameters int cost, int memberDiscount, int accessRequired
+        public EventButton(FormUI form, string name, string description, string location, DateTime dateTime, string eventLink, string imageLink, int index)
         {
             this.form = form;
-
             this.name = name;
             this.description = description;
             this.location = location;
             this.dateTime = dateTime;
             this.eventLink = eventLink;
             this.imageLink = imageLink;
-            this.cost = cost;
-            this.memberDiscount = memberDiscount;
-            this.accessRequired = accessRequired;
 
             Text = name;
             TextAlign = ContentAlignment.BottomRight;
             Size = new System.Drawing.Size(150, 100);
             Cursor = System.Windows.Forms.Cursors.Hand;
-            BackgroundImage = TCC_App.Properties.Resources._event;  //TEMP - should use imageLink to find link to correct image
-            BackgroundImageLayout = ImageLayout.Stretch;    //BUG - stretch doesn't seem to be working
+
+            try
+            {
+                // Check if imageLink is a valid URL or file path
+                if (Uri.IsWellFormedUriString(imageLink, UriKind.Absolute))
+                {
+                    // Download image from URL
+                    using (WebClient webClient = new WebClient())
+                    {
+                        byte[] imageData = webClient.DownloadData(imageLink);
+                        using (var stream = new System.IO.MemoryStream(imageData))
+                        {
+                            BackgroundImage = Image.FromStream(stream);
+                        }
+                    }
+                }
+                else if (System.IO.File.Exists(imageLink))
+                {
+                    // Load image from local file path
+                    BackgroundImage = Image.FromFile(imageLink);
+                }
+                else
+                {
+                    throw new Exception("Invalid image link or file path.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error loading image: {ex.Message}");
+                BackgroundImage = TCC_App.Properties.Resources._event; // Default image on error
+            }
+
+            BackgroundImageLayout = ImageLayout.Stretch; 
             FlatAppearance.BorderSize = 0;
-            FlatStyle = FlatStyle.Flat;
+            FlatStyle = FlatStyle.Flat; 
             Tag = index;
             Margin = new System.Windows.Forms.Padding(20);
-
         }
+
+        protected override void OnPaint(PaintEventArgs pevent)
+        {
+            // Set up the graphics object for custom drawing
+            Graphics g = pevent.Graphics;
+
+            // Draw the background image (if any) or default button background
+            if (BackgroundImage != null)
+            {
+                g.DrawImage(BackgroundImage, new Rectangle(0, 0, Width, Height));
+            }
+            else
+            {
+                // If no background image, use default button background
+                using (Brush backgroundBrush = new SolidBrush(BackColor))
+                {
+                    g.FillRectangle(backgroundBrush, new Rectangle(0, 0, Width, Height));
+                }
+            }
+
+            // Define the area for the text background
+            Rectangle textBackground = new Rectangle(0, Height - 30, Width, 30);
+
+            // Draw the text background (semi-transparent black)
+            using (Brush brush = new SolidBrush(Color.FromArgb(128, 0, 0, 0))) // Adjust alpha (128 for 50% transparency)
+            {
+                g.FillRectangle(brush, textBackground);
+            }
+
+            // Draw the custom text
+            using (Brush textBrush = new SolidBrush(Color.White)) // Set text color to white
+            {
+                StringFormat sf = new StringFormat
+                {
+                    Alignment = StringAlignment.Far, // Align text to the bottom-right
+                    LineAlignment = StringAlignment.Center
+                };
+
+                g.DrawString(Text, Font, textBrush, textBackground, sf);
+            }
+
+            // Don't call base.OnPaint to prevent default text rendering
+        }
+
 
 
         //Returns an array of strings containing the name, description, and tags
@@ -75,7 +149,20 @@ namespace TCC_App
         //Loads UI_EventView into Display
         protected override void OnClick(EventArgs e)
         {
-            form.SwitchForm(new UI_EventInformation(form, name, description, location, dateTime, eventLink, imageLink, cost, memberDiscount, accessRequired));
+            //cost, memberDiscount, accessRequired
+            var eventInfo = new Dictionary<string, string>
+            {
+                {"EventName", $"{name}" },
+                {"EventDesc", $"{description}"  },
+                {"Location", $"{location}"    },
+                {"DateTime",$"{dateTime}" },
+                //Using event link and image link as placeholder for Price and Contact Informaiton, couldn't find it in the database
+                {"EventLink", $"{eventLink}"},
+                {"ImageLink",$"{imageLink}" },
+
+            };
+
+            form.SwitchForm(new UI_EventInformation(form, eventInfo));
         }
     }
 }

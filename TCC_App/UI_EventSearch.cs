@@ -1,6 +1,8 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Drawing;
 using System.Linq;
@@ -40,30 +42,61 @@ namespace TCC_App
         //NOTE - add some sort of verification for if the current date is before today
         private void GenerateEventsFromDB(string searchTerm = "")
         {
-            //Clears events from layout if any exist
+            // Clears events from layout if any exist
             if (eventFlowLayout.Controls.Count > 0)
             {
                 eventFlowLayout.Controls.Clear();
             }
 
-            //Stores events taken from the DB
+            // Stores events taken from the DB
             List<EventButton> events = new List<EventButton>();
-
-            //TEMP - Generates 20 "dummy" events
-            //Shoud be replaced with a loop which gets events from DB (if they match search)
-            for (int i = 0; i < 20; i++)
+            string connectionString = ConfigurationManager.ConnectionStrings["MySqlConnection"].ConnectionString;
+            using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
-                EventButton e = new EventButton(form, "Event no. " + (i + 1), "Example event description.", "TCC building", new DateTime(2025, 1, i + 1, 18, 30, 0), "N/A", "N/A", 5, 3, 0, i);
-                //Checking search term + if date has already passed
-                if (global.CheckSearchTerm(e.GetInfoForSearch(), searchTerm) && !global.HasDateTimePassed(e.dateTime))
+                try
                 {
-                    events.Add(e);
+
+                    conn.Open();
+                    string query = string.IsNullOrEmpty(searchTerm)
+                        ? "SELECT * FROM event"
+                        : "SELECT * FROM event WHERE EventName LIKE CONCAT('%', @searchTerm, '%')";
+
+                    MySqlCommand cmd = new MySqlCommand(query, conn);
+
+                    if (!string.IsNullOrEmpty(searchTerm))
+                    {
+                        cmd.Parameters.AddWithValue("@searchTerm", searchTerm);
+                    }
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            string eventName = reader["EventName"].ToString();
+                            string eventType = reader["EventType"].ToString();
+                            DateTime eventDate = reader.GetDateTime(reader.GetOrdinal("EventDate"));
+                            string eventLocation = reader["Location"].ToString();
+                            string eventLink = reader["EventSiteLink"].ToString();
+                            string eventImageLink = reader["BannerImageAddress"].ToString();
+
+                            EventButton e = new EventButton(form, $"{eventName}", $"{eventType}", eventLocation, eventDate, eventLink, eventImageLink, events.Count);
+
+                            // Checking search term + if date has already passed
+                            if (global.CheckSearchTerm(e.GetInfoForSearch(), searchTerm) && !global.HasDateTimePassed(e.dateTime))
+                            {
+                                events.Add(e);
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Failed to load events: {ex.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
 
             DisplayEvents(events);
-
         }
+
 
         //Adds events to the UI in chronological order
         private void DisplayEvents(List<EventButton> events)

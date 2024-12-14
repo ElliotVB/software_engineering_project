@@ -1,70 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\",
+  "WorkspaceRootPath": "C:\\Users\\brota\\OneDrive\\Desktop\\TCC_App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\desktop\\hmgm\\tcc_app\\formui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:formui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\desktop\\hmgm\\tcc_app\\ui_navigationbar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_navigationbar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\ui_navigationbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_navigationbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\desktop\\hmgm\\tcc_app\\ui_navigationbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_navigationbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\addusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:addusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\desktop\\hmgm\\tcc_app\\ui_admin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_admin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\ui_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\desktop\\hmgm\\tcc_app\\ui_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\desktop\\hmgm\\tcc_app\\ui_edit_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_edit_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\desktop\\hmgm\\tcc_app\\addusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:addusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\desktop\\hmgm\\tcc_app\\userbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:userbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\desktop\\hmgm\\tcc_app\\viewusertags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:viewusertags.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\desktop\\hmgm\\tcc_app\\viewfeedbackcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:viewfeedbackcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\desktop\\hmgm\\tcc_app\\viewcurrentvisitors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:viewcurrentvisitors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\desktop\\hmgm\\tcc_app\\viewadminrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:viewadminrequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\ui_edit_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_edit_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\brota\\onedrive\\desktop\\tcc_app\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -81,199 +21,21 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UI_NavigationBar.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\UI_NavigationBar.Designer.cs",
-              "RelativeDocumentMoniker": "UI_NavigationBar.Designer.cs",
-              "ToolTip": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\UI_NavigationBar.Designer.cs",
-              "RelativeToolTip": "UI_NavigationBar.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T10:10:00.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormUI.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\FormUI.cs",
-              "RelativeDocumentMoniker": "FormUI.cs",
-              "ToolTip": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\FormUI.cs [Design]",
-              "RelativeToolTip": "FormUI.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T10:00:36.213Z",
-              "EditorCaption": " [Design]"
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UI_NavigationBar.cs",
-              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\UI_NavigationBar.cs",
-              "RelativeDocumentMoniker": "UI_NavigationBar.cs",
-              "ToolTip": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\UI_NavigationBar.cs",
-              "RelativeToolTip": "UI_NavigationBar.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAnwCEAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T10:09:51.7Z",
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Desktop\\TCC_App\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\brota\\OneDrive\\Desktop\\TCC_App\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-14T19:29:57.011Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UI_NavigationBar.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\UI_NavigationBar.cs",
-              "RelativeDocumentMoniker": "UI_NavigationBar.cs",
-              "ToolTip": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\UI_NavigationBar.cs [Design]",
-              "RelativeToolTip": "UI_NavigationBar.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T10:06:12.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddUserControl.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\AddUserControl.cs",
-              "RelativeDocumentMoniker": "AddUserControl.cs",
-              "ToolTip": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\AddUserControl.cs [Design]",
-              "RelativeToolTip": "AddUserControl.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T10:04:22.709Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AddUserControl.cs",
-              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\AddUserControl.cs",
-              "RelativeDocumentMoniker": "AddUserControl.cs",
-              "ToolTip": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\AddUserControl.cs",
-              "RelativeToolTip": "AddUserControl.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T10:00:06.509Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ViewUserTags.cs",
-              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\ViewUserTags.cs",
-              "RelativeDocumentMoniker": "ViewUserTags.cs",
-              "ToolTip": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\ViewUserTags.cs",
-              "RelativeToolTip": "ViewUserTags.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T09:59:15.526Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ViewFeedbackControl.cs",
-              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\ViewFeedbackControl.cs",
-              "RelativeDocumentMoniker": "ViewFeedbackControl.cs",
-              "ToolTip": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\ViewFeedbackControl.cs",
-              "RelativeToolTip": "ViewFeedbackControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T09:59:08.987Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserButton.cs",
-              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\UserButton.cs",
-              "RelativeDocumentMoniker": "UserButton.cs",
-              "ToolTip": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\UserButton.cs",
-              "RelativeToolTip": "UserButton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T09:58:42.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UI_Edit_Profile.cs",
-              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\UI_Edit_Profile.cs",
-              "RelativeDocumentMoniker": "UI_Edit_Profile.cs",
-              "ToolTip": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\UI_Edit_Profile.cs",
-              "RelativeToolTip": "UI_Edit_Profile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T09:58:04.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UI_Admin.cs",
-              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\UI_Admin.cs",
-              "RelativeDocumentMoniker": "UI_Admin.cs",
-              "ToolTip": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\UI_Admin.cs",
-              "RelativeToolTip": "UI_Admin.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAnwC4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T09:55:55.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UI_Admin.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\UI_Admin.Designer.cs",
-              "RelativeDocumentMoniker": "UI_Admin.Designer.cs",
-              "ToolTip": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\UI_Admin.Designer.cs",
-              "RelativeToolTip": "UI_Admin.Designer.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T09:54:28.027Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UI_Admin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\UI_Admin.cs",
-              "RelativeDocumentMoniker": "UI_Admin.cs",
-              "ToolTip": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\UI_Admin.cs [Design]",
-              "RelativeToolTip": "UI_Admin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T09:54:40.487Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ViewCurrentVisitors.cs",
-              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\ViewCurrentVisitors.cs",
-              "RelativeDocumentMoniker": "ViewCurrentVisitors.cs",
-              "ToolTip": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\ViewCurrentVisitors.cs",
-              "RelativeToolTip": "ViewCurrentVisitors.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T09:59:03.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ViewAdminRequests.cs",
-              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\ViewAdminRequests.cs",
-              "RelativeDocumentMoniker": "ViewAdminRequests.cs",
-              "ToolTip": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\ViewAdminRequests.cs",
-              "RelativeToolTip": "ViewAdminRequests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T09:58:46.983Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UI_Edit_Profile.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\UI_Edit_Profile.cs",
-              "RelativeDocumentMoniker": "UI_Edit_Profile.cs",
-              "ToolTip": "C:\\Users\\brota\\OneDrive\\Desktop\\hmgm\\TCC_App\\UI_Edit_Profile.cs [Design]",
-              "RelativeToolTip": "UI_Edit_Profile.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T09:57:56.445Z"
             }
           ]
         }
