@@ -77,8 +77,9 @@ namespace TCC_App
                             string eventLocation = reader["Location"].ToString();
                             string eventLink = reader["EventSiteLink"].ToString();
                             string eventImageLink = reader["BannerImageAddress"].ToString();
+                            double eventPrice = reader.GetDouble("EventCost");
 
-                            EventButton e = new EventButton(form, $"{eventName}", $"{eventType}", eventLocation, eventDate, eventLink, eventImageLink, events.Count);
+                            EventButton e = new EventButton(form, $"{eventName}", $"{eventType}", eventLocation, eventDate, eventLink, eventImageLink, events.Count, eventPrice);
 
                             // Checking search term + if date has already passed
                             if (global.CheckSearchTerm(e.GetInfoForSearch(), searchTerm) && !global.HasDateTimePassed(e.dateTime))

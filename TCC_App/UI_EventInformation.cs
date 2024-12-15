@@ -2,6 +2,7 @@
 using System.Drawing;
 using System.Net;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace TCC_App
 {
@@ -12,6 +13,7 @@ namespace TCC_App
     public partial class UI_EventInformation : UserControl
     {
         private FormUI form;
+        string bookingLink;
         Dictionary<string, string> eventInfo;
 
         public UI_EventInformation(FormUI form, Dictionary<string, string> eventInfo)
@@ -24,10 +26,9 @@ namespace TCC_App
             EventName.Text = $"{eventInfo["EventName"]}";
             EventDescription.Text = $"{eventInfo["EventDesc"]}";
             EventLocation.Text = $"{eventInfo["Location"]}";
-            EventDateTime.Text = $"{eventInfo["DateTime"].ToString()}";
-
-            // Placeholder for Price, needs to be discussed with client
-            EventPrice.Text = $"{eventInfo["EventLink"]}";
+            EventDateTime.Text = $"{eventInfo["DateTime"]}";
+            EventPrice.Text = $"Price: £{eventInfo["EventPrice"]}";
+            bookingLink = $"{eventInfo["EventLink"]}";
 
             // Fix for loading image from ImageLink
             try
@@ -59,25 +60,9 @@ namespace TCC_App
             }
         }
 
-        // Returns the event cost as a string
-        // TEMP: currently ignores discount, as User isn't implemented
-        private string GetCostAsString(int cost, int discount)
+        private void bookButton_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            return "Entry cost: £" + cost + ".00";
-        }
-
-        // TEMP - switches form to placeholder
-        private void buttonHome_Click(object sender, EventArgs e)
-        {
-            form.SwitchForm(new placeholder(form));
-        }
-
-        private void EventInfoLayoutPanel_Paint(object sender, PaintEventArgs e)
-        {
-        }
-
-        private void Book_Click(object sender, EventArgs e)
-        {
+            System.Diagnostics.Process.Start(new ProcessStartInfo() { FileName = bookingLink, UseShellExecute = true });
         }
     }
 }

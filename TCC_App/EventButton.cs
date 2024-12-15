@@ -20,6 +20,7 @@ namespace TCC_App
         private string eventLink;
         private string imageLink;
         private string location;
+        private double price;
         public DateTime dateTime { get; }
 
         //private int cost;
@@ -39,7 +40,7 @@ namespace TCC_App
         // only passing event data to this button, some fields are missing from the database tables
 
         // removed parameters int cost, int memberDiscount, int accessRequired
-        public EventButton(FormUI form, string name, string description, string location, DateTime dateTime, string eventLink, string imageLink, int index)
+        public EventButton(FormUI form, string name, string description, string location, DateTime dateTime, string eventLink, string imageLink, int index, double price)
         {
             this.form = form;
             this.name = name;
@@ -48,6 +49,7 @@ namespace TCC_App
             this.dateTime = dateTime;
             this.eventLink = eventLink;
             this.imageLink = imageLink;
+            this.price = price;
 
             Text = name;
             TextAlign = ContentAlignment.BottomRight;
@@ -85,9 +87,9 @@ namespace TCC_App
                 BackgroundImage = TCC_App.Properties.Resources._event; // Default image on error
             }
 
-            BackgroundImageLayout = ImageLayout.Stretch; 
+            BackgroundImageLayout = ImageLayout.Stretch;
             FlatAppearance.BorderSize = 0;
-            FlatStyle = FlatStyle.Flat; 
+            FlatStyle = FlatStyle.Flat;
             Tag = index;
             Margin = new System.Windows.Forms.Padding(20);
         }
@@ -156,9 +158,9 @@ namespace TCC_App
                 {"EventDesc", $"{description}"  },
                 {"Location", $"{location}"    },
                 {"DateTime",$"{dateTime}" },
-                //Using event link and image link as placeholder for Price and Contact Informaiton, couldn't find it in the database
                 {"EventLink", $"{eventLink}"},
                 {"ImageLink",$"{imageLink}" },
+                {"EventPrice", $"{price}"}
 
             };
 

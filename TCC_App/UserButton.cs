@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
@@ -44,17 +45,47 @@ namespace TCC_App
             ForeColor = Color.White;
             Size = new System.Drawing.Size(75, 75);
             Cursor = System.Windows.Forms.Cursors.Hand;
-            BackgroundImage = TCC_App.Properties.Resources.pfpPlaceholder;
             BackgroundImageLayout = ImageLayout.Stretch;
 
             FlatAppearance.BorderSize = 0;
             FlatStyle = FlatStyle.Flat;
             Tag = index;
             Margin = new System.Windows.Forms.Padding(20);
+
+
+            try
+            {
+                // Check if imageLink is a valid URL or file path
+                if (Uri.IsWellFormedUriString(imageLink, UriKind.Absolute))
+                {
+                    // Download image from URL
+                    using (WebClient webClient = new WebClient())
+                    {
+                        byte[] imageData = webClient.DownloadData(imageLink);
+                        using (var stream = new System.IO.MemoryStream(imageData))
+                        {
+                            BackgroundImage = Image.FromStream(stream);
+                        }
+                    }
+                }
+                else if (System.IO.File.Exists(imageLink))
+                {
+                    // Load image from local file path
+                    BackgroundImage = Image.FromFile(imageLink);
+                }
+                else
+                {
+                    throw new Exception("Invalid image link or file path.");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error loading image: {ex.Message}");
+                BackgroundImage = TCC_App.Properties.Resources.pfpPlaceholder; // Default image on error
+            }
         }
 
-        //Returns an array of strings containing the name, forename, and stuff from profile
-        //TEMP - stuff from profile not working cos user is not implemeneted
+        //Returns an array of strings containing the forename and surname of the user
         public string[] GetInfoForSearch()
         {
             string[] info = { foreName, surName };
@@ -62,7 +93,6 @@ namespace TCC_App
         }
 
         //Loads UI_Profile into Display
-        //TEMP - just loads the form, doesn't actually pass any info (as it isnt designed to take any)
         protected override void OnClick(EventArgs e)
         {
             var userInfo = new Dictionary<string, string>
