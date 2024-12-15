@@ -37,6 +37,7 @@
             // Display
             // 
             Display.BackColor = SystemColors.ControlLight;
+            Display.Dock = DockStyle.Right;
             Display.Location = new Point(192, 0);
             Display.Margin = new Padding(0);
             Display.Name = "Display";
@@ -46,7 +47,8 @@
             // NavigationPanel
             // 
             NavigationPanel.BackColor = SystemColors.ControlLight;
-            NavigationPanel.Location = new Point(0, 1);
+            NavigationPanel.Dock = DockStyle.Left;
+            NavigationPanel.Location = new Point(0, 0);
             NavigationPanel.Margin = new Padding(0);
             NavigationPanel.Name = "NavigationPanel";
             NavigationPanel.Size = new Size(193, 593);
