@@ -48,9 +48,8 @@
             Navigation_Panel.Controls.Add(tableLayoutPanel1);
             Navigation_Panel.Dock = DockStyle.Left;
             Navigation_Panel.Location = new Point(0, 0);
-            Navigation_Panel.Margin = new Padding(3, 2, 3, 2);
             Navigation_Panel.Name = "Navigation_Panel";
-            Navigation_Panel.Size = new Size(150, 450);
+            Navigation_Panel.Size = new Size(171, 600);
             Navigation_Panel.TabIndex = 14;
             // 
             // tableLayoutPanel1
@@ -66,6 +65,7 @@
             tableLayoutPanel1.Controls.Add(logo, 0, 0);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
+            tableLayoutPanel1.Margin = new Padding(3, 4, 3, 4);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 6;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
@@ -74,8 +74,8 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 15F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel1.Size = new Size(148, 448);
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 27F));
+            tableLayoutPanel1.Size = new Size(169, 598);
             tableLayoutPanel1.TabIndex = 3;
             // 
             // profile_BT
@@ -88,10 +88,9 @@
             profile_BT.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             profile_BT.ForeColor = Color.White;
             profile_BT.Image = (Image)resources.GetObject("profile_BT.Image");
-            profile_BT.Location = new Point(3, 315);
-            profile_BT.Margin = new Padding(3, 2, 3, 2);
+            profile_BT.Location = new Point(3, 419);
             profile_BT.Name = "profile_BT";
-            profile_BT.Size = new Size(142, 63);
+            profile_BT.Size = new Size(163, 83);
             profile_BT.TabIndex = 5;
             profile_BT.Text = "Profile";
             profile_BT.TextAlign = ContentAlignment.MiddleLeft;
@@ -109,10 +108,9 @@
             users_BT.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             users_BT.ForeColor = Color.White;
             users_BT.Image = (Image)resources.GetObject("users_BT.Image");
-            users_BT.Location = new Point(3, 248);
-            users_BT.Margin = new Padding(3, 2, 3, 2);
+            users_BT.Location = new Point(3, 330);
             users_BT.Name = "users_BT";
-            users_BT.Size = new Size(142, 63);
+            users_BT.Size = new Size(163, 83);
             users_BT.TabIndex = 1;
             users_BT.Text = "Users";
             users_BT.TextAlign = ContentAlignment.MiddleLeft;
@@ -130,10 +128,9 @@
             admin_BT.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             admin_BT.ForeColor = Color.White;
             admin_BT.Image = (Image)resources.GetObject("admin_BT.Image");
-            admin_BT.Location = new Point(3, 382);
-            admin_BT.Margin = new Padding(3, 2, 3, 2);
+            admin_BT.Location = new Point(3, 508);
             admin_BT.Name = "admin_BT";
-            admin_BT.Size = new Size(142, 64);
+            admin_BT.Size = new Size(163, 87);
             admin_BT.TabIndex = 2;
             admin_BT.Text = "Admin";
             admin_BT.TextAlign = ContentAlignment.MiddleLeft;
@@ -151,11 +148,9 @@
             Main_BT.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             Main_BT.ForeColor = Color.White;
             Main_BT.Image = (Image)resources.GetObject("Main_BT.Image");
-            Main_BT.ImageAlign = ContentAlignment.MiddleLeft;
-            Main_BT.Location = new Point(3, 114);
-            Main_BT.Margin = new Padding(3, 2, 3, 2);
+            Main_BT.Location = new Point(3, 152);
             Main_BT.Name = "Main_BT";
-            Main_BT.Size = new Size(142, 63);
+            Main_BT.Size = new Size(163, 83);
             Main_BT.TabIndex = 0;
             Main_BT.Text = "Main";
             Main_BT.TextAlign = ContentAlignment.MiddleLeft;
@@ -173,10 +168,9 @@
             events_BT.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
             events_BT.ForeColor = Color.White;
             events_BT.Image = (Image)resources.GetObject("events_BT.Image");
-            events_BT.Location = new Point(3, 181);
-            events_BT.Margin = new Padding(3, 2, 3, 2);
+            events_BT.Location = new Point(3, 241);
             events_BT.Name = "events_BT";
-            events_BT.Size = new Size(142, 63);
+            events_BT.Size = new Size(163, 83);
             events_BT.TabIndex = 3;
             events_BT.Text = "Events";
             events_BT.TextAlign = ContentAlignment.MiddleLeft;
@@ -189,20 +183,20 @@
             logo.AutoSize = true;
             logo.BackColor = Color.FromArgb(254, 30, 60);
             logo.Dock = DockStyle.Fill;
-            logo.Image = Properties.Resources.TCClogo;
-            logo.ImageAlign = ContentAlignment.TopLeft;
+            logo.Image = (Image)resources.GetObject("logo.Image");
             logo.Location = new Point(3, 0);
             logo.Name = "logo";
-            logo.Size = new Size(142, 112);
+            logo.Size = new Size(163, 149);
             logo.TabIndex = 4;
             // 
             // UI_NavigationBar
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(Navigation_Panel);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "UI_NavigationBar";
-            Size = new Size(150, 450);
+            Size = new Size(171, 600);
             Navigation_Panel.ResumeLayout(false);
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
