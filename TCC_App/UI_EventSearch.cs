@@ -52,7 +52,7 @@ namespace TCC_App
                     conn.Open();
                     string query = string.IsNullOrEmpty(searchTerm)
                         ? "SELECT * FROM event"
-                        : "SELECT * FROM event WHERE EventName LIKE CONCAT('%', @searchTerm, '%')";
+                        : "SELECT * FROM event WHERE EventName LIKE CONCAT('%', @searchTerm, '%') OR EventType LIKE CONCAT('%', @searchTerm, '%') OR Location LIKE CONCAT('%', @searchTerm, '%')";
 
                     MySqlCommand cmd = new MySqlCommand(query, conn);
 
@@ -74,8 +74,8 @@ namespace TCC_App
 
                             EventButton e = new EventButton(form, $"{eventName}", $"{eventType}", eventLocation, eventDate, eventLink, eventImageLink, events.Count, eventPrice);
 
-                            // Checking search term + if date has already passed
-                            if (global.CheckSearchTerm(e.GetInfoForSearch(), searchTerm) && e.dateTime > DateTime.Now)
+                            // Checking if date has already passed
+                            if (e.dateTime > DateTime.Now)
                             {
                                 events.Add(e);
                             }

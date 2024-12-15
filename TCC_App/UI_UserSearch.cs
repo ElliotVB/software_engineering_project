@@ -56,7 +56,7 @@ namespace TCC_App
                     // Query using a WHERE clause if searchTerm is provided
                     string query = string.IsNullOrEmpty(searchTerm)
                         ? "SELECT * FROM user"
-                        : "SELECT * FROM user WHERE FirstName LIKE CONCAT('%', @searchTerm, '%')";
+                        : "SELECT * FROM user WHERE FirstName LIKE CONCAT('%', @searchTerm, '%') OR WHERE LastName LIKE CONCAT('%', @searchTerm, '%')";
 
                     MySqlCommand cmd = new MySqlCommand(query, conn);
 
@@ -88,11 +88,7 @@ namespace TCC_App
                             );
 
                             UserButton userButton = new UserButton(form, u);
-
-                            if (global.CheckSearchTerm(userButton.GetInfoForSearch(), searchTerm))
-                            {
-                                users.Add(userButton);
-                            }
+                            users.Add(userButton);
                         }
                     }
                 }
