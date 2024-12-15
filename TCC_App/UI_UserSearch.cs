@@ -19,15 +19,12 @@ namespace TCC_App
     public partial class UI_UserSearch : UserControl
     {
         FormUI form;
+        Color DefaultSearchBoxColour = Color.Gray;
+
         public UI_UserSearch(FormUI form)
         {
             InitializeComponent();
-
             this.form = form;
-
-            //This is done in code since the foreColour is used in searchBox_Clicked()
-            searchBox.ForeColor = global.DefaultSearchBoxColour;
-
             GenerateUsersFromDB();
         }
 
@@ -141,7 +138,7 @@ namespace TCC_App
         //Returns true if the default text has been cleared, otherwise returns false
         private bool IsSearchDefaultTextClear()
         {
-            if (searchBox.ForeColor == global.DefaultSearchBoxColour)
+            if (searchBox.ForeColor == DefaultSearchBoxColour)
             {
                 return false;
             }
@@ -159,11 +156,6 @@ namespace TCC_App
             {
                 GenerateUsersFromDB(searchBox.Text);
             }
-        }
-
-        private void searchBox_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
