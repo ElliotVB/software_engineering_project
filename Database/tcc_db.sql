@@ -227,9 +227,7 @@ INSERT INTO `interesttag` (`TagID`, `TagName`, `TagCreationDate`) VALUES
 (105, 'Health', '2024-12-14 00:48:16'),
 (106, 'Coding', '2024-12-14 00:48:16'),
 (107, 'Culture', '2024-12-14 00:48:16'),
-(108, 'Gaming', '2024-12-14 00:48:16'),
-(109, 'Science', '2024-12-14 00:48:16'),
-(110, 'Startup', '2024-12-14 00:48:16');
+
 
 -- --------------------------------------------------------
 
@@ -475,8 +473,7 @@ INSERT INTO `user` (`UserID`, `FirstName`, `LastName`, `PhoneNumber`, `Email`, `
 (212, 'Jack', 'Orange', '1618033988', 'jack.orange@example.com', 'hashedpassword12', 'Active', NULL),
 (213, 'Kate', 'Brown', '1414213562', 'kate.brown@example.com', 'hashedpassword13', 'Active', NULL),
 (214, 'Leo', 'Gray', '1732050807', 'leo.gray@example.com', 'hashedpassword14', 'Active', NULL),
-(215, 'Mona', 'Silver', '2236067977', 'mona.silver@example.com', 'hashedpassword15', 'Active', NULL),
-(216, 'Farhan', 'Basheer', '+923485505740', 'bfarhan8@gmail.com', 'admin@123', 'Active', 'D:\\Farhan\\Image 1.png');
+
 
 -- --------------------------------------------------------
 
