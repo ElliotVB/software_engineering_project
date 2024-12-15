@@ -88,6 +88,7 @@
             this.searchButton.Size = new System.Drawing.Size(26, 24);
             this.searchButton.TabIndex = 10;
             this.searchButton.UseVisualStyleBackColor = true;
+            this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
             // 
             // searchBox
             // 
@@ -98,6 +99,7 @@
             this.searchBox.Size = new System.Drawing.Size(607, 23);
             this.searchBox.TabIndex = 9;
             this.searchBox.Text = "Search for users";
+            this.searchBox.Click += new System.EventHandler(this.searchBox_Click);
             // 
             // UI_UserSearch
             // 

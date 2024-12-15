@@ -56,7 +56,7 @@ namespace TCC_App
                     // Query using a WHERE clause if searchTerm is provided
                     string query = string.IsNullOrEmpty(searchTerm)
                         ? "SELECT * FROM user"
-                        : "SELECT * FROM user WHERE FirstName LIKE CONCAT('%', @searchTerm, '%') OR WHERE LastName LIKE CONCAT('%', @searchTerm, '%')";
+                        : "SELECT * FROM user WHERE FirstName LIKE CONCAT('%', @searchTerm, '%') OR LastName LIKE CONCAT('%', @searchTerm, '%')";
 
                     MySqlCommand cmd = new MySqlCommand(query, conn);
 
@@ -129,7 +129,7 @@ namespace TCC_App
         }
 
         //Deletes the default text in the search box the first time it's clicked
-        private void searchBox_Clicked(object sender, EventArgs e)
+        private void searchBox_Click(object sender, EventArgs e)
         {
             if (!IsSearchDefaultTextClear())
             {
@@ -159,6 +159,11 @@ namespace TCC_App
             {
                 GenerateUsersFromDB(searchBox.Text);
             }
+        }
+
+        private void searchBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
