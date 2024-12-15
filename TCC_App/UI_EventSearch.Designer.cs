@@ -28,143 +28,137 @@
         /// </summary>
         private void InitializeComponent()
         {
-            calendarsPanel = new TableLayoutPanel();
-            panel1 = new Panel();
-            calendar1 = new Panel();
-            searchBox = new TextBox();
-            eventFlowLayout = new FlowLayoutPanel();
-            searchButton = new Button();
-            eventSearchLayoutPanel = new TableLayoutPanel();
-            searchBoxLayoutPanel = new TableLayoutPanel();
-            calendarsPanel.SuspendLayout();
-            eventSearchLayoutPanel.SuspendLayout();
-            searchBoxLayoutPanel.SuspendLayout();
-            SuspendLayout();
+            this.calendarsPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.calendar1 = new System.Windows.Forms.Panel();
+            this.searchBox = new System.Windows.Forms.TextBox();
+            this.eventFlowLayout = new System.Windows.Forms.FlowLayoutPanel();
+            this.searchButton = new System.Windows.Forms.Button();
+            this.eventSearchLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.searchBoxLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.calendarsPanel.SuspendLayout();
+            this.eventSearchLayoutPanel.SuspendLayout();
+            this.searchBoxLayoutPanel.SuspendLayout();
+            this.SuspendLayout();
             // 
             // calendarsPanel
             // 
-            calendarsPanel.BackColor = Color.FromArgb(72, 19, 38);
-            calendarsPanel.ColumnCount = 1;
-            calendarsPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            calendarsPanel.Controls.Add(panel1, 0, 1);
-            calendarsPanel.Controls.Add(calendar1, 0, 0);
-            calendarsPanel.Location = new Point(0, 0);
-            calendarsPanel.Margin = new Padding(0);
-            calendarsPanel.Name = "calendarsPanel";
-            calendarsPanel.RowCount = 2;
-            calendarsPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            calendarsPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            calendarsPanel.Size = new Size(243, 604);
-            calendarsPanel.TabIndex = 7;
+            this.calendarsPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(72)))), ((int)(((byte)(19)))), ((int)(((byte)(38)))));
+            this.calendarsPanel.ColumnCount = 1;
+            this.calendarsPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.calendarsPanel.Controls.Add(this.panel1, 0, 1);
+            this.calendarsPanel.Controls.Add(this.calendar1, 0, 0);
+            this.calendarsPanel.Location = new System.Drawing.Point(0, 0);
+            this.calendarsPanel.Margin = new System.Windows.Forms.Padding(0);
+            this.calendarsPanel.Name = "calendarsPanel";
+            this.calendarsPanel.RowCount = 2;
+            this.calendarsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.calendarsPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.calendarsPanel.Size = new System.Drawing.Size(213, 453);
+            this.calendarsPanel.TabIndex = 7;
             // 
             // panel1
             // 
-            panel1.BackgroundImage = Properties.Resources.calendarDEC;
-            panel1.BackgroundImageLayout = ImageLayout.Stretch;
-            panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(6, 322);
-            panel1.Margin = new Padding(6, 20, 6, 13);
-            panel1.Name = "panel1";
-            panel1.Padding = new Padding(11, 13, 11, 13);
-            panel1.Size = new Size(231, 269);
-            panel1.TabIndex = 1;
+            this.panel1.BackgroundImage = global::TCC_App.Properties.Resources.calendarDEC;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(5, 241);
+            this.panel1.Margin = new System.Windows.Forms.Padding(5, 15, 5, 10);
+            this.panel1.Name = "panel1";
+            this.panel1.Padding = new System.Windows.Forms.Padding(10);
+            this.panel1.Size = new System.Drawing.Size(203, 202);
+            this.panel1.TabIndex = 1;
             // 
             // calendar1
             // 
-            calendar1.BackgroundImage = Properties.Resources.calendarNOV;
-            calendar1.BackgroundImageLayout = ImageLayout.Stretch;
-            calendar1.Dock = DockStyle.Fill;
-            calendar1.Location = new Point(6, 13);
-            calendar1.Margin = new Padding(6, 13, 6, 20);
-            calendar1.Name = "calendar1";
-            calendar1.Padding = new Padding(11, 13, 11, 13);
-            calendar1.Size = new Size(231, 269);
-            calendar1.TabIndex = 0;
+            this.calendar1.BackgroundImage = global::TCC_App.Properties.Resources.calendarNOV;
+            this.calendar1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.calendar1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.calendar1.Location = new System.Drawing.Point(5, 10);
+            this.calendar1.Margin = new System.Windows.Forms.Padding(5, 10, 5, 15);
+            this.calendar1.Name = "calendar1";
+            this.calendar1.Padding = new System.Windows.Forms.Padding(10);
+            this.calendar1.Size = new System.Drawing.Size(203, 201);
+            this.calendar1.TabIndex = 0;
             // 
             // searchBox
             // 
-            searchBox.Dock = DockStyle.Fill;
-            searchBox.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            searchBox.ForeColor = Color.Gray;
-            searchBox.Location = new Point(55, 4);
-            searchBox.Margin = new Padding(3, 4, 3, 4);
-            searchBox.Name = "searchBox";
-            searchBox.Size = new Size(603, 34);
-            searchBox.TabIndex = 8;
-            searchBox.Text = "Search for events";
-            searchBox.Click += searchBox_Clicked;
+            this.searchBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.searchBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.searchBox.ForeColor = System.Drawing.Color.Gray;
+            this.searchBox.Location = new System.Drawing.Point(37, 3);
+            this.searchBox.Name = "searchBox";
+            this.searchBox.Size = new System.Drawing.Size(392, 29);
+            this.searchBox.TabIndex = 8;
+            this.searchBox.Text = "Search for events";
             // 
             // eventFlowLayout
             // 
-            eventFlowLayout.AutoScroll = true;
-            eventFlowLayout.AutoScrollMargin = new Size(5, 5);
-            eventFlowLayout.BackColor = Color.FromArgb(255, 192, 192);
-            eventFlowLayout.Dock = DockStyle.Fill;
-            eventFlowLayout.Location = new Point(0, 48);
-            eventFlowLayout.Margin = new Padding(0);
-            eventFlowLayout.Name = "eventFlowLayout";
-            eventFlowLayout.Size = new Size(667, 556);
-            eventFlowLayout.TabIndex = 9;
+            this.eventFlowLayout.AutoScroll = true;
+            this.eventFlowLayout.AutoScrollMargin = new System.Drawing.Size(5, 5);
+            this.eventFlowLayout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.eventFlowLayout.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.eventFlowLayout.Location = new System.Drawing.Point(0, 36);
+            this.eventFlowLayout.Margin = new System.Windows.Forms.Padding(0);
+            this.eventFlowLayout.Name = "eventFlowLayout";
+            this.eventFlowLayout.Size = new System.Drawing.Size(438, 417);
+            this.eventFlowLayout.TabIndex = 9;
             // 
             // searchButton
             // 
-            searchButton.BackgroundImage = Properties.Resources.GridiconsSearch;
-            searchButton.BackgroundImageLayout = ImageLayout.Stretch;
-            searchButton.Dock = DockStyle.Bottom;
-            searchButton.Location = new Point(3, 4);
-            searchButton.Margin = new Padding(3, 4, 3, 4);
-            searchButton.Name = "searchButton";
-            searchButton.Size = new Size(46, 32);
-            searchButton.TabIndex = 0;
-            searchButton.UseVisualStyleBackColor = true;
-            searchButton.Click += searchButton_Click;
+            this.searchButton.BackgroundImage = global::TCC_App.Properties.Resources.GridiconsSearch;
+            this.searchButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.searchButton.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.searchButton.Location = new System.Drawing.Point(3, 3);
+            this.searchButton.Name = "searchButton";
+            this.searchButton.Size = new System.Drawing.Size(28, 24);
+            this.searchButton.TabIndex = 0;
+            this.searchButton.UseVisualStyleBackColor = true;
             // 
             // eventSearchLayoutPanel
             // 
-            eventSearchLayoutPanel.BackColor = Color.FromArgb(255, 192, 192);
-            eventSearchLayoutPanel.ColumnCount = 1;
-            eventSearchLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            eventSearchLayoutPanel.Controls.Add(searchBoxLayoutPanel, 0, 0);
-            eventSearchLayoutPanel.Controls.Add(eventFlowLayout, 0, 1);
-            eventSearchLayoutPanel.Location = new Point(243, 0);
-            eventSearchLayoutPanel.Margin = new Padding(3, 4, 3, 4);
-            eventSearchLayoutPanel.Name = "eventSearchLayoutPanel";
-            eventSearchLayoutPanel.RowCount = 2;
-            eventSearchLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 8F));
-            eventSearchLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 92F));
-            eventSearchLayoutPanel.Size = new Size(667, 604);
-            eventSearchLayoutPanel.TabIndex = 0;
+            this.eventSearchLayoutPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.eventSearchLayoutPanel.ColumnCount = 1;
+            this.eventSearchLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.eventSearchLayoutPanel.Controls.Add(this.searchBoxLayoutPanel, 0, 0);
+            this.eventSearchLayoutPanel.Controls.Add(this.eventFlowLayout, 0, 1);
+            this.eventSearchLayoutPanel.Location = new System.Drawing.Point(213, 0);
+            this.eventSearchLayoutPanel.Name = "eventSearchLayoutPanel";
+            this.eventSearchLayoutPanel.RowCount = 2;
+            this.eventSearchLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8F));
+            this.eventSearchLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 92F));
+            this.eventSearchLayoutPanel.Size = new System.Drawing.Size(438, 453);
+            this.eventSearchLayoutPanel.TabIndex = 0;
             // 
             // searchBoxLayoutPanel
             // 
-            searchBoxLayoutPanel.ColumnCount = 2;
-            searchBoxLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 8F));
-            searchBoxLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 92F));
-            searchBoxLayoutPanel.Controls.Add(searchButton, 0, 0);
-            searchBoxLayoutPanel.Controls.Add(searchBox, 1, 0);
-            searchBoxLayoutPanel.Dock = DockStyle.Fill;
-            searchBoxLayoutPanel.Location = new Point(3, 4);
-            searchBoxLayoutPanel.Margin = new Padding(3, 4, 3, 4);
-            searchBoxLayoutPanel.Name = "searchBoxLayoutPanel";
-            searchBoxLayoutPanel.RowCount = 1;
-            searchBoxLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            searchBoxLayoutPanel.Size = new Size(661, 40);
-            searchBoxLayoutPanel.TabIndex = 0;
+            this.searchBoxLayoutPanel.ColumnCount = 2;
+            this.searchBoxLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 8F));
+            this.searchBoxLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 92F));
+            this.searchBoxLayoutPanel.Controls.Add(this.searchButton, 0, 0);
+            this.searchBoxLayoutPanel.Controls.Add(this.searchBox, 1, 0);
+            this.searchBoxLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.searchBoxLayoutPanel.Location = new System.Drawing.Point(3, 3);
+            this.searchBoxLayoutPanel.Name = "searchBoxLayoutPanel";
+            this.searchBoxLayoutPanel.RowCount = 1;
+            this.searchBoxLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.searchBoxLayoutPanel.Size = new System.Drawing.Size(432, 30);
+            this.searchBoxLayoutPanel.TabIndex = 0;
             // 
             // UI_EventSearch
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(calendarsPanel);
-            Controls.Add(eventSearchLayoutPanel);
-            Margin = new Padding(3, 4, 3, 4);
-            Name = "UI_EventSearch";
-            Size = new Size(910, 593);
-            calendarsPanel.ResumeLayout(false);
-            eventSearchLayoutPanel.ResumeLayout(false);
-            searchBoxLayoutPanel.ResumeLayout(false);
-            searchBoxLayoutPanel.PerformLayout();
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.calendarsPanel);
+            this.Controls.Add(this.eventSearchLayoutPanel);
+            this.Name = "UI_EventSearch";
+            this.Size = new System.Drawing.Size(651, 450);
+            this.calendarsPanel.ResumeLayout(false);
+            this.eventSearchLayoutPanel.ResumeLayout(false);
+            this.searchBoxLayoutPanel.ResumeLayout(false);
+            this.searchBoxLayoutPanel.PerformLayout();
+            this.ResumeLayout(false);
+
         }
 
         #endregion

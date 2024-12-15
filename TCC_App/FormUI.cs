@@ -60,5 +60,9 @@ namespace TCC_App
             NavigationPanel.Controls.Add(new UI_NavigationBar(this));
         }
 
+        private void Display_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
