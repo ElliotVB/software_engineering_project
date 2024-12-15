@@ -12,14 +12,12 @@ namespace TCC_App
     // Accessed through pressing an event button on the event search page
     public partial class UI_EventInformation : UserControl
     {
-        private FormUI form;
         string bookingLink;
         Dictionary<string, string> eventInfo;
 
-        public UI_EventInformation(FormUI form, Dictionary<string, string> eventInfo)
+        public UI_EventInformation(Dictionary<string, string> eventInfo)
         {
             InitializeComponent();
-            this.form = form;
             this.eventInfo = eventInfo;
 
             pctEventImage.BackgroundImage = TCC_App.Properties.Resources._event; 

@@ -10,20 +10,26 @@ using System.Windows.Forms;
 
 namespace TCC_App
 {
-    //Creators: Aziz (UI), Elliot (Code)
+    //Creator: Aziz
+
+    //Allows a user to edit their profile
+    //Code for this class was never implemented
+
     public partial class UI_Edit_Profile : UserControl
     {
         FormUI form;
+        User user;
 
-        public UI_Edit_Profile(FormUI form)
+        public UI_Edit_Profile(FormUI form, User user)
         {
             InitializeComponent();
             this.form = form;
+            this.user = user;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //form.SwitchForm(new UI_Profile(form, userInfo));
+            form.SwitchForm(new UI_Profile(form, user));
         }
 
         private void edit_BT_Click(object sender, EventArgs e)

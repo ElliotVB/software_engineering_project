@@ -10,6 +10,11 @@ using System.Windows.Forms;
 
 namespace TCC_App
 {
+    //Creator: Aziz
+
+    //Landing page for the app which displays a variety of information
+    //Code for this class was never implemented
+
     public partial class UI_MainPage : UserControl
     {
         FormUI form;

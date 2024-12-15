@@ -77,17 +77,17 @@ namespace TCC_App
                             string status = reader["Status"].ToString();
                             string profilePictureAddress = reader["ProfilePictureAddress"].ToString();
 
-                            UserButton userButton = new UserButton(
-                                form,
+                            User u = new User(
                                 foreName,
                                 surName,
                                 email,
                                 phoneNumber,
                                 status,
                                 profilePictureAddress,
-                                DateTime.Now,
-                                users.Count
+                                DateTime.Now
                             );
+
+                            UserButton userButton = new UserButton(form, u);
 
                             if (global.CheckSearchTerm(userButton.GetInfoForSearch(), searchTerm))
                             {
@@ -116,12 +116,12 @@ namespace TCC_App
                 //Stores the index of the most recently active user
                 int index = 0;
 
-                //Finds the most recentlyc active user, and stores its index
+                //Finds the most recently active user, and stores its index
                 foreach (UserButton u in users)
                 {
-                    if (u.lastActive < earliest)
+                    if (u.GetLastActive() < earliest)
                     {
-                        earliest = u.lastActive;
+                        earliest = u.GetLastActive();
                         index = users.IndexOf(u);
                     }
                 }

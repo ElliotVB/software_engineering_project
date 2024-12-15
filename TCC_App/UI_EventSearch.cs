@@ -16,10 +16,6 @@ namespace TCC_App
 
     //Displys a list of buttons which link to different events
     //Search bar can be used to filter events
-
-    /*TODO:
-     * Implement proper event buttons which take info from database
-     */
     public partial class UI_EventSearch : UserControl
     {
         private FormUI form;
@@ -37,9 +33,6 @@ namespace TCC_App
 
         //Generates a set of events within the event layout
         //Only shows events which contin the searchTerm (which is empty by default, resulting in all events being shown)
-        //Currently just generates "dummy" events - will eventually be changed to generate events from the DB
-        //NOTE - split this into different functions after DB is implemented
-        //NOTE - add some sort of verification for if the current date is before today
         private void GenerateEventsFromDB(string searchTerm = "")
         {
             // Clears events from layout if any exist
@@ -82,7 +75,7 @@ namespace TCC_App
                             EventButton e = new EventButton(form, $"{eventName}", $"{eventType}", eventLocation, eventDate, eventLink, eventImageLink, events.Count, eventPrice);
 
                             // Checking search term + if date has already passed
-                            if (global.CheckSearchTerm(e.GetInfoForSearch(), searchTerm) && !global.HasDateTimePassed(e.dateTime))
+                            if (global.CheckSearchTerm(e.GetInfoForSearch(), searchTerm) && e.dateTime > DateTime.Now)
                             {
                                 events.Add(e);
                             }
@@ -158,28 +151,6 @@ namespace TCC_App
             {
                 return true;
             }
-        }
-
-
-        private void navigationPanel_Paint(object sender, PaintEventArgs e)
-        {
-            //DELETE THIS
-        }
-
-        private void buttonEvents_Click(object sender, EventArgs e)
-        {
-            //DELETE THIS
-        }
-
-        //TEMP - switches form to placeholder
-        private void buttonHome_Click(object sender, EventArgs e)
-        {
-            form.SwitchForm(new placeholder(form));
-        }
-
-        private void searchBox_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

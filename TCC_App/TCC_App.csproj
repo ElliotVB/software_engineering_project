@@ -9,6 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="placeholder.cs" />
+    <Compile Remove="placeholder.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="placeholder.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="Resources\profilePic.jpg" />
     <None Remove="Resources\Screenshot 2024-10-15 112257.png" />
   </ItemGroup>

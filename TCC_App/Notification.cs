@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CRMApplication
+namespace TCC_App
 {
     public class Notification
     {

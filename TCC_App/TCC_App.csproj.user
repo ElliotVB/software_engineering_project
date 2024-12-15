@@ -16,9 +16,6 @@
     <Compile Update="FormUI.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="placeholder.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Update="RemoveUsers.cs">
       <SubType>UserControl</SubType>
     </Compile>

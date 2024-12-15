@@ -57,13 +57,6 @@ namespace TCC_App
             ShowUserControl(new ViewCurrentVisitorControl());
         }
 
-        private void buttonHome_Click(object sender, EventArgs e)
-        {
-            form.SwitchForm(new placeholder(form));
-            form.Show();
-            this.Hide();
-        }
-
         private void UI_Admin_Load(object sender, EventArgs e)
         {
 

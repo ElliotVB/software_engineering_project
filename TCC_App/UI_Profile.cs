@@ -10,30 +10,39 @@ using System.Windows.Forms;
 
 namespace TCC_App
 {
-    //Creators: Aziz (UI), Elliot (Code)
+    //Creators: Aziz (UI), Yusef (Code), Elliot (Code)
+
+    //Displays a user's profile
     public partial class UI_Profile : UserControl
     {
         FormUI form;
-        Dictionary<string, string> userInfo;
-        public UI_Profile(FormUI form, Dictionary<string, string> userInfo)
+        User user;
+
+        public UI_Profile(FormUI form, User user)
         {
             InitializeComponent();
             this.form = form;
-            this.userInfo = userInfo;
+            this.user = user;
 
-            // Display user information on the UI
-            lblHeader.Text = $"{userInfo["FullName"]}";
-            lblUserFullName.Text = $"Full Name: {userInfo["FullName"]}";
-            lblEmailAddress.Text = $"Email address: {userInfo["Email"]}";
-            lblUserPhoneNumber.Text = $"Phone number: {userInfo["PhoneNumber"]}";
-            lblSubStatus.Text = $"Subscription status: {userInfo["Status"]}";
-            pctProfileImage.ImageLocation = userInfo["ImageLink"];
-                      
-            this.form = form;
+            //Display user information on the UI
+            lblHeader.Text = user.GetNameAsString();
+            lblUserFullName.Text = $"Full Name: {user.GetNameAsString()}";
+            lblEmailAddress.Text = $"Email address: {user.email}";
+            lblUserPhoneNumber.Text = $"Phone number: {user.phoneNumber}";
+            lblSubStatus.Text = $"Subscription status: {user.status}";
+            pctProfileImage.ImageLocation = user.imageLink;
+
+            //Hides the edit profile button if viewing another user's profile
+            if (user != form.user)
+            {
+                edit_BT.Visible = false;
+            }
         }
+
+        //Switch to profile edit view
         private void edit_BT_Click(object sender, EventArgs e)
         {
-            form.SwitchForm(new UI_Edit_Profile(form));
+            form.SwitchForm(new UI_Edit_Profile(form, user));
         }
     }
 }

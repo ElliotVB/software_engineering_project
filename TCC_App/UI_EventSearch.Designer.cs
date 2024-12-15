@@ -91,7 +91,6 @@
             searchBox.TabIndex = 8;
             searchBox.Text = "Search for events";
             searchBox.Click += searchBox_Clicked;
-            searchBox.TextChanged += searchBox_TextChanged;
             // 
             // eventFlowLayout
             // 

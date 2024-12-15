@@ -22,24 +22,10 @@ namespace TCC_App
         private string location;
         private double price;
         public DateTime dateTime { get; }
-
-        //private int cost;
-        //private int memberDiscount;
-        //private int accessRequired;
-
         private FormUI form;
-
-        //The following will be added once the relevant classes have been implemented:
-        //private User[] organisers;
-        //private User[] creators;
-        //private Tag[] tags;
 
         //Switches form to EventView when pressed
         //Loads EventView with the information contained within this button
-
-        // only passing event data to this button, some fields are missing from the database tables
-
-        // removed parameters int cost, int memberDiscount, int accessRequired
         public EventButton(FormUI form, string name, string description, string location, DateTime dateTime, string eventLink, string imageLink, int index, double price)
         {
             this.form = form;
@@ -139,11 +125,10 @@ namespace TCC_App
 
 
 
-        //Returns an array of strings containing the name, description, and tags
-        //TEMP - Does not currently return tags, as they are not yet implemented
+        //Returns an array of strings containing the event's name, description, and location
         public string[] GetInfoForSearch()
         {
-            string[] info = { name, description };
+            string[] info = { name, description, location };
             return info;
         }
 
@@ -164,7 +149,7 @@ namespace TCC_App
 
             };
 
-            form.SwitchForm(new UI_EventInformation(form, eventInfo));
+            form.SwitchForm(new UI_EventInformation(eventInfo));
         }
     }
 }

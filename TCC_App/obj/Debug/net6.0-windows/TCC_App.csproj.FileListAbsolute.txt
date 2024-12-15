@@ -260,7 +260,6 @@ C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\b
 C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.csproj.AssemblyReference.cache
 C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\CRMApplication.AddUserControl.resources
 C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.FormUI.resources
-C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.placeholder.resources
 C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.Properties.Resources.resources
 C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\CRMApplication.RemoveUserControl.resources
 C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.test_conForm.resources

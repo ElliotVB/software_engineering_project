@@ -13,7 +13,10 @@ namespace TCC_App
 {
     public partial class UI_NavigationBar : UserControl
     {
-        //Creators: Aziz (UI design), Elliot (code)
+        //Creator: Elliot
+
+        //Navigation bar which is displayed alongside every page (past login) which contains buttons that link to other pages
+
         FormUI form;
 
         public UI_NavigationBar(FormUI form)
@@ -21,9 +24,10 @@ namespace TCC_App
             InitializeComponent();
             this.form = form; 
 
-            //TEMP - Should check if user is admin to check if the admin button should display
         }
 
+
+        //Below functions handle switching to different forms
         private void Main_BT_Click(object sender, EventArgs e)
         {
             form.SwitchForm(new UI_MainPage(form));
@@ -41,7 +45,7 @@ namespace TCC_App
 
         private void profile_BT_Click(object sender, EventArgs e)
         {
-            //form.SwitchForm(new UI_Profile(form));
+            form.SwitchForm(new UI_Profile(form, form.user));
         }
 
         private void admin_BT_Click(object sender, EventArgs e)

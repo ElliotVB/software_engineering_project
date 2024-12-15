@@ -4,14 +4,34 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CRMApplication
+namespace TCC_App
 {
     public class User
     {
-        public int UserID { get; set; }
-        public string Username { get; set; }
-        public string Password { get; set; }
-        public string Role { get; set; }
-    }
+        public string foreName { get; }
+        public string surName { get; }
+        public string email { get; }
+        public string phoneNumber { get; }
+        public string status { get; }
+        public string imageLink { get; }
 
+        public DateTime lastActive { get; }
+
+        public User(string foreName, string surName, string email, string phoneNumber, string status, string imageLink, DateTime lastActive)
+        {
+            this.foreName = foreName;
+            this.surName = surName;
+            this.email = email;
+            this.phoneNumber = phoneNumber;
+            this.status = status;
+            this.imageLink = imageLink;
+            this.lastActive = lastActive;
+        }
+
+        //Returns the user's full name as a string
+        public string GetNameAsString()
+        {
+            return $"{foreName} {surName}";
+        }
+    }
 }

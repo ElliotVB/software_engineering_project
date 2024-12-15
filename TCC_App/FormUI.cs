@@ -13,21 +13,34 @@ namespace TCC_App
 {
     //Creator: Elliot
 
-    //Contains a single panel called "Display"
-    //Different UserControls can be loaded into Display to make them show on the form
-    //When loading a form, a reference to this form must be passed to its constructor - this allows it to call SwitchForm
-    //VERY IMPORTANT - The constructor for all User Forms must be edited to take a reference to this form, which must be stored in a local "FormUI" variable
-        //View "placeholder.cs" for an example of this
-        //NOTE - should check if any forms don't actually use this functionality before submission (and remove the reference to this form from them)
+    //Contains display panels which are used to hold UI elements
+    //The majority of the UI is loaded into Display, with two exceptions:
+        //The login screen is loaded into LoginPanel
+        //The navigation bar is loaded into NavigationPanel
+
     public partial class FormUI : Form
     {
+        //Contains information about the user currently logged in
+        //Stored here to reduce load times whenever the profile is clicked
+        public User user { get; private set; }
+        
         public FormUI()
         {
             InitializeComponent();
 
             //Loads a placeholder from into Display - should be replaced with the login screen when that is implemented
-            Display.Controls.Add(new UI_MainPage(this));
-            NavigationPanel.Controls.Add(new UI_NavigationBar(this));
+
+            //NOTES FOR RUSHO
+            //Replace all code below these comments with the following line: LoginPanel.Controls.Add(new UI_Login(this));
+                //*Replace "UI_Login" with whatever your login class is called
+            //The login class needs to be loaded with a copy of this class (called form), look at all the other UI classes to see how this works
+            //Once the user logs in, load that user's information from the DB into a User object (see UI_UserSearch for how to do this)
+            //Finally, call the following code to load the main UI: form.LoadMainUI(user)
+                //*Replace "form" with whatever you called the copy of this class
+                //*Replace "user" with whatever you called the user class
+
+            User dummyUser = new User("Example", "User", "notReal123@fake.com", "123 456789", "Active", "N/A", DateTime.Now);
+            LoadMainUI(dummyUser);
         }
 
 
@@ -38,9 +51,14 @@ namespace TCC_App
             Display.Controls.Add(form);
         }
 
-        private void Display_Paint(object sender, PaintEventArgs e)
+        //Initilizes user with information passed to the class (from login)
+        //Loads the navigation bar and the main page into their respective panels
+        public void LoadMainUI(User user)
         {
-
+            this.user = user;
+            Display.Controls.Add(new UI_MainPage(this));
+            NavigationPanel.Controls.Add(new UI_NavigationBar(this));
         }
+
     }
 }
