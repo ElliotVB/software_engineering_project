@@ -68,6 +68,49 @@ namespace TCC_App
             }
         }
 
+        protected override void OnPaint(PaintEventArgs pevent)
+        {
+            // Set up the graphics object for custom drawing
+            Graphics g = pevent.Graphics;
+
+            // Draw the background image (if any) or default button background
+            if (BackgroundImage != null)
+            {
+                g.DrawImage(BackgroundImage, new Rectangle(0, 0, Width, Height));
+            }
+            else
+            {
+                // If no background image, use default button background
+                using (Brush backgroundBrush = new SolidBrush(BackColor))
+                {
+                    g.FillRectangle(backgroundBrush, new Rectangle(0, 0, Width, Height));
+                }
+            }
+
+            // Define the area for the text background
+            Rectangle textBackground = new Rectangle(0, Height - 30, Width, 30);
+
+            // Draw the text background (semi-transparent black)
+            using (Brush brush = new SolidBrush(Color.FromArgb(128, 0, 0, 0))) // Adjust alpha (128 for 50% transparency)
+            {
+                g.FillRectangle(brush, textBackground);
+            }
+
+            // Draw the custom text
+            using (Brush textBrush = new SolidBrush(Color.White)) // Set text color to white
+            {
+                StringFormat sf = new StringFormat
+                {
+                    Alignment = StringAlignment.Far, // Align text to the bottom-right
+                    LineAlignment = StringAlignment.Center
+                };
+
+                g.DrawString(Text, Font, textBrush, textBackground, sf);
+            }
+
+            // Don't call base.OnPaint to prevent default text rendering
+        }
+
         //Returns an array of strings containing the forename and surname of the user
         public string[] GetInfoForSearch()
         {
