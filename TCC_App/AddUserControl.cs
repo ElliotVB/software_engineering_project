@@ -11,6 +11,7 @@ using MySql.Data.MySqlClient;
 using Org.BouncyCastle.Asn1.Cmp;
 using MySql.Data.MySqlClient;
 using System.Configuration;
+using System.Security.Cryptography;
 
 namespace CRMApplication
 {
@@ -23,7 +24,38 @@ namespace CRMApplication
 
         }
 
-       
+        static string BytesToString(byte[] arrInput)
+        {
+            StringBuilder tmp =
+                new StringBuilder(arrInput.Length);
+            for
+            (int i = 0;
+            i < arrInput.Length;
+            ++i)
+            {
+                tmp
+                .Append(arrInput[i]
+                .ToString("X")); // Uppercase hexadecimal
+            }
+            return tmp.ToString();
+        }
+        static string HashThis(string notMyPassword)
+        {
+            return BytesToString
+            (
+                new
+                MD5CryptoServiceProvider()
+                .ComputeHash
+                (
+                    ASCIIEncoding
+                    .ASCII
+                    .GetBytes
+                    (
+                        notMyPassword
+                    )
+                )
+            );
+        }
 
         private void AddUserControl_Load(object sender, EventArgs e)
         {
@@ -65,7 +97,7 @@ namespace CRMApplication
                         cmd.Parameters.AddWithValue("@LastName", txtLastName.Text);
                         cmd.Parameters.AddWithValue("@PhoneNumber", txtPhoneNumber.Text);
                         cmd.Parameters.AddWithValue("@Email", txtEmail.Text);
-                        cmd.Parameters.AddWithValue("@HashedPassword", txtHashedPassword.Text); // couldn't find the hash pass function
+                        cmd.Parameters.AddWithValue("@HashedPassword", HashThis(txtHashedPassword.Text)); // couldn't find the hash pass function
                         cmd.Parameters.AddWithValue("@Status", cmbStatus.SelectedItem.ToString());
                         cmd.Parameters.AddWithValue("@ProfilePictureAddress", selectedImagePath);
 

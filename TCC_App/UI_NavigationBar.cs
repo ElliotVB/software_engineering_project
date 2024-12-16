@@ -22,7 +22,7 @@ namespace TCC_App
         public UI_NavigationBar(FormUI form)
         {
             InitializeComponent();
-            this.form = form; 
+            this.form = form;
 
         }
 
@@ -51,6 +51,21 @@ namespace TCC_App
         private void admin_BT_Click(object sender, EventArgs e)
         {
             form.SwitchForm(new UI_Admin(form));
+        }
+
+        private void logo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void logout_BT_Click(object sender, EventArgs e)
+        {
+            form.SwitchForm(new UI_Login(form));
+        }
+
+        private void logo_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

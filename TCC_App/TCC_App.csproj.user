@@ -28,6 +28,9 @@
     <Compile Update="UI_EventSearch.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="UI_Login.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UI_NavigationBar.cs">
       <SubType>UserControl</SubType>
     </Compile>

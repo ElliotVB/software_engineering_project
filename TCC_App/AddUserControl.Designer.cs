@@ -184,9 +184,9 @@
             label1.Location = new Point(14, 168);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(138, 20);
+            label1.Size = new Size(78, 20);
             label1.TabIndex = 6;
-            label1.Text = "Hashed Password";
+            label1.Text = "Password";
             // 
             // pictureBoximage
             // 

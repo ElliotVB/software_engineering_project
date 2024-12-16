@@ -1,46 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\",
+  "WorkspaceRootPath": "C:\\Users\\rusho\\Desktop\\software_engineering_project-main\\TCC_App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\timur\\downloads\\software_engineering_project\\tcc_app\\ui_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\rusho\\desktop\\software_engineering_project-main\\tcc_app\\ui_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\ui_navigationbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_navigationbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\rusho\\desktop\\software_engineering_project-main\\tcc_app\\formui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:formui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\timur\\downloads\\software_engineering_project\\tcc_app\\ui_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|C:\\Users\\rusho\\Desktop\\software_engineering_project-main\\TCC_App\\ui_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\timur\\downloads\\software_engineering_project\\tcc_app\\ui_eventsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_eventsearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\rusho\\desktop\\software_engineering_project-main\\tcc_app\\ui_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\timur\\downloads\\software_engineering_project\\tcc_app\\userbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:userbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\rusho\\desktop\\software_engineering_project-main\\tcc_app\\addusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:addusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\formui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:formui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\rusho\\desktop\\software_engineering_project-main\\tcc_app\\ui_usersearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_usersearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\timur\\downloads\\software_engineering_project\\tcc_app\\ui_usersearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_usersearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\timur\\downloads\\software_engineering_project\\tcc_app\\ui_navigationbar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_navigationbar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\timur\\downloads\\software_engineering_project\\tcc_app\\ui_main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\timur\\downloads\\software_engineering_project\\tcc_app\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|c:\\users\\rusho\\desktop\\software_engineering_project-main\\tcc_app\\ui_navigationbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE8E91D3-79B3-4EBA-BE43-34DF9F9D1FB7}|TCC_App.csproj|solutionrelative:ui_navigationbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,152 +38,91 @@
       "DocumentGroups": [
         {
           "DockedWidth": 255,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UI_EventSearch.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\UI_EventSearch.cs",
-              "RelativeDocumentMoniker": "UI_EventSearch.cs",
-              "ToolTip": "C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\UI_EventSearch.cs [Design]",
-              "RelativeToolTip": "UI_EventSearch.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "UI_UserSearch.cs",
+              "DocumentMoniker": "C:\\Users\\rusho\\Desktop\\software_engineering_project-main\\TCC_App\\UI_UserSearch.cs",
+              "RelativeDocumentMoniker": "UI_UserSearch.cs",
+              "ToolTip": "C:\\Users\\rusho\\Desktop\\software_engineering_project-main\\TCC_App\\UI_UserSearch.cs",
+              "RelativeToolTip": "UI_UserSearch.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAEMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T17:30:45.821Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UI_Main.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\UI_Main.cs",
-              "RelativeDocumentMoniker": "UI_Main.cs",
-              "ToolTip": "C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\UI_Main.cs [Design]",
-              "RelativeToolTip": "UI_Main.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T17:16:53.628Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UI_NavigationBar.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\UI_NavigationBar.cs",
-              "RelativeDocumentMoniker": "UI_NavigationBar.cs",
-              "ToolTip": "C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\UI_NavigationBar.cs [Design]",
-              "RelativeToolTip": "UI_NavigationBar.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T17:18:02.527Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-15T23:15:34.406Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UI_Profile.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\UI_Profile.cs",
-              "RelativeDocumentMoniker": "UI_Profile.cs",
-              "ToolTip": "C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\UI_Profile.cs [Design]",
-              "RelativeToolTip": "UI_Profile.cs [Design]",
+              "Title": "UI_Login.cs",
+              "DocumentMoniker": "C:\\Users\\rusho\\Desktop\\software_engineering_project-main\\TCC_App\\UI_Login.cs",
+              "RelativeDocumentMoniker": "UI_Login.cs",
+              "ToolTip": "C:\\Users\\rusho\\Desktop\\software_engineering_project-main\\TCC_App\\UI_Login.cs",
+              "RelativeToolTip": "UI_Login.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwDUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T17:28:35.371Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "WhenOpened": "2024-12-15T22:43:50.604Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UserButton.cs",
-              "DocumentMoniker": "C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\UserButton.cs",
-              "RelativeDocumentMoniker": "UserButton.cs",
-              "ToolTip": "C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\UserButton.cs",
-              "RelativeToolTip": "UserButton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AddUserControl.cs",
+              "DocumentMoniker": "C:\\Users\\rusho\\Desktop\\software_engineering_project-main\\TCC_App\\AddUserControl.cs",
+              "RelativeDocumentMoniker": "AddUserControl.cs",
+              "ToolTip": "C:\\Users\\rusho\\Desktop\\software_engineering_project-main\\TCC_App\\AddUserControl.cs",
+              "RelativeToolTip": "AddUserControl.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAcwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T17:28:30.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T22:44:01.171Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "UI_UserSearch.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\UI_UserSearch.cs",
-              "RelativeDocumentMoniker": "UI_UserSearch.cs",
-              "ToolTip": "C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\UI_UserSearch.cs [Design]",
-              "RelativeToolTip": "UI_UserSearch.cs [Design]",
+              "Title": "UI_NavigationBar.cs",
+              "DocumentMoniker": "C:\\Users\\rusho\\Desktop\\software_engineering_project-main\\TCC_App\\UI_NavigationBar.cs",
+              "RelativeDocumentMoniker": "UI_NavigationBar.cs",
+              "ToolTip": "C:\\Users\\rusho\\Desktop\\software_engineering_project-main\\TCC_App\\UI_NavigationBar.cs",
+              "RelativeToolTip": "UI_NavigationBar.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwC8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T17:27:51.647Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-15T22:11:55.893Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UI_NavigationBar.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\UI_NavigationBar.Designer.cs",
-              "RelativeDocumentMoniker": "UI_NavigationBar.Designer.cs",
-              "ToolTip": "C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\UI_NavigationBar.Designer.cs",
-              "RelativeToolTip": "UI_NavigationBar.Designer.cs",
-              "ViewState": "AgIAAKcAAAAAAAAAAAAcwNkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UI_Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\rusho\\Desktop\\software_engineering_project-main\\TCC_App\\UI_Login.cs",
+              "RelativeDocumentMoniker": "UI_Login.cs",
+              "ToolTip": "C:\\Users\\rusho\\Desktop\\software_engineering_project-main\\TCC_App\\UI_Login.cs [Design]",
+              "RelativeToolTip": "UI_Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T17:18:06.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T22:35:48.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormUI.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\FormUI.cs",
+              "DocumentIndex": 3,
+              "Title": "UI_Admin.cs",
+              "DocumentMoniker": "C:\\Users\\rusho\\Desktop\\software_engineering_project-main\\TCC_App\\UI_Admin.cs",
+              "RelativeDocumentMoniker": "UI_Admin.cs",
+              "ToolTip": "C:\\Users\\rusho\\Desktop\\software_engineering_project-main\\TCC_App\\UI_Admin.cs",
+              "RelativeToolTip": "UI_Admin.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T21:05:42.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormUI.cs",
+              "DocumentMoniker": "C:\\Users\\rusho\\Desktop\\software_engineering_project-main\\TCC_App\\FormUI.cs",
               "RelativeDocumentMoniker": "FormUI.cs",
-              "ToolTip": "C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\FormUI.cs [Design]",
-              "RelativeToolTip": "FormUI.cs [Design]",
+              "ToolTip": "C:\\Users\\rusho\\Desktop\\software_engineering_project-main\\TCC_App\\FormUI.cs",
+              "RelativeToolTip": "FormUI.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T17:15:01.136Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UI_Main.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\UI_Main.Designer.cs",
-              "RelativeDocumentMoniker": "UI_Main.Designer.cs",
-              "ToolTip": "C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\UI_Main.Designer.cs",
-              "RelativeToolTip": "UI_Main.Designer.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAowHgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T17:16:58.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\App.config",
-              "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "C:\\Users\\timur\\Downloads\\software_engineering_project\\TCC_App\\App.config",
-              "RelativeToolTip": "App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-14T19:29:57.011Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 214,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "WhenOpened": "2024-12-15T20:38:51.732Z"
             }
           ]
         }
