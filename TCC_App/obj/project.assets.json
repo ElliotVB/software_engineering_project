@@ -2266,19 +2266,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rusho\\.nuget\\packages\\": {}
+    "C:\\Users\\timur\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rusho\\Desktop\\software_engineering_project-main\\TCC_App\\TCC_App.csproj",
+      "projectUniqueName": "C:\\Users\\timur\\Documents\\software_engineering_project\\TCC_App\\TCC_App.csproj",
       "projectName": "TCC_App",
-      "projectPath": "C:\\Users\\rusho\\Desktop\\software_engineering_project-main\\TCC_App\\TCC_App.csproj",
-      "packagesPath": "C:\\Users\\rusho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rusho\\Desktop\\software_engineering_project-main\\TCC_App\\obj\\",
+      "projectPath": "C:\\Users\\timur\\Documents\\software_engineering_project\\TCC_App\\TCC_App.csproj",
+      "packagesPath": "C:\\Users\\timur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\timur\\Documents\\software_engineering_project\\TCC_App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rusho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\timur\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

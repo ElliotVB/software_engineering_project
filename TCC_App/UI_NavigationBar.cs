@@ -30,7 +30,7 @@ namespace TCC_App
         //Below functions handle switching to different forms
         private void Main_BT_Click(object sender, EventArgs e)
         {
-            form.SwitchForm(new UI_MainPage(form));
+            form.SwitchForm(new UI_MainPage(form, form.user));
         }
 
         private void events_BT_Click(object sender, EventArgs e)

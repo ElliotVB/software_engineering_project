@@ -28,128 +28,129 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.edit_BT = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            button1 = new Button();
+            edit_BT = new Button();
+            PhoneBox = new TextBox();
+            EmailBox = new TextBox();
+            SurnameBox = new TextBox();
+            NameBox1 = new TextBox();
+            label1 = new Label();
+            SuspendLayout();
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Black;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(232, 359);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(172, 41);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "Back";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            button1.BackColor = Color.Black;
+            button1.Cursor = Cursors.Hand;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.ForeColor = SystemColors.ButtonFace;
+            button1.Location = new Point(265, 479);
+            button1.Margin = new Padding(3, 4, 3, 4);
+            button1.Name = "button1";
+            button1.Size = new Size(197, 55);
+            button1.TabIndex = 15;
+            button1.Text = "Back";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // edit_BT
             // 
-            this.edit_BT.BackColor = System.Drawing.Color.RoyalBlue;
-            this.edit_BT.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.edit_BT.FlatAppearance.BorderSize = 0;
-            this.edit_BT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.edit_BT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.edit_BT.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.edit_BT.Location = new System.Drawing.Point(410, 359);
-            this.edit_BT.Name = "edit_BT";
-            this.edit_BT.Size = new System.Drawing.Size(149, 41);
-            this.edit_BT.TabIndex = 14;
-            this.edit_BT.Text = "Save";
-            this.edit_BT.UseVisualStyleBackColor = false;
-            this.edit_BT.Click += new System.EventHandler(this.edit_BT_Click);
+            edit_BT.BackColor = Color.RoyalBlue;
+            edit_BT.Cursor = Cursors.Hand;
+            edit_BT.FlatAppearance.BorderSize = 0;
+            edit_BT.FlatStyle = FlatStyle.Flat;
+            edit_BT.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            edit_BT.ForeColor = SystemColors.ButtonHighlight;
+            edit_BT.Location = new Point(469, 479);
+            edit_BT.Margin = new Padding(3, 4, 3, 4);
+            edit_BT.Name = "edit_BT";
+            edit_BT.Size = new Size(170, 55);
+            edit_BT.TabIndex = 14;
+            edit_BT.Text = "Save";
+            edit_BT.UseVisualStyleBackColor = false;
+            edit_BT.Click += edit_BT_Click;
             // 
-            // textBox4
+            // PhoneBox
             // 
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox4.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox4.Location = new System.Drawing.Point(91, 293);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.PlaceholderText = " Phone number";
-            this.textBox4.Size = new System.Drawing.Size(468, 29);
-            this.textBox4.TabIndex = 13;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            PhoneBox.BorderStyle = BorderStyle.FixedSingle;
+            PhoneBox.Font = new Font("Arial", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            PhoneBox.Location = new Point(104, 391);
+            PhoneBox.Margin = new Padding(3, 4, 3, 4);
+            PhoneBox.Name = "PhoneBox";
+            PhoneBox.PlaceholderText = " Phone number";
+            PhoneBox.Size = new Size(535, 34);
+            PhoneBox.TabIndex = 13;
             // 
-            // textBox3
+            // EmailBox
             // 
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox3.Location = new System.Drawing.Point(91, 241);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.PlaceholderText = " Email address";
-            this.textBox3.Size = new System.Drawing.Size(468, 29);
-            this.textBox3.TabIndex = 12;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            EmailBox.BorderStyle = BorderStyle.FixedSingle;
+            EmailBox.Font = new Font("Arial", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            EmailBox.Location = new Point(104, 321);
+            EmailBox.Margin = new Padding(3, 4, 3, 4);
+            EmailBox.Name = "EmailBox";
+            EmailBox.PlaceholderText = " Email address";
+            EmailBox.Size = new Size(535, 34);
+            EmailBox.TabIndex = 12;
             // 
-            // textBox2
+            // SurnameBox
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(91, 191);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PlaceholderText = " SurName";
-            this.textBox2.Size = new System.Drawing.Size(468, 29);
-            this.textBox2.TabIndex = 11;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            SurnameBox.BorderStyle = BorderStyle.FixedSingle;
+            SurnameBox.Font = new Font("Arial", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            SurnameBox.Location = new Point(104, 255);
+            SurnameBox.Margin = new Padding(3, 4, 3, 4);
+            SurnameBox.Name = "SurnameBox";
+            SurnameBox.PlaceholderText = " SurName";
+            SurnameBox.Size = new Size(535, 34);
+            SurnameBox.TabIndex = 11;
             // 
-            // textBox1
+            // NameBox1
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(91, 140);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.PlaceholderText = " Name";
-            this.textBox1.Size = new System.Drawing.Size(468, 29);
-            this.textBox1.TabIndex = 10;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            NameBox1.BorderStyle = BorderStyle.FixedSingle;
+            NameBox1.Font = new Font("Arial", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            NameBox1.Location = new Point(104, 187);
+            NameBox1.Margin = new Padding(3, 4, 3, 4);
+            NameBox1.Name = "NameBox1";
+            NameBox1.PlaceholderText = " Name";
+            NameBox1.Size = new Size(535, 34);
+            NameBox1.TabIndex = 10;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(91, 51);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 36);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Edit";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            label1.AutoSize = true;
+            label1.Font = new Font("Microsoft Sans Serif", 22.2F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(104, 68);
+            label1.Name = "label1";
+            label1.Size = new Size(82, 42);
+            label1.TabIndex = 9;
+            label1.Text = "Edit";
             // 
             // UI_Edit_Profile
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.edit_BT);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
-            this.Name = "UI_Edit_Profile";
-            this.Size = new System.Drawing.Size(651, 450);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(button1);
+            Controls.Add(edit_BT);
+            Controls.Add(PhoneBox);
+            Controls.Add(EmailBox);
+            Controls.Add(SurnameBox);
+            Controls.Add(NameBox1);
+            Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "UI_Edit_Profile";
+            Size = new Size(744, 600);
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button button1;
         private Button edit_BT;
-        private TextBox textBox4;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
+        private TextBox PhoneBox;
+        private TextBox EmailBox;
+        private TextBox SurnameBox;
+        private TextBox NameBox1;
         private Label label1;
     }
 }

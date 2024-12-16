@@ -44,5 +44,10 @@ namespace TCC_App
         {
             form.SwitchForm(new UI_Edit_Profile(form, user));
         }
+
+        private void edit_BT_Click_1(object sender, EventArgs e)
+        {
+            form.SwitchForm(new UI_Edit_Profile(form, user));
+        }
     }
 }

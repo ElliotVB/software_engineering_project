@@ -8,12 +8,12 @@ namespace TCC_App
 {
     public class User
     {
-        public string foreName { get; }
-        public string surName { get; }
-        public string email { get; }
-        public string phoneNumber { get; }
+        public string foreName { get; set; }
+        public string surName { get; set; }
+        public string email { get; set; }
+        public string phoneNumber { get; set; }
         public string status { get; }
-        public string imageLink { get; }
+        public string imageLink { get;}
 
         public DateTime lastActive { get; }
 

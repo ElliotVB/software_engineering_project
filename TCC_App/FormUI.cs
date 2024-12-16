@@ -58,7 +58,7 @@ namespace TCC_App
         public void LoadMainUI(User user)
         {
             this.user = user;
-            Display.Controls.Add(new UI_MainPage(this));
+            Display.Controls.Add(new UI_MainPage(this, user));
             NavigationPanel.Controls.Add(new UI_NavigationBar(this));
         }
 
