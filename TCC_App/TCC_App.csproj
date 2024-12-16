@@ -9,9 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Announcement.cs" />
+    <Compile Remove="Feedback.cs" />
     <Compile Remove="global.cs" />
+    <Compile Remove="Notification.cs" />
     <Compile Remove="placeholder.cs" />
     <Compile Remove="placeholder.Designer.cs" />
+    <Compile Remove="Tag.cs" />
+    <Compile Remove="Task.cs" />
   </ItemGroup>
 
   <ItemGroup>

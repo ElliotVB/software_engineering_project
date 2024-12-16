@@ -43,7 +43,6 @@
             this.Display.Name = "Display";
             this.Display.Size = new System.Drawing.Size(651, 450);
             this.Display.TabIndex = 0;
-            this.Display.Paint += new System.Windows.Forms.PaintEventHandler(this.Display_Paint);
             // 
             // NavigationPanel
             // 

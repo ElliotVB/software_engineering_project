@@ -518,3 +518,4 @@ C:\Users\timur\Documents\software_engineering_project\TCC_App\bin\Debug\net6.0-w
 C:\Users\timur\Documents\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.csproj.Up2Date
 C:\Users\timur\Documents\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.genruntimeconfig.cache
 C:\Users\timur\Documents\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\ref\TCC_App.dll
+C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.UI_Login.resources

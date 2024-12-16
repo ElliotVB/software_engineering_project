@@ -123,16 +123,6 @@ namespace TCC_App
             // Don't call base.OnPaint to prevent default text rendering
         }
 
-
-
-        //Returns an array of strings containing the event's name, description, and location
-        public string[] GetInfoForSearch()
-        {
-            string[] info = { name, description, location };
-            return info;
-        }
-
-
         //Loads UI_EventView into Display
         protected override void OnClick(EventArgs e)
         {
