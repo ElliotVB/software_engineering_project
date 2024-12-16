@@ -7,9 +7,6 @@
     <Compile Update="EventButton.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Update="test_conForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="UI_Admin.cs">
       <SubType>UserControl</SubType>
     </Compile>

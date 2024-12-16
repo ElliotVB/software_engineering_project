@@ -91,6 +91,7 @@
             this.searchBox.Size = new System.Drawing.Size(392, 29);
             this.searchBox.TabIndex = 8;
             this.searchBox.Text = "Search for events";
+            this.searchBox.Click += new System.EventHandler(this.searchBox_Click);
             // 
             // eventFlowLayout
             // 
@@ -114,6 +115,7 @@
             this.searchButton.Size = new System.Drawing.Size(28, 24);
             this.searchButton.TabIndex = 0;
             this.searchButton.UseVisualStyleBackColor = true;
+            this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
             // 
             // eventSearchLayoutPanel
             // 

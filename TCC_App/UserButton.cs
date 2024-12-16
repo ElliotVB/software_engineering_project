@@ -111,13 +111,6 @@ namespace TCC_App
             // Don't call base.OnPaint to prevent default text rendering
         }
 
-        //Returns an array of strings containing the forename and surname of the user
-        public string[] GetInfoForSearch()
-        {
-            string[] info = { user.foreName, user.surName };
-            return info;
-        }
-
         //Returns user.lastActive
         public DateTime GetLastActive()
         {

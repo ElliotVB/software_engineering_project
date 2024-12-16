@@ -17,10 +17,13 @@
     <Compile Remove="placeholder.Designer.cs" />
     <Compile Remove="Tag.cs" />
     <Compile Remove="Task.cs" />
+    <Compile Remove="test_conForm.cs" />
+    <Compile Remove="test_conForm.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Remove="placeholder.resx" />
+    <EmbeddedResource Remove="test_conForm.resx" />
   </ItemGroup>
 
   <ItemGroup>

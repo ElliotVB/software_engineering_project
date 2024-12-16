@@ -118,7 +118,7 @@ namespace TCC_App
 
 
         //Deletes the default text in the search box the first time it's clicked
-        private void searchBox_Clicked(object sender, EventArgs e)
+        private void searchBox_Click(object sender, EventArgs e)
         {
             if (!IsSearchDefaultTextClear())
             {

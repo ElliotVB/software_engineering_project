@@ -262,7 +262,6 @@ C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\o
 C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.FormUI.resources
 C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.Properties.Resources.resources
 C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\CRMApplication.RemoveUserControl.resources
-C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.test_conForm.resources
 C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.UI_Admin.resources
 C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.UI_Edit_Profile.resources
 C:\Users\Elliot\OneDrive\Documents\GitHub\software_engineering_project\TCC_App\obj\Debug\net6.0-windows\TCC_App.UI_EventInformation.resources

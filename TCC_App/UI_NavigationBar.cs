@@ -53,19 +53,9 @@ namespace TCC_App
             form.SwitchForm(new UI_Admin(form));
         }
 
-        private void logo_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void logout_BT_Click(object sender, EventArgs e)
         {
             form.SwitchForm(new UI_Login(form));
-        }
-
-        private void logo_Click_1(object sender, EventArgs e)
-        {
-
         }
     }
 }
